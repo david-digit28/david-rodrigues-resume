@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail, FileCheck, User, Globe } from 'lucide-react';
 import { ResumeData } from '../types';
+import davidPhoto from "../src/assets/david.jpg";
 
 interface HeroProps {
   data: ResumeData;
@@ -15,24 +16,24 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
         <motion.div 
-            animate={{ 
-                scale: [1, 1.2, 1],
-                opacity: [0.3, 0.5, 0.3],
-                x: [0, 50, 0],
-                y: [0, 30, 0]
-            }}
-            transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-500/20 dark:bg-indigo-600/20 rounded-full blur-[100px]" 
+          animate={{ 
+            scale: [1, 1.2, 1],
+            opacity: [0.3, 0.5, 0.3],
+            x: [0, 50, 0],
+            y: [0, 30, 0]
+          }}
+          transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-500/20 dark:bg-indigo-600/20 rounded-full blur-[100px]" 
         />
         <motion.div 
-            animate={{ 
-                scale: [1, 1.1, 1],
-                opacity: [0.3, 0.5, 0.3],
-                x: [0, -30, 0],
-                y: [0, -50, 0]
-            }}
-            transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-            className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-emerald-500/20 dark:bg-emerald-600/20 rounded-full blur-[100px]" 
+          animate={{ 
+            scale: [1, 1.1, 1],
+            opacity: [0.3, 0.5, 0.3],
+            x: [0, -30, 0],
+            y: [0, -50, 0]
+          }}
+          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-emerald-500/20 dark:bg-emerald-600/20 rounded-full blur-[100px]" 
         />
       </div>
 
@@ -46,21 +47,21 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
             transition={{ duration: 0.8, type: "spring" }}
             className="relative group"
           >
-             <div className="absolute -inset-1.5 bg-gradient-to-tr from-indigo-500 via-purple-500 to-emerald-500 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200" />
-             <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white dark:bg-slate-800 border-4 border-white dark:border-slate-800">
-               {!imgError ? (
-                 <img 
-                   src={data.avatarUrl} 
-                   alt={data.name} 
-                   className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 object-cover object-[center_top]"
-                   onError={() => setImgError(true)}
-                 />
-               ) : (
-                 <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 flex items-center justify-center bg-slate-100 dark:bg-slate-800 text-slate-400">
-                   <User size={64} />
-                 </div>
-               )}
-             </div>
+            <div className="absolute -inset-1.5 bg-gradient-to-tr from-indigo-500 via-purple-500 to-emerald-500 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200" />
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white dark:bg-slate-800 border-4 border-white dark:border-slate-800">
+              {!imgError ? (
+                <img 
+                  src={davidPhoto}
+                  alt={data.name} 
+                  className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 object-cover object-[center_top]"
+                  onError={() => setImgError(true)}
+                />
+              ) : (
+                <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 flex items-center justify-center bg-slate-100 dark:bg-slate-800 text-slate-400">
+                  <User size={64} />
+                </div>
+              )}
+            </div>
           </motion.div>
         )}
 
@@ -72,24 +73,24 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
           {/* Badges / Meta Info */}
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             <span className="inline-flex items-center py-1 px-3 rounded-full bg-slate-200/50 dark:bg-slate-800/50 border border-slate-300 dark:border-slate-700 text-indigo-600 dark:text-indigo-400 text-sm font-mono">
-                {data.ui.basedIn} {data.location}
+              {data.ui.basedIn} {data.location}
             </span>
             
             {/* UN & Global Experience Badge */}
             <span className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-blue-100/80 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700/50 text-blue-700 dark:text-blue-400 text-sm font-bold font-mono shadow-sm">
-                <Globe size={14} /> {data.ui.unGlobalExp}
+              <Globe size={14} /> {data.ui.unGlobalExp}
             </span>
 
             {data.workPermit && (
-                 <span className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-amber-100/80 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700/50 text-amber-700 dark:text-amber-400 text-sm font-bold font-mono shadow-sm">
-                    <FileCheck size={14} /> {data.ui.workPermit}
-                </span>
+              <span className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-amber-100/80 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700/50 text-amber-700 dark:text-amber-400 text-sm font-bold font-mono shadow-sm">
+                <FileCheck size={14} /> {data.ui.workPermit}
+              </span>
             )}
             <a 
-                href={`mailto:${data.email}`}
-                className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-sm font-bold font-mono shadow-sm hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition-colors"
+              href={`mailto:${data.email}`}
+              className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-sm font-bold font-mono shadow-sm hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition-colors"
             >
-                <Mail size={14} /> {data.email}
+              <Mail size={14} /> {data.email}
             </a>
           </div>
           
@@ -119,18 +120,18 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
           className="flex justify-center gap-4 pt-4"
         >
           {data.socials.map((social) => (
-             <a 
-               key={social.platform}
-               href={social.url} 
-               target="_blank"
-               rel="noreferrer"
-               className="p-3 rounded-full bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 hover:scale-110 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all text-slate-500 dark:text-slate-400"
-               aria-label={social.platform}
-             >
-                {social.icon === 'linkedin' && <Linkedin size={20} />}
-                {social.icon === 'mail' && <Mail size={20} />}
-                {social.icon === 'github' && <Github size={20} />}
-             </a>
+            <a 
+              key={social.platform}
+              href={social.url} 
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-full bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 hover:scale-110 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all text-slate-500 dark:text-slate-400"
+              aria-label={social.platform}
+            >
+              {social.icon === 'linkedin' && <Linkedin size={20} />}
+              {social.icon === 'mail' && <Mail size={20} />}
+              {social.icon === 'github' && <Github size={20} />}
+            </a>
           ))}
         </motion.div>
       </div>
