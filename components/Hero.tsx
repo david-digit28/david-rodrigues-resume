@@ -4,6 +4,7 @@ import { ArrowDown, Github, Linkedin, Mail, FileCheck, User, Globe } from 'lucid
 import { ResumeData } from '../types';
 import davidPhoto from "../src/assets/david.jpg";
 
+
 interface HeroProps {
   data: ResumeData;
 }
