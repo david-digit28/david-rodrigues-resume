@@ -260,7 +260,7 @@ const DATA_EN: ResumeData = {
     translationDisclaimer: "AI-assisted translations. Context may vary.",
     privacyNotice: "Privacy: This site doesn't collect data. AI chat is local-only.",
     sdgBadge: "UN SDG Goal 13",
-    sdgTooltip: "Climate Action: Built with sustainable web practices—optimized code, renewable energy infrastructure, and zero unnecessary data collection."
+    sdgTooltip: "Climate Action: Built with sustainable web practices-optimized code, renewable energy infrastructure, and zero unnecessary data collection."
   }
 };
 
@@ -294,7 +294,7 @@ const DATA_FR: ResumeData = {
     translationDisclaimer: "Traductions assistées par IA.",
     privacyNotice: "Confidentialité : ce site ne collecte pas de données. Le chat IA est uniquement local.",
     sdgBadge: "ODD 13 ONU",
-    sdgTooltip: "Action climatique : Construit avec des pratiques numériques durables—code optimisé, infrastructure énergétique renouvelable, et zéro collecte de données inutile."
+    sdgTooltip: "Action climatique : Construit avec des pratiques numériques durables-code optimisé, infrastructure énergétique renouvelable, et zéro collecte de données inutile."
   }
 };
 
@@ -328,7 +328,7 @@ const DATA_DE: ResumeData = {
     translationDisclaimer: "KI-gestützte Übersetzungen.",
     privacyNotice: "Datenschutz: Diese Website sammelt keine Daten. Der KI-Chat ist nur lokal verfügbar.",
     sdgBadge: "UN-SDG 13",
-    sdgTooltip: "Klimaschutz: Entwickelt mit nachhaltigen Webpraktiken—optimierter Code, erneuerbare Energieinfrastruktur und keine unnötige Datenerfassung."
+    sdgTooltip: "Klimaschutz: Entwickelt mit nachhaltigen Webpraktiken-optimierter Code, erneuerbare Energieinfrastruktur und keine unnötige Datenerfassung."
   }
 };
 
@@ -362,7 +362,7 @@ const DATA_ES: ResumeData = {
     translationDisclaimer: "Traducciones asistidas por IA.",
     privacyNotice: "Privacidad: Este sitio no recopila datos. El chat con IA es solo local.",
     sdgBadge: "ODS 13 ONU",
-    sdgTooltip: "Acción por el clima: Construido con prácticas web sostenibles—código optimizado, infraestructura de energía renovable, y cero recopilación de datos innecesaria."
+    sdgTooltip: "Acción por el clima: Construido con prácticas web sostenibles-código optimizado, infraestructura de energía renovable, y cero recopilación de datos innecesaria."
   }
 };
 
