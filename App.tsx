@@ -1,7 +1,8 @@
 import React from 'react';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+// App.tsx at project root
+import Hero from "./src/components/Hero";
 import ImpactMetrics from './components/ImpactMetrics';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
