@@ -7,6 +7,44 @@ interface MoreInfoProps {
   data: ResumeData;
 }
 
+// Helper to normalize proficiency levels across languages
+const getProficiencyScore = (levelString: string): number => {
+  const s = levelString.toLowerCase();
+  
+  // Level 3: Fluent / Native
+  if (
+    s.includes('fluent') || 
+    s.includes('courant') || 
+    s.includes('fließend') || 
+    s.includes('fluido')
+  ) {
+    return 3;
+  }
+  
+  // Level 2: Proficient / Intermediate
+  if (
+    s.includes('proficient') || 
+    s.includes('intermediate') ||
+    s.includes('avancé') ||
+    s.includes('fortgeschritten') ||
+    s.includes('intermedio')
+  ) {
+    return 2;
+  }
+  
+  // Level 1: Basic
+  if (
+    s.includes('basic') || 
+    s.includes('basique') || 
+    s.includes('grundkenntnisse') || 
+    s.includes('básico')
+  ) {
+    return 1;
+  }
+
+  return 0;
+};
+
 const MoreInfo: React.FC<MoreInfoProps> = ({ data }) => {
   return (
     <section id="qualifications" className="py-20 px-6 max-w-7xl mx-auto scroll-mt-28">
@@ -99,26 +137,26 @@ const MoreInfo: React.FC<MoreInfoProps> = ({ data }) => {
           </div>
 
           <div className="space-y-4 flex-grow">
-            {data.languages.map((lang, idx) => (
-                <div key={idx} className="flex justify-between items-center">
-                    <span className="font-medium text-sm text-slate-700 dark:text-slate-300">{lang.name}</span>
-                    <div className="flex gap-1">
-                        {[1, 2, 3].map((dot) => (
-                            <div 
-                                key={dot} 
-                                className={`w-2 h-2 rounded-full ${
-                                    (lang.level === 'Fluent' && dot <= 3) || 
-                                    (lang.level === 'Proficient' && dot <= 2) || 
-                                    (lang.level === 'Intermediate' && dot <= 2) || 
-                                    (lang.level === 'Basic' && dot <= 1)
-                                    ? 'bg-emerald-500' 
-                                    : 'bg-slate-200 dark:bg-slate-700'
-                                }`} 
-                            />
-                        ))}
+            {data.languages.map((lang, idx) => {
+                const score = getProficiencyScore(lang.level);
+                return (
+                    <div key={idx} className="flex justify-between items-center">
+                        <span className="font-medium text-sm text-slate-700 dark:text-slate-300">{lang.name}</span>
+                        <div className="flex gap-1" title={lang.level}>
+                            {[1, 2, 3].map((dot) => (
+                                <div 
+                                    key={dot} 
+                                    className={`w-2 h-2 rounded-full transition-colors duration-300 ${
+                                        dot <= score
+                                        ? 'bg-emerald-500' 
+                                        : 'bg-slate-200 dark:bg-slate-700'
+                                    }`} 
+                                />
+                            ))}
+                        </div>
                     </div>
-                </div>
-            ))}
+                );
+            })}
           </div>
         </motion.div>
 
