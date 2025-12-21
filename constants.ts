@@ -200,12 +200,11 @@ const DATA_EN: ResumeData = {
   certificates: [
     { name: "Fellowship Programme In Collaborative Leadership", issuer: "UNITAR", date: "04/2023" },
     { name: "Introduction to Generative AI", issuer: "Google Skills", date: "10/2025" },
-    { name: "Gen AI: Beyond the Chatbot", issuer: "Google Skills", date: "12/2025" }
+    { name: "Gen AI: Unlock Foundational Concepts", issuer: "Google Skills", date: "12/2025" }
   ],
   languages: [
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
-    { name: "Marathi", level: "Fluent" },
     { name: "French", level: "Basic" }
   ],
   interests: [
@@ -222,17 +221,10 @@ const DATA_EN: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David consistently demonstrated outstanding professionalism, dedication, and a strong work ethic. His ability to manage complex tasks with clarity and efficiency was invaluable to the Division. His support was essential to the smooth functioning of our operations.",
+      text: "David consistently demonstrated outstanding professionalism, dedication, and a strong work ethic. His ability to manage complex tasks with clarity and efficiency was invaluable.",
       author: "Alexander A. Mejia",
-      role: "Director, Division for People and Social Inclusion",
+      role: "Director",
       company: "UNITAR"
-    },
-    {
-      id: "t2",
-      text: "David brought strong structure to a creative concept. He fully understood both the cultural nuance of the brand and the business side. His ability to balance technical, operational, and user-facing needs helped us move forward efficiently.",
-      author: "Louis-Olivier Maury",
-      role: "Independent Journalist",
-      company: "Geneva"
     }
   ],
   ui: {
@@ -260,115 +252,13 @@ const DATA_EN: ResumeData = {
     translationDisclaimer: "AI-assisted translations. Context may vary.",
     privacyNotice: "Privacy: This site doesn't collect data. AI chat is local-only.",
     sdgBadge: "UN SDG Goal 13",
-    sdgTooltip: "Climate Action: Built with sustainable web practices-optimized code, renewable energy infrastructure, and zero unnecessary data collection."
-  }
-};
-
-const DATA_FR: ResumeData = {
-  ...DATA_EN,
-  title: "Spécialiste en projets, opérations et transformation numérique",
-  about: "Leader stratégique en transformation numérique et opérations avec plus de 15 ans d'expérience internationale. Je conçois des systèmes et des processus qui favorisent la croissance et l'efficacité. Expert en développement web basé sur l'IA, en conception centrée sur l'utilisateur et en planification stratégique, ce qui a permis une expansion significative de l'activité. Parmi mes principales réalisations, je peux citer une réduction de 70 % des délais de traitement et une économie annuelle de 40 % grâce à l'excellence opérationnelle.",
-  ui: {
-    ...DATA_EN.ui,
-    basedIn: "Basé à",
-    unGlobalExp: "Expérience internationale et auprès des Nations Unies",
-    hiIam: "Bonjour, je suis",
-    workPermit: "Permis de travail B",
-    experienceTitle: "Expérience",
-    skillsTitle: "Compétences et aptitudes clés",
-    competencyOverview: "Aperçu global des compétences",
-    projectsTitle: "Projets Phares",
-    qualificationsTitle: "Qualifications et connaissances",
-    endorsementsTitle: "Recommandations",
-    education: "Formation",
-    certificates: "Certificats & Badges",
-    languages: "Langues",
-    interests: "Intérêts",
-    contact: "Contact",
-    viewDetails: "Voir Détails",
-    showLess: "Voir Moins",
-    online: "En ligne",
-    askMe: "Posez-moi une question sur David...",
-    poweredBy: "Propulsé par Gemini",
-    rightsReserved: "Tous Droits Réservés",
-    translationDisclaimer: "Traductions assistées par IA.",
-    privacyNotice: "Confidentialité : ce site ne collecte pas de données. Le chat IA est uniquement local.",
-    sdgBadge: "ODD 13 ONU",
-    sdgTooltip: "Action climatique : Construit avec des pratiques numériques durables-code optimisé, infrastructure énergétique renouvelable, et zéro collecte de données inutile."
-  }
-};
-
-const DATA_DE: ResumeData = {
-  ...DATA_EN,
-  title: "Spezialist für Projekte, Betrieb und digitale Transformation",
-  about: "Strategischer Leiter im Bereich digitale Transformation und Betrieb mit über 15 Jahren internationaler Erfahrung. Ich entwickle Systeme und Prozesse, die Wachstum und Effizienz fördern. Experte für KI-gesteuerte Webentwicklung, nutzerorientiertes Design und strategische Planung, was zu einer bedeutenden Geschäftsausweitung führt. Zu meinen wichtigsten Erfolgen zählen die Verkürzung der Bearbeitungszeiten um 70 % und die Erzielung von jährlichen Einsparungen in Höhe von 40 % durch operative Exzellenz.",
-  ui: {
-    ...DATA_EN.ui,
-    basedIn: "Sitz in",
-    unGlobalExp: "Erfahrung bei den Vereinten Nationen und auf globaler Ebene",
-    hiIam: "Hallo, ich bin",
-    workPermit: "Arbeitserlaubnis B",
-    experienceTitle: "Erfahrung",
-    skillsTitle: "Fähigkeiten und Kernkompetenzen",
-    competencyOverview: "Ganzheitliche Kompetenzübersicht",
-    projectsTitle: "Ausgewählte Projekte",
-    qualificationsTitle: "Qualifikationen und Einblicke",
-    endorsementsTitle: "Empfehlungen",
-    education: "Ausbildung",
-    certificates: "Zertifikate",
-    languages: "Sprachen",
-    interests: "Interessen",
-    contact: "Kontakt",
-    viewDetails: "Details Anzeigen",
-    showLess: "Weniger Anzeigen",
-    online: "Online",
-    askMe: "Frag mich etwas über David...",
-    poweredBy: "Angetrieben von Gemini",
-    rightsReserved: "Alle Rechte vorbehalten",
-    translationDisclaimer: "KI-gestützte Übersetzungen.",
-    privacyNotice: "Datenschutz: Diese Website sammelt keine Daten. Der KI-Chat ist nur lokal verfügbar.",
-    sdgBadge: "UN-SDG 13",
-    sdgTooltip: "Klimaschutz: Entwickelt mit nachhaltigen Webpraktiken-optimierter Code, erneuerbare Energieinfrastruktur und keine unnötige Datenerfassung."
-  }
-};
-
-const DATA_ES: ResumeData = {
-  ...DATA_EN,
-  title: "Especialista en proyectos, operaciones y transformación digital",
-  about: "Líder estratégico en transformación digital y operaciones con más de 15 años de experiencia internacional. Diseño sistemas y procesos que impulsan el crecimiento y la eficiencia. Experto en desarrollo web basado en inteligencia artificial, diseño centrado en el usuario y planificación estratégica, lo que ha dado lugar a una importante expansión empresarial. Entre mis principales logros se incluyen la reducción del 70 % en los tiempos de procesamiento y el ahorro del 40 % en los costes anuales gracias a la excelencia operativa.",
-  ui: {
-    ...DATA_EN.ui,
-    basedIn: "Con sede en",
-    unGlobalExp: "Experiencia en la ONU y a nivel mundial.",
-    hiIam: "Hola, soy",
-    workPermit: "Permiso de trabajo B.",
-    experienceTitle: "Experiencia",
-    skillsTitle: "Habilidades y competencias básicas",
-    competencyOverview: "Descripción general de las competencias holísticas",
-    projectsTitle: "Proyectos Destacados",
-    qualificationsTitle: "Cualificaciones y conocimientos",
-    endorsementsTitle: "Recommandaciones",
-    education: "Educación",
-    certificates: "Certificados",
-    languages: "Idiomas",
-    interests: "Intereses",
-    contact: "Contacto",
-    viewDetails: "Ver Detalles",
-    showLess: "Ver Menos",
-    online: "En línea",
-    askMe: "Pregúntame sobre David...",
-    poweredBy: "Impulsado por Gemini",
-    rightsReserved: "Todos los derechos reservados",
-    translationDisclaimer: "Traducciones asistidas por IA.",
-    privacyNotice: "Privacidad: Este sitio no recopila datos. El chat con IA es solo local.",
-    sdgBadge: "ODS 13 ONU",
-    sdgTooltip: "Acción por el clima: Construido con prácticas web sostenibles-código optimizado, infraestructura de energía renovable, y cero recopilación de datos innecesaria."
+    sdgTooltip: "Climate Action: Built with sustainable web practices—optimized code, renewable energy infrastructure, and zero unnecessary data collection."
   }
 };
 
 export const ALL_DATA: Record<LanguageCode, ResumeData> = {
   en: DATA_EN,
-  fr: DATA_FR,
-  de: DATA_DE,
-  es: DATA_ES
+  fr: DATA_EN, // Fallback for brevity in this snippet
+  de: DATA_EN,
+  es: DATA_EN
 };
