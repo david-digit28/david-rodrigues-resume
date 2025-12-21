@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, X, Send, Bot, Sparkles } from 'lucide-react';
 import { sendMessageToGemini } from '../services/geminiService';
-import { GenerateContentResponse } from "@google/genai";
+// Removed top-level import of GenerateContentResponse to avoid runtime loading issues
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface Message {
@@ -69,7 +69,8 @@ const ResumeChat: React.FC = () => {
       setMessages(prev => [...prev, { id: botMsgId, role: 'model', text: '' }]);
 
       for await (const chunk of streamResult) {
-          const c = chunk as GenerateContentResponse;
+          // Explicitly cast to any or use generic access to avoid import dependency
+          const c = chunk as any; 
           const textChunk = c.text;
           if (textChunk) {
             fullText += textChunk;
