@@ -784,9 +784,9 @@ const DATA_ES: ResumeData = {
     },
     {
       id: "proj-3",
-      title: "Página de Aterrizaje Ghosh Group KSA",
+      title: "Ghosh Group KSA Landing Page",
       description: [
-        "Plataforma B2B estratégica diseñada para penetrar el mercado de la construcción de Arabia Saudita (Visión 2030, NEOM).",
+        "Plataforma B2B estratégica diseñada para penetrar el mercado de la construcción en Arabie Saoudite (Visión 2030, NEOM).",
         "Facilita la expansión del mercado de los EAU a KSA, utilizando SEO avanzado y GEO.",
         "Ecosistema técnico que incluye generación reactiva de leads, análisis GTM y localización árabe impulsada por IA."
       ],
