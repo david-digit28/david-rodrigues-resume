@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+import type { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 import { ResumeData, LanguageCode } from "../types";
 
 /**
@@ -9,10 +9,21 @@ export const sendMessageToGemini = async (
   resumeData: ResumeData, 
   language: LanguageCode
 ) => {
-  // Initialize the API lazily to prevent crashes on app load if key is missing
-  // We use a fallback string to ensure the constructor doesn't throw, 
-  // though the API call itself will fail gracefully if the key is invalid.
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'MISSING_KEY' });
+  // DYNAMIC IMPORT: This is crucial for the white screen fix.
+  // We load the SDK only when needed, preventing load-time errors.
+  let GoogleGenAIClass: typeof GoogleGenAI;
+  
+  try {
+    // @ts-ignore - Vite treats this as external due to config
+    const module = await import("@google/genai");
+    GoogleGenAIClass = module.GoogleGenAI;
+  } catch (e) {
+    console.error("Failed to load GenAI SDK:", e);
+    throw new Error("AI SDK could not be loaded. Please check your internet connection.");
+  }
+
+  // Initialize the API
+  const ai = new GoogleGenAIClass({ apiKey: process.env.API_KEY || 'MISSING_KEY' });
 
   const whatsappLink = `https://wa.me/${resumeData.phone.replace(/[^0-9]/g, '')}`;
 
