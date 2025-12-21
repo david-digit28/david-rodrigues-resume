@@ -2,18 +2,27 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      // Custom plugin to force external resolution for @google/genai
+      // This bypasses the standard node_modules check which is failing the build
+      name: 'force-external-google-genai',
+      resolveId(id) {
+        if (id === '@google/genai') {
+          return { id, external: true };
+        }
+        return null;
+      }
+    }
+  ],
   optimizeDeps: {
-    // Prevent Vite from trying to pre-bundle this since it comes from CDN
     exclude: ['@google/genai']
   },
   build: {
     rollupOptions: {
-      // Critical: This tells the build tool "Do not look for this package in node_modules"
       external: ['@google/genai'],
       output: {
-        // This ensures the import in the final bundle points to the global variable or keeps the import path intact
-        // for the browser's import map to handle.
         globals: {
           '@google/genai': 'GoogleGenAI'
         }
