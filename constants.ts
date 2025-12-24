@@ -192,7 +192,8 @@ const DATA_EN: ResumeData = {
     { name: "Fellowship Programme In Collaborative Leadership", issuer: "UNITAR", date: "04/2023" },
     { name: "Introduction to Generative AI", issuer: "Google Skills", date: "10/2025" },
     { name: "Introduction to Large Language Models", issuer: "Google Skills", date: "11/2025" },
-    { name: "Gen AI: Unlock Foundational Concepts", issuer: "Google Skills", date: "12/2025" }
+    { name: "Gen AI: Unlock Foundational Concepts", issuer: "Google Skills", date: "12/2025" },
+    { name: "Gen AI: Navigate the Landscape", issuer: "Google Skills", date: "12/2025" }
   ],
   languages: [
     { name: "English", level: "Fluent" },
@@ -271,7 +272,8 @@ const DATA_FR: ResumeData = {
       .replace("ERP & Admin Platforms", "ERP & Plateformes Admin")
       .replace("Data & Analytics", "Données & Analytique")
       .replace("Digital Marketing & Strategy", "Marketing Numérique & Stratégie")
-      .replace("Design & Media", "Design & Médias")
+      .replace("Design & Médias", "Design & Médias")
+      .replace("Design & Media", "Design & Médias") // Catch both variations
       .replace("Project Management Tools", "Outils de Gestion de Projet")
       .replace("AI & Creative Tools", "IA & Outils Créatifs")
       .replace("Workflow & Documentation", "Workflow & Documentation")
