@@ -400,6 +400,18 @@ const DATA_FR: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
+    },
+    {
+      id: "proj-4",
+      title: "Spécialiste Visa Conjoint UK – Plateforme de Réservation",
+      description: [
+        "Plateforme full-stack de prise de rendez-vous pour des services de conseil en immigration UK, permettant un appariement fluide client–spécialiste dans plusieurs villes indiennes (Mumbai, Delhi, Bangalore, Chandigarh) et via des canaux en ligne (Google Meet, WhatsApp).",
+        "Permet une réservation de consultation de bout en bout avec filtrage intelligent des spécialistes selon la disponibilité par localisation, les préférences de format de session et l'expertise de service.",
+        "Prend en charge la tarification multi-devises (GBP, INR, USD) avec calcul automatique des taxes (GST, VAT, taxe fixe), pour les clients indiens et internationaux.",
+        "Écosystème technique : intégration Razorpay pour les paiements sécurisés, confirmations email automatisées via Resend, authentification admin par session, widget de réservation intégrable pour des sites externes, et tableau de bord admin avec calendrier temps réel, base clients et suivi des paiements."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
+      imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
@@ -603,6 +615,18 @@ const DATA_DE: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
+    },
+    {
+      id: "proj-4",
+      title: "UK-Ehegattenvisum – Buchungsplattform",
+      description: [
+        "Full-Stack-Terminbuchungsplattform für UK-Einwanderungsberatung, mit nahtlosem Matching zwischen Kunden und Spezialisten in mehreren indischen Städten (Mumbai, Delhi, Bangalore, Chandigarh) sowie über Online-Kanäle (Google Meet, WhatsApp).",
+        "Ermöglicht End-to-End-Buchungen mit intelligenter Spezialisten-Filterung nach Standortverfügbarkeit, bevorzugtem Sitzungsformat und Service-Expertise.",
+        "Unterstützt Multi-Währungs-Preise (GBP, INR, USD) mit automatischer Steuerberechnung (GST, VAT, Fixsteuer) für inländische und internationale Kunden.",
+        "Technisches Ökosystem: Razorpay-Zahlungsintegration, automatisierte E-Mail-Bestätigungen über Resend, sitzungsbasierte Admin-Authentifizierung, einbettbares Buchungs-Widget für externe Websites sowie ein Admin-Dashboard mit Echtzeit-Kalender, Kundendatenbank und Zahlungs-Tracking."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
+      imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
@@ -806,6 +830,18 @@ const DATA_ES: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
+    },
+    {
+      id: "proj-4",
+      title: "Especialista Visa de Cónyuge UK – Plataforma de Reservas",
+      description: [
+        "Plataforma full-stack de programación de citas para consultoría de inmigración al Reino Unido, con emparejamiento fluido cliente–especialista en múltiples ciudades de India (Mumbai, Delhi, Bangalore, Chandigarh) y canales online (Google Meet, WhatsApp).",
+        "Facilita la reserva de consultas de extremo a extremo con filtrado inteligente de especialistas según disponibilidad por ubicación, preferencias de formato de sesión y experiencia de servicio.",
+        "Soporta precios multi-moneda (GBP, INR, USD) con cálculo automático de impuestos (GST, VAT, impuesto fijo), atendiendo a clientes nacionales e internacionales.",
+        "Ecosistema técnico: integración de pagos Razorpay, confirmaciones de email automatizadas con Resend, autenticación de administrador basada en sesión, widget de reservas integrable para sitios externos y panel de administración con calendario en tiempo real, base de datos de clientes y seguimiento de pagos."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
+      imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
