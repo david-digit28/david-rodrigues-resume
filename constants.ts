@@ -178,6 +178,17 @@ const DATA_EN: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
+    },
+    {
+      id: "proj-4",
+      title: "UK Spouse Visa Specialist – Booking Platform",
+      description: [
+        "Full-stack appointment scheduling platform engineered for UK immigration consultancy services, enabling seamless client-to-specialist matchmaking across multiple Indian cities (Mumbai, Delhi, Bangalore, Chandigarh) and online channels (Google Meet, WhatsApp).",
+        "Facilitates end-to-end consultation booking with intelligent specialist filtering based on location availability, session format preferences, and service expertise. Supports multi-currency pricing (GBP, INR, USD) with automatic tax calculation (GST, VAT, fixed tax), catering to both domestic Indian and international clientele.",
+        "Technical ecosystem includes Razorpay payment integration for secure transaction processing, automated email confirmations via Resend, session-based admin authentication, embeddable booking widget for external website deployment, and a comprehensive admin dashboard with real-time appointment calendar, customer database, and payment tracking."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
+      imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
