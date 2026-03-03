@@ -190,6 +190,18 @@ const DATA_EN: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      id: "proj-5",
+      title: "The SmartMove2UK CRM – Customer Relationship Management System",
+      description: [
+        "Full-stack in-house CRM platform built for a UK immigration law firm, streamlining client relationship management, lead tracking, and case pipeline oversight across the entire visa application lifecycle.",
+        "Delivers comprehensive contact management with visa-specific tracking fields (current visa, target visa, expiry dates), activity timeline logging (calls, emails, meetings, notes, tasks), and a real-time dashboard with key performance metrics, pipeline status overview, and date range filtering.",
+        "Supports multi-currency financial tracking (GBP, INR, USD) for service fees, payments received, and outstanding balances.",
+        "Features role-based access control across four tiers (Admin, Manager, Agent, Coordinator) with granular permissions for contact editing, deletion, lead assignment, and financial visibility. Includes email/password authentication with admin-provisioned accounts, first-login password change enforcement, CSV/Excel bulk import with column mapping and duplicate detection, and WhatsApp quick actions for direct client communication."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "TanStack Query", "Wouter"],
+      imageUrl: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
