@@ -424,6 +424,18 @@ const DATA_FR: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      id: "proj-5",
+      title: "The SmartMove2UK CRM – Système de Gestion de la Relation Client",
+      description: [
+        "Plateforme CRM interne full-stack conçue pour un cabinet d’immigration au Royaume-Uni, rationalisant la gestion des relations clients, le suivi des leads et la planification des consultations.",
+        "Offre une gestion complète des contacts avec des champs de suivi spécifiques aux visas (visa actuel, visa visé, dates d’expiration), un journal chronologique des communications et un suivi de l’état du dossier de la consultation initiale à la résolution.",
+        "Gère le suivi financier multi-devises (GBP, INR, USD) pour les frais de service, les paiements reçus et les soldes impayés.",
+        "Inclut un contrôle d’accès basé sur les rôles à quatre niveaux (Admin, Manager, Agent, Coordinateur) avec des permissions granulaires pour l’édition, la suppression et l’exportation des données."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "TanStack Query", "Wouter"],
+      imageUrl: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
@@ -639,6 +651,18 @@ const DATA_DE: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      id: "proj-5",
+      title: "The SmartMove2UK CRM – Kundenbeziehungsmanagement-System",
+      description: [
+        "Interne Full-Stack-CRM-Plattform für eine britische Einwanderungskanzlei, die das Kundenbeziehungsmanagement, die Lead-Verfolgung und die Beratungsplanung rationalisiert.",
+        "Bietet umfassende Kontaktverwaltung mit visaspezifischen Tracking-Feldern (aktuelles Visum, Zielvisum, Ablaufdaten), chronologischem Kommunikationsjournal und Fallstatus-Tracking von der Erstberatung bis zur Lösung.",
+        "Verwaltet Multi-Währungs-Finanztracking (GBP, INR, USD) für Servicegebühren, erhaltene Zahlungen und offene Salden.",
+        "Umfasst eine vierstufige rollenbasierte Zugriffskontrolle (Admin, Manager, Agent, Koordinator) mit granularen Berechtigungen für Bearbeitung, Löschung und Datenexport."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "TanStack Query", "Wouter"],
+      imageUrl: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
@@ -854,6 +878,18 @@ const DATA_ES: ResumeData = {
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "Razorpay", "Resend"],
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      id: "proj-5",
+      title: "The SmartMove2UK CRM – Sistema de Gestión de Relaciones con Clientes",
+      description: [
+        "Plataforma CRM interna full-stack concebida para un despacho de inmigración en el Reino Unido, racionalizando la gestión de relaciones con clientes, el seguimiento de leads y la programación de consultas.",
+        "Ofrece una gestión completa de contactos con campos de seguimiento específicos de visas (visa actual, visa objetivo, fechas de vencimiento), un diario cronológico de comunicaciones y seguimiento de estado del caso desde la consulta inicial hasta la resolución.",
+        "Gestiona el seguimiento financiero multi-divisa (GBP, INR, USD) para tarifas de servicio, pagos recibidos y saldos pendientes.",
+        "Incluye un control de acceso basado en roles de cuatro niveles (Admin, Manager, Agente, Coordinador) con permisos granulares para edición, eliminación y exportación de datos."
+      ],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Express.js", "PostgreSQL", "Drizzle ORM", "TanStack Query", "Wouter"],
+      imageUrl: "https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&q=80&w=600"
     }
   ],
   education: [
