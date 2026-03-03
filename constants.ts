@@ -382,8 +382,8 @@ const DATA_FR: ResumeData = {
       id: "proj-3",
       title: "Page d'Accueil Ghosh Group KSA",
       description: [
-        "Plateforme B2B stratégique conçue pour pénétrer le marché de la construction en Arabie Saoudite (Vision 2030, NEOM, The Red Sea).",
-        "Facilite l'expansion du marché des EAU vers l'Arabie Saoudite, utilisant le SEO avancé et GEO pour capturer des contrats d'infrastructure de grande valeur.",
+        "Plateforme B2B stratégique conçue pour pénétrer le marché de la construction en Arabia Saudita (Vision 2030, NEOM, The Red Sea).",
+        "Facilite l'expansion du marché des EAU vers l'Arabia Saudita, utilisant le SEO avancé et GEO pour capturer des contrats d'infrastructure de grande valeur.",
         "Écosystème technique incluant un pipeline de génération de leads de bout en bout avec une campagne Google Ads Search (5 groupes d'annonces, 15 RSA en anglais et arabe), un suivi complet des conversions via GTM avec balises de conversion Google Ads et Conversion Linker, atteignant un CTR de 7,80 % dès la semaine de lancement. La feuille de route inclut la localisation arabe pilotée par IA et la communication autonome."
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
@@ -562,7 +562,7 @@ const DATA_DE: ResumeData = {
   projects: [
     {
       id: "proj-1",
-      title: "UK Immigration Tools Suite",
+      title: "UK-Einwanderungstools-Suite",
       description: [
         "UK Sponsorship Kostenrechner: Entwicklung eines mehrstufigen Schätzers für Unternehmen. Automatisierte Lead-Erfassung und E-Mail-Versand.",
         "UK Visa Abwesenheitsrechner: Compliance-Tool zur Überprüfung der Reisehistorie.",
@@ -583,7 +583,7 @@ const DATA_DE: ResumeData = {
     },
     {
       id: "proj-3",
-      title: "Ghosh Group KSA Landing Page",
+      title: "Ghosh Group KSA-Landingpage",
       description: [
         "Strategische B2B-Plattform zur Erschließung des saudi-arabischen Baumarktes (Vision 2030, NEOM).",
         "Erleichtert die Marktexpansion von den VAE nach KSA unter Nutzung von fortgeschrittenem SEO und GEO.",
@@ -788,7 +788,7 @@ const DATA_ES: ResumeData = {
       id: "proj-3",
       title: "Página de Aterrizaje Ghosh Group KSA",
       description: [
-        "Plataforma B2B estratégica diseñada para penetrar el mercado de la construcción en Arabie Saoudite (Visión 2030, NEOM).",
+        "Plataforma B2B estratégica diseñada para penetrar el mercado de la construcción en Arabia Saudita (Visión 2030, NEOM).",
         "Facilita la expansión del mercado de los EAU a KSA, utilizando SEO avanzado y GEO.",
         "Ecosistema técnico que incluye un pipeline de generación de leads de extremo a extremo con campaña Google Ads Search (5 grupos de anuncios, 15 RSA en inglés y árabe), seguimiento completo de conversiones vía GTM con etiquetas de conversión Google Ads y Conversion Linker, logrando un CTR del 7,80 % en la semana de lanzamiento. La hoja de ruta incluye localización árabe impulsada por IA y comunicación autónoma."
       ],
