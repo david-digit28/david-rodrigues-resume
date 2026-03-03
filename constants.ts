@@ -173,10 +173,10 @@ const DATA_EN: ResumeData = {
       title: "Ghosh Group KSA Landing Page",
       description: [
         "Strategic B2B platform engineered to penetrate the Saudi Arabian construction market, specifically targeting supply chain demands for Vision 2030 mega-projects like NEOM, The Red Sea and Qiddiya.",
-        "Facilitates seamless market expansion from a dominant position in the UAE to KSA, utilizing advanced SEO and GEO (Generative Engine Optimization) to capture high-value infrastructure contracts.",
-        "Technical ecosystem includes reactive lead generation, performance analytics via GTM, and a roadmap for AI-driven Arabic localization and autonomous communication."
+        "Facilitates seamless market expansion from a dominant UAE position to KSA, utilizing advanced SEO and GEO (Generative Engine Optimization) to capture high-value infrastructure contracts.",
+        "Technical ecosystem includes end-to-end lead generation pipeline with Google Ads Search campaign (5 ad groups, 15 RSAs across English & Arabic), full conversion tracking via GTM with Google Ads conversion tags and Conversion Linker, achieving 7.80% CTR within launch week. Roadmap includes AI-driven Arabic localization and autonomous communication."
       ],
-      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
     }
   ],
@@ -384,9 +384,9 @@ const DATA_FR: ResumeData = {
       description: [
         "Plateforme B2B stratégique conçue pour pénétrer le marché de la construction en Arabie Saoudite (Vision 2030, NEOM, The Red Sea).",
         "Facilite l'expansion du marché des EAU vers l'Arabie Saoudite, utilisant le SEO avancé et GEO pour capturer des contrats d'infrastructure de grande valeur.",
-        "Écosystème technique incluant la génération de leads réactive, l'analyse via GTM et une roadmap pour la localisation arabe par IA."
+        "Écosystème technique incluant un pipeline de génération de leads de bout en bout avec une campagne Google Ads Search (5 groupes d'annonces, 15 RSA en anglais et arabe), un suivi complet des conversions via GTM avec balises de conversion Google Ads et Conversion Linker, atteignant un CTR de 7,80 % dès la semaine de lancement. La feuille de route inclut la localisation arabe pilotée par IA et la communication autonome."
       ],
-      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
     }
   ],
@@ -587,9 +587,9 @@ const DATA_DE: ResumeData = {
       description: [
         "Strategische B2B-Plattform zur Erschließung des saudi-arabischen Baumarktes (Vision 2030, NEOM).",
         "Erleichtert die Marktexpansion von den VAE nach KSA unter Nutzung von fortgeschrittenem SEO und GEO.",
-        "Technisches Ökosystem inkl. Lead-Generierung, GTM-Analyse und KI-gesteuerter arabischer Lokalisierung."
+        "Technisches Ökosystem inkl. eine End-to-End-Lead-Generierungspipeline mit Google Ads Search-Kampagne (5 Anzeigengruppen, 15 RSAs in Englisch und Arabisch), vollständiges Conversion-Tracking über GTM mit Google Ads Conversion-Tags und Conversion Linker, mit einer CTR von 7,80 % in der Startwoche. Roadmap umfasst KI-gesteuerte arabische Lokalisierung und autonome Kommunikation."
       ],
-      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
     }
   ],
@@ -790,9 +790,9 @@ const DATA_ES: ResumeData = {
       description: [
         "Plataforma B2B estratégica diseñada para penetrar el mercado de la construcción en Arabie Saoudite (Visión 2030, NEOM).",
         "Facilita la expansión del mercado de los EAU a KSA, utilizando SEO avanzado y GEO.",
-        "Ecosistema técnico que incluye generación reactiva de leads, análisis GTM y localización árabe impulsada por IA."
+        "Ecosistema técnico que incluye un pipeline de generación de leads de extremo a extremo con campaña Google Ads Search (5 grupos de anuncios, 15 RSA en inglés y árabe), seguimiento completo de conversiones vía GTM con etiquetas de conversión Google Ads y Conversion Linker, logrando un CTR del 7,80 % en la semana de lanzamiento. La hoja de ruta incluye localización árabe impulsada por IA y comunicación autónoma."
       ],
-      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
       imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
     }
   ],
