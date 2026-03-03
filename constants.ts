@@ -177,7 +177,7 @@ const DATA_EN: ResumeData = {
         "Technical ecosystem includes end-to-end lead generation pipeline with Google Ads Search campaign (5 ad groups, 15 RSAs across English & Arabic), full conversion tracking via GTM with Google Ads conversion tags and Conversion Linker, achieving 7.80% CTR within launch week. Roadmap includes AI-driven Arabic localization and autonomous communication."
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
-      imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
+      imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
     }
   ],
   education: [
@@ -387,7 +387,7 @@ const DATA_FR: ResumeData = {
         "Écosystème technique incluant un pipeline de génération de leads de bout en bout avec une campagne Google Ads Search (5 groupes d'annonces, 15 RSA en anglais et arabe), un suivi complet des conversions via GTM avec balises de conversion Google Ads et Conversion Linker, atteignant un CTR de 7,80 % dès la semaine de lancement. La feuille de route inclut la localisation arabe pilotée par IA et la communication autonome."
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
-      imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
+      imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
     }
   ],
   education: [
@@ -590,7 +590,7 @@ const DATA_DE: ResumeData = {
         "Technisches Ökosystem inkl. eine End-to-End-Lead-Generierungspipeline mit Google Ads Search-Kampagne (5 Anzeigengruppen, 15 RSAs in Englisch und Arabisch), vollständiges Conversion-Tracking über GTM mit Google Ads Conversion-Tags und Conversion Linker, mit einer CTR von 7,80 % in der Startwoche. Roadmap umfasst KI-gesteuerte arabische Lokalisierung und autonome Kommunikation."
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
-      imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
+      imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
     }
   ],
   education: [
@@ -793,7 +793,7 @@ const DATA_ES: ResumeData = {
         "Ecosistema técnico que incluye un pipeline de generación de leads de extremo a extremo con campaña Google Ads Search (5 grupos de anuncios, 15 RSA en inglés y árabe), seguimiento completo de conversiones vía GTM con etiquetas de conversión Google Ads y Conversion Linker, logrando un CTR del 7,80 % en la semana de lanzamiento. La hoja de ruta incluye localización árabe impulsada por IA y comunicación autónoma."
       ],
       tags: ["React", "TypeScript", "Tailwind CSS", "Firebase", "GTM", "Google Ads"],
-      imageUrl: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=600"
+      imageUrl: "https://ghoshgroups.com/download/core-web-vitals.jpg"
     }
   ],
   education: [
