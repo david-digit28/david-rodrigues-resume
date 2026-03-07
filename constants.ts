@@ -20,130 +20,131 @@ const SHARED_DATA = {
 // ==========================================
 const DATA_EN: ResumeData = {
   ...SHARED_DATA,
-  title: "Project, Operations & Digital Transformation Specialist",
-  about: "Strategic leader in digital transformation and operations with over 15 years of international experience. I architect systems and processes that drive growth and efficiency. Expert in AI-driven web development, user-centric design, and strategic planning, leading to significant business expansion. Key achievements include driving a 70% reduction in processing times and securing 40% in annual savings through operational excellence.",
-  location: "Geneva, Switzerland",
+  title: "Digital Transformation & Operations Specialist",
+  about: "Strategic Digital Transformation Leader & Full-Stack Developer with 15+ years of international experience across UN, logistics, and legal services. Known for architecting and executing end-to-end transformation roadmaps that combine operating model redesign, ERP-driven process optimisation, and AI-powered digital products. Proven track record of cutting processing times by 70%, securing 40% annual savings, and enabling expansion into new markets including the UK and KSA. Equally comfortable partnering with C-suite on strategy and leading cross-functional teams to deliver full-stack, AI-enabled platforms.",
+  location: "Le Grand-Saconnex, Geneva, Switzerland",
   workPermit: "Work Permit B",
   skills: [
-    { name: "Strategic Planning", category: "Strategic & Operations Management", level: 90 },
-    { name: "Project Lifecycle Oversight", category: "Strategic & Operations Management", level: 90 },
-    { name: "Business Process Optimisation", category: "Strategic & Operations Management", level: 90 },
-    { name: "Change Management", category: "Strategic & Operations Management", level: 90 },
-    { name: "Cross-Functional Coordination", category: "Strategic & Operations Management", level: 90 },
-    { name: "Logistics Management", category: "Strategic & Operations Management", level: 90 },
-    { name: "Talent Acquisition", category: "Strategic & Operations Management", level: 90 },
-    { name: "Quantum ERP", category: "ERP & Admin Platforms", level: 95 },
-    { name: "Microsoft 365 (SharePoint, Teams)", category: "ERP & Admin Platforms", level: 95 },
-    { name: "Google Workspace", category: "ERP & Admin Platforms", level: 95 },
-    { name: "Cloudflare (DNS/CDN)", category: "ERP & Admin Platforms", level: 95 },
-    { name: "Web Hosting Admin", category: "ERP & Admin Platforms", level: 95 },
-    { name: "Excel (Advanced)", category: "Data & Analytics", level: 90 },
-    { name: "Power BI", category: "Data & Analytics", level: 90 },
-    { name: "Tableau", category: "Data & Analytics", level: 90 },
-    { name: "Google Analytics", category: "Data & Analytics", level: 90 },
-    { name: "Google Search Console", category: "Data & Analytics", level: 90 },
-    { name: "SEO", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "PPC", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "GEO", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "SMO", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "Mailchimp", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "HubSpot", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "WordPress", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "Semrush", category: "Digital Marketing & Strategy", level: 95 },
-    { name: "Figma", category: "Design & Media", level: 97 },
-    { name: "Adobe Creative Suite (Ps, Pr)", category: "Design & Media", level: 97 },
-    { name: "Canva", category: "Design & Media", level: 97 },
-    { name: "Descript", category: "Design & Media", level: 97 },
-    { name: "Sound Forge", category: "Design & Media", level: 97 },
-    { name: "Jira", category: "Project Management Tools", level: 80 },
-    { name: "Asana", category: "Project Management Tools", level: 80 },
-    { name: "Trello", category: "Project Management Tools", level: 80 },
-    { name: "Monday.com", category: "Project Management Tools", level: 80 },
-    { name: "Generative AI (ChatGPT, Gemini, Google AI Studio, Claude, Midjourney, Leonardo AI, Kling, Suno AI)", category: "AI & Creative Tools", level: 80 },
-    { name: "Replit AI", category: "AI & Creative Tools", level: 80 },
-    { name: "Firebase Studio", category: "AI & Creative Tools", level: 80 },
-    { name: "Vercel", category: "Workflow & Documentation", level: 75 },
-    { name: "GitHub", category: "Workflow & Documentation", level: 75 },
-    { name: "Resend", category: "Workflow & Documentation", level: 75 },
-    { name: "DocuSign", category: "Workflow & Documentation", level: 75 },
-    { name: "Adobe Sign", category: "Workflow & Documentation", level: 75 }
+    { name: "Strategic Planning", category: "Strategic Operations", level: 95 },
+    { name: "Operating Model & Process Design", category: "Strategic Operations", level: 94 },
+    { name: "Business Process Optimisation", category: "Strategic Operations", level: 94 },
+    { name: "Change Management", category: "Strategic Operations", level: 90 },
+    { name: "Cross-Functional Leadership", category: "Strategic Operations", level: 92 },
+    { name: "Talent Acquisition", category: "Strategic Operations", level: 88 },
+    { name: "Vendor & Budget Management", category: "Strategic Operations", level: 92 },
+
+    { name: "Quantum ERP", category: "Digital Transformation & ERP", level: 95 },
+    { name: "ERP Implementation (SAP Environment)", category: "Digital Transformation & ERP", level: 88 },
+    { name: "Service Design", category: "Digital Transformation & ERP", level: 90 },
+    { name: "Microsoft 365 (SharePoint, Teams)", category: "Digital Transformation & ERP", level: 92 },
+    { name: "Google Workspace", category: "Digital Transformation & ERP", level: 92 },
+    { name: "Cloudflare (DNS/CDN)", category: "Digital Transformation & ERP", level: 88 },
+    { name: "Web Hosting Admin", category: "Digital Transformation & ERP", level: 86 },
+
+    { name: "AI-Driven Web Applications", category: "AI & Product Engineering", level: 92 },
+    { name: "Generative AI (Google AI Studio, LLM Integration)", category: "AI & Product Engineering", level: 92 },
+    { name: "React", category: "AI & Product Engineering", level: 90 },
+    { name: "TypeScript", category: "AI & Product Engineering", level: 90 },
+    { name: "Node.js", category: "AI & Product Engineering", level: 86 },
+    { name: "Express.js", category: "AI & Product Engineering", level: 86 },
+    { name: "PostgreSQL", category: "AI & Product Engineering", level: 84 },
+    { name: "Drizzle ORM", category: "AI & Product Engineering", level: 82 },
+    { name: "Tailwind CSS", category: "AI & Product Engineering", level: 88 },
+    { name: "Vercel", category: "AI & Product Engineering", level: 86 },
+    { name: "Firebase", category: "AI & Product Engineering", level: 84 },
+    { name: "Supabase", category: "AI & Product Engineering", level: 80 },
+    { name: "Resend", category: "AI & Product Engineering", level: 84 },
+    { name: "GitHub", category: "AI & Product Engineering", level: 88 },
+
+    { name: "SQL", category: "Data & Analytics", level: 85 },
+    { name: "Excel (Advanced)", category: "Data & Analytics", level: 92 },
+    { name: "Power BI", category: "Data & Analytics", level: 88 },
+    { name: "Google Analytics (GA4)", category: "Data & Analytics", level: 86 },
+    { name: "Google Tag Manager (GTM)", category: "Data & Analytics", level: 86 },
+    { name: "SEO & GEO (Generative Engine Optimization)", category: "Data & Analytics", level: 92 },
+
+    { name: "Figma", category: "Design & Media", level: 90 },
+    { name: "Adobe Creative Suite (Photoshop, Premiere Pro)", category: "Design & Media", level: 88 },
+    { name: "Canva", category: "Design & Media", level: 90 },
+    { name: "Descript", category: "Design & Media", level: 84 },
+    { name: "Sound Forge", category: "Design & Media", level: 82 },
+
+    { name: "Jira", category: "Project Management Tools", level: 82 },
+    { name: "Asana", category: "Project Management Tools", level: 82 },
+    { name: "Trello", category: "Project Management Tools", level: 82 },
+    { name: "Monday.com", category: "Project Management Tools", level: 82 }
   ],
   experience: [
     {
       id: "exp-1",
-      role: "Focal Point: Finance, Procurement & Inventory Projects",
-      company: "United Nations Institute for Training and Research (UNITAR)",
-      location: "Geneva, Switzerland",
-      period: "11/2022 – 03/2025",
-      description: [
-        "Delivered exceptional financial control over a ~$140k project portfolio by orchestrating Quantum-based financial operations, ensuring precise fund allocation and informed strategic decision-making.",
-        "Enhanced financial foresight by preparing and analysing weekly reports, improving forecast accuracy by 80%.",
-        "Drove significant operational efficiency by implementing an optimised invoice tracking process, decreasing processing time by 70%.",
-        "Generated substantial value through strategic procurement, achieving an average of 30% in cost savings on key acquisitions.",
-        "Established and maintained a detailed inventory system for the Division’s assets, accurately tracking acquisitions, disposals, and write-offs, reducing discrepancies by 99%.",
-        "Coordinated intricate logistics for 11+ training workshops, managing participant travel and daily subsistence allowance provisions for up to 40 participants."
-      ],
-      technologies: ["Quantum ERP", "Financial Ops", "Inventory Mgmt", "Logistics"]
-    },
-    {
-      id: "exp-2",
       role: "Head: Digital Transformation, Budget, and HR",
       company: "The Smartmove2UK",
       location: "Remotely from Geneva",
       period: "04/2015 – Present",
       description: [
-        "Direct strategic leadership across Budget, HR, and Digital Transformation, driving operational excellence by securing 40% in annual savings whilst scaling talent acquisition to support global expansion.",
-        "Engineered the foundational user-centric digital transformation, redesigning the online journey and deploying an ERP-driven process that significantly elevated client consultation rates.",
-        "Architected a scalable digital and operational blueprint that drove substantial international growth, culminating in the launch of two new branches in India and a new sister company in the UK.",
-        "Currently spearheading the comprehensive digital strategy for the new UK entity, Conroy Baker Ltd., overseeing its website development, design, content, and performance marketing from inception.",
-        "Developed and deployed custom 'UK Sponsorship Visa' and 'ILR' cost calculators for Conroy Baker Ltd., utilizing Google AI Studio for logic architecture, GitHub for version control, and Vercel for hosting.",
-        "Engineered a dual-purpose automation loop using Resend to deliver detailed cost breakdowns while simultaneously routing user data to business development for lead qualification.",
-        "Leading the development of a dynamic 'UK Spouse Visa' platform on Replit AI, featuring an embedded AI Chatbot and automated CMS for SEO.",
-        "Secured rapid market traction for the new UK brand, generating a substantial volume of targeted client leads within the initial three months of launch, despite operating in a highly competitive London market."
+        "Own digital transformation, budget, and HR strategy, securing 40% annual savings while scaling teams to support international expansion, including two new branches in India and a UK sister company (Conroy Baker Ltd.).",
+        "Designed the firm's operating model and digital blueprint end-to-end, transitioning from manual workflows to ERP-driven processes that significantly elevated client consultation rates.",
+        "Spearheaded the digital go-to-market strategy for the new UK entity, defining the SEO and content roadmap that generated substantial lead volume within the first three months.",
+        "Architected and coded a proprietary in-house CRM (React, TypeScript, PostgreSQL, Drizzle ORM) with role-based access control and multi-currency tracking, eliminating third-party SaaS costs and centralising visa pipeline visibility.",
+        "Engineered a custom appointment platform integrating Razorpay, Stripe, and video conferencing with multi-location logic, multi-currency pricing, and automatic tax calculations (GST/VAT).",
+        "Developed high-conversion compliance tools—including Sponsorship Cost and ILR & Absence calculators—using Google AI Studio logic and Resend automation for lead nurturing.",
+        "Currently engineering the UK Spouse Visa platform using GEO standards and Framer Motion to achieve superior Core Web Vitals for high-value legal service conversion."
       ],
-      technologies: ["Digital Strategy", "HR Mgmt", "Performance Marketing", "AI Integration"]
+      technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
     },
     {
-      id: "exp-3",
+      id: "exp-2",
       role: "Consultant: Digital Strategy & Operations",
       company: "Ghosh Group",
       location: "Remotely from Geneva",
       period: "04/2015 – Present",
       description: [
-        "Serve as a foundational strategic partner, steering the company’s growth from inception to a prominent market player by continuously architecting and optimising its digital and operational framework.",
-        "Built and now oversee the company’s entire online presence, having led its initial creation from domain acquisition and website design (ghoshgroups.com) to content and marketing strategy.",
-        "Direct ongoing digital marketing initiatives, including PPC, while advising on talent acquisition to develop and scale high-performing teams.",
-        "Instrumental in propelling significant business expansion, providing strategic counsel on operations and technology that led to the launch of two new high-end manufacturing factories.",
-        "Delivered consistent financial impact, most recently achieving a 20% reduction in overhead expenses (FY2024) through strategic efficiency and procurement initiatives."
+        "Serve as a foundational strategic partner, steering growth from inception to a prominent market position by continuously optimising digital and operational frameworks.",
+        "Engineered a React/Firebase-based B2B landing platform targeting Saudi Vision 2030 projects (NEOM, Red Sea), integrating Google Ads and GTM tracking to achieve a 7.80% CTR in launch week.",
+        "Currently designing AI-based Arabic localization and semi-autonomous communication workflows to support high-value infrastructure bids in the region.",
+        "Delivered consistent financial impact, including a 20% reduction in overhead expenses through strategic digital efficiency and procurement initiatives."
       ],
-      technologies: ["Digital Strategy", "Operations", "PPC", "Web Development"]
+      technologies: ["Digital Strategy", "Operations", "React", "Firebase", "Google Ads", "GTM", "AI Localization"]
+    },
+    {
+      id: "exp-3",
+      role: "Focal Point: Finance, Procurement & Inventory Projects",
+      company: "United Nations Institute for Training and Research (UNITAR)",
+      location: "Geneva, Switzerland",
+      period: "11/2022 – 03/2025",
+      description: [
+        "Delivered exceptional control over a ~$140k project portfolio by orchestrating Quantum ERP operations, ensuring precise fund allocation and informed strategic decision-making.",
+        "Generated substantial value through strategic procurement, achieving an average of 30% cost savings on key acquisitions while ensuring strict compliance with UN guidelines.",
+        "Coordinated logistics for 11+ training workshops, managing participant travel and Daily Subsistence Allowance provisions for up to 40 participants.",
+        "Drove significant operational efficiency by implementing an optimised invoice tracking process, decreasing processing time by 70%.",
+        "Established a detailed inventory system for Division assets, accurately tracking acquisitions and disposals and reducing discrepancies by 99%."
+      ],
+      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
     },
     {
       id: "exp-4",
       role: "Manager: MaerskLine.com",
-      company: "Maersk Line",
+      company: "MAERSK LINE",
       location: "Mumbai",
       period: "07/2010 – 03/2015",
       description: [
-        "Led a CMS proof-of-concept initiative.",
-        "Assisted in strategic planning and execution for the global launch of the revamped Maerskline.com (11 languages), including user behaviour analysis, CMS requirements, SOP development, and overcoming technical integration challenges with the core SAP environment.",
-        "Enhanced global website translation processes and developed SLAs/SOPs for content updates.",
-        "Championed the integration of the Eloqua email marketing tool across 11 languages, improving lead capture by 10%."
+        "Assisted in strategic planning and execution for the global launch of the revamped Maerskline.com (11 languages), overcoming technical integration challenges with the core SAP environment.",
+        "Championed Eloqua email marketing integration across 11 languages, improving lead capture by 10%."
       ],
       technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
     },
     {
       id: "exp-5",
       role: "Head: E-Marketing Department and Administration",
-      company: "Loha Ispaat Ltd",
+      company: "LOHA ISPAAT LTD",
       location: "Mumbai",
       period: "07/2009 – 06/2010",
       description: [
-        "Developed and managed departmental budgets (INR 200k).",
-        "Created and implemented targeted training programmes for a 15+ member team, enhancing competencies in lead generation and boosting overall team performance.",
-        "Supervised payroll and vendor contract management."
+        "Developed a centralized budgeting system to manage INR 400k in digital marketing and HR expenditure with optimal resource allocation.",
+        "Created and implemented targeted training programmes for a 15+ member team, enhancing lead generation capability and overall performance.",
+        "Supervised payroll processing and negotiated vendor contracts to maintain operational continuity."
       ],
-      technologies: ["Budget Mgmt", "Team Leadership", "E-Marketing", "Vendor Mgmt"]
+      technologies: ["Budget Management", "Team Leadership", "E-Marketing", "Vendor Management"]
     }
   ],
   projects: [
@@ -222,6 +223,7 @@ const DATA_EN: ResumeData = {
   languages: [
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
+    { name: "Marathi", level: "Fluent" },
     { name: "French", level: "Basic" }
   ],
   interests: [
@@ -285,7 +287,7 @@ const DATA_EN: ResumeData = {
 // ==========================================
 const DATA_FR: ResumeData = {
   ...DATA_EN,
-  title: "Spécialiste en Gestion de Projet, Opérations & Transformation Numérique",
+  title: "Spécialiste en Transformation Numérique & Opérations",
   about: "Leader stratégique en transformation numérique et opérations avec plus de 15 ans d'expérience internationale. Je conçois des systèmes et des processus qui stimulent la croissance et l'efficacité. Expert en développement web piloté par l'IA, design centré sur l'utilisateur et planification stratégique, menant à une expansion commerciale significative. Mes réalisations incluent une réduction de 70 % des délais de traitement et 40 % d'économies annuelles grâce à l'excellence opérationnelle.",
   location: "Genève, Suisse",
   workPermit: "Permis de travail B",
@@ -293,93 +295,19 @@ const DATA_FR: ResumeData = {
     ...s,
     category: s.category
       .replace("Strategic & Operations Management", "Gestion Stratégique & Opérations")
+      .replace("Strategic Operations", "Opérations Stratégiques")
       .replace("ERP & Admin Platforms", "ERP & Plateformes Admin")
+      .replace("Digital Transformation & ERP", "Transformation Numérique & ERP")
       .replace("Data & Analytics", "Données & Analytique")
       .replace("Digital Marketing & Strategy", "Marketing Numérique & Stratégie")
       .replace("Design & Médias", "Design & Médias")
       .replace("Design & Media", "Design & Médias") // Catch both variations
       .replace("Project Management Tools", "Outils de Gestion de Projet")
       .replace("AI & Creative Tools", "IA & Outils Créatifs")
+      .replace("AI & Product Engineering", "IA & Ingénierie Produit")
       .replace("Workflow & Documentation", "Workflow & Documentation")
   })),
-  experience: [
-    {
-      id: "exp-1",
-      role: "Point Focal : Projets Finance, Achats & Inventaire",
-      company: "Institut des Nations Unies pour la Formation et la Recherche (UNITAR)",
-      location: "Genève, Suisse",
-      period: "11/2022 – 03/2025",
-      description: [
-        "Assuré un contrôle financier exceptionnel sur un portefeuille de projets (~140k $) en orchestrant les opérations financières basées sur Quantum, garantissant une allocation précise des fonds.",
-        "Amélioré la prévision financière en préparant et analysant des rapports hebdomadaires, augmentant la précision des prévisions de 80 %.",
-        "Piloté une efficacité opérationnelle significative en optimisant le suivi des factures, réduisant le temps de traitement de 70 %.",
-        "Généré une valeur substantielle grâce à des achats stratégiques, réalisant une moyenne de 30 % d'économies sur les acquisitions clés.",
-        "Mis en place un système d'inventaire détaillé pour les actifs de la Division, suivant avec précision les acquisitions et les cessions, réduisant les écarts de 99 %.",
-        "Coordonné la logistique complexe de plus de 11 ateliers de formation, gérant les voyages et les indemnités journalières de subsistance pour jusqu'à 40 participants."
-      ],
-      technologies: ["Quantum ERP", "Ops Financières", "Gestion Inventaire", "Logistique"]
-    },
-    {
-      id: "exp-2",
-      role: "Responsable : Transformation Numérique, Budget et RH",
-      company: "The Smartmove2UK",
-      location: "À distance depuis Genève",
-      period: "04/2015 – Présent",
-      description: [
-        "Direction stratégique du Budget, des RH et de la Transformation Numérique, sécurisant 40 % d'économies annuelles tout en développant l'acquisition de talents.",
-        "Conçu la transformation numérique centrée sur l'utilisateur, refondant le parcours en ligne et déployant un processus ERP qui a considérablement élevé les taux de consultation client.",
-        "Architecturé un plan numérique et opérationnel évolutif favorisant une croissance internationale substantielle (lancement de deux succursales en Inde et une entité au Royaume-Uni).",
-        "Dirige actuellement la stratégie numérique globale pour la nouvelle entité britannique, Conroy Baker Ltd., supervisant le développement web, le design, le contenu et le marketing de performance.",
-        "Développé des calculateurs de coûts 'UK Sponsorship Visa' et 'ILR' personnalisés, utilisant Google AI Studio, GitHub et Vercel.",
-        "Conçu une boucle d'automatisation à double objectif utilisant Resend pour livrer des détails de coûts tout en routant les données utilisateurs pour la qualification de leads.",
-        "Dirige le développement d'une plateforme dynamique 'UK Spouse Visa' sur Replit AI, avec Chatbot IA intégré et CMS automatisé pour le SEO.",
-        "Obtenu une traction rapide sur le marché pour la nouvelle marque britannique, générant un volume substantiel de leads qualifiés dès les trois premiers mois."
-      ],
-      technologies: ["Stratégie Numérique", "Gestion RH", "Marketing Performance", "Intégration IA"]
-    },
-    {
-      id: "exp-3",
-      role: "Consultant : Stratégie Numérique & Opérations",
-      company: "Ghosh Group",
-      location: "À distance depuis Genève",
-      period: "04/2015 – Présent",
-      description: [
-        "Partenaire stratégique fondateur, pilotant la croissance de l'entreprise de sa création à un acteur majeur du marché en optimisant son cadre numérique et opérationnel.",
-        "Construit et supervise l'ensemble de la présence en ligne, de l'acquisition de domaine à la conception du site web (ghoshgroups.com) et à la stratégie marketing.",
-        "Dirige les initiatives de marketing numérique (PPC) tout en conseillant sur l'acquisition de talents pour développer des équipes performantes.",
-        "Instrumental dans l'expansion significative de l'entreprise, fournissant des conseils stratégiques menant au lancement de deux nouvelles usines de fabrication haut de gamme.",
-        "Obtenu une réduction de 20 % des frais généraux (FY2024) grâce à des initiatives d'efficacité stratégique et d'achat."
-      ],
-      technologies: ["Stratégie Numérique", "Opérations", "PPC", "Dév Web"]
-    },
-    {
-      id: "exp-4",
-      role: "Manager : MaerskLine.com",
-      company: "Maersk Line",
-      location: "Mumbai",
-      period: "07/2010 – 03/2015",
-      description: [
-        "Dirigé une initiative de preuve de concept CMS.",
-        "Assisté à la planification stratégique pour le lancement mondial de Maerskline.com (11 langues), incluant l'analyse comportementale et le développement de SOP.",
-        "Amélioré les processus de traduction de sites web mondiaux et développé des SLA/SOP pour les mises à jour de contenu.",
-        "Champion de l'intégration de l'outil d'email marketing Eloqua dans 11 langues, améliorant la capture de leads de 10 %."
-      ],
-      technologies: ["CMS", "Intégration SAP", "Eloqua", "Localisation"]
-    },
-    {
-      id: "exp-5",
-      role: "Responsable : Département E-Marketing et Administration",
-      company: "Loha Ispaat Ltd",
-      location: "Mumbai",
-      period: "07/2009 – 06/2010",
-      description: [
-        "Développé et géré les budgets départementaux (200k INR).",
-        "Créé et mis en œuvre des programmes de formation ciblés pour une équipe de 15+ personnes, améliorant la génération de leads.",
-        "Supervisé la paie et la gestion des contrats fournisseurs."
-      ],
-      technologies: ["Gestion Budget", "Leadership", "E-Marketing", "Gestion Fournisseurs"]
-    }
-  ],
+  experience: DATA_EN.experience,
   projects: [
     {
       id: "proj-1",
@@ -513,7 +441,7 @@ const DATA_FR: ResumeData = {
 // ==========================================
 const DATA_DE: ResumeData = {
   ...DATA_EN,
-  title: "Spezialist für Projektmanagement, Betrieb & Digitale Transformation",
+  title: "Spezialist für Digitale Transformation & Betrieb",
   about: "Strategische Führungskraft in digitaler Transformation und Betrieb mit über 15 Jahren internationaler Erfahrung. Ich entwerfe Systeme und Prozesse, die Wachstum und Effizienz fördern. Experte für KI-gestützte Webentwicklung, nutzerzentriertes Design und strategische Planung. Zu den wichtigsten Erfolgen gehören eine Reduzierung der Bearbeitungszeiten um 70 % und jährliche Einsparungen von 40 % durch operative Exzellenz.",
   location: "Genf, Schweiz",
   workPermit: "Arbeitsbewilligung B",
@@ -521,92 +449,18 @@ const DATA_DE: ResumeData = {
     ...s,
     category: s.category
       .replace("Strategic & Operations Management", "Strategie & Betriebsmanagement")
+      .replace("Strategic Operations", "Strategische Operationen")
       .replace("ERP & Admin Platforms", "ERP & Admin-Plattformen")
+      .replace("Digital Transformation & ERP", "Digitale Transformation & ERP")
       .replace("Data & Analytics", "Daten & Analytik")
       .replace("Digital Marketing & Strategy", "Digitales Marketing & Strategie")
       .replace("Design & Media", "Design & Medien")
       .replace("Project Management Tools", "Projektmanagement-Tools")
       .replace("AI & Creative Tools", "KI & Kreativ-Tools")
+      .replace("AI & Product Engineering", "KI & Produktentwicklung")
       .replace("Workflow & Documentation", "Workflow & Dokumentation")
   })),
-  experience: [
-    {
-      id: "exp-1",
-      role: "Focal Point: Finanzen, Beschaffung & Inventar",
-      company: "United Nations Institute for Training and Research (UNITAR)",
-      location: "Genf, Schweiz",
-      period: "11/2022 – 03/2025",
-      description: [
-        "Außergewöhnliche Finanzkontrolle über ein Projektportfolio von ~140.000 $ durch Orchestrierung von Quantum-basierten Finanzoperationen.",
-        "Verbesserung der finanziellen Vorausschau durch Erstellung und Analyse wöchentlicher Berichte (80 % genauere Prognosen).",
-        "Signifikante operative Effizienzsteigerung durch optimierte Rechnungsverfolgung (70 % weniger Bearbeitungszeit).",
-        "Substanzielle Wertschöpfung durch strategische Beschaffung (durchschnittlich 30 % Kosteneinsparungen).",
-        "Etablierung eines detaillierten Inventarsystems, Reduzierung von Diskrepanzen um 99 %.",
-        "Koordination komplexer Logistik für 11+ Trainingsworkshops."
-      ],
-      technologies: ["Quantum ERP", "Finanz-Ops", "Inventar", "Logistik"]
-    },
-    {
-      id: "exp-2",
-      role: "Leiter: Digitale Transformation, Budget und HR",
-      company: "The Smartmove2UK",
-      location: "Remote aus Genf",
-      period: "04/2015 – Heute",
-      description: [
-        "Strategische Führung in Budget, HR und digitaler Transformation; Sicherung von 40 % jährlichen Einsparungen.",
-        "Entwicklung der grundlegenden nutzerzentrierten digitalen Transformation und eines ERP-gesteuerten Prozesses.",
-        "Architekt eines skalierbaren digitalen und operativen Plans, der zu internationalem Wachstum führte (neue Filialen in Indien und UK).",
-        "Leitung der umfassenden digitalen Strategie für die neue UK-Einheit, Conroy Baker Ltd.",
-        "Entwicklung benutzerdefinierter Kostenrechner mit Google AI Studio, GitHub und Vercel.",
-        "Entwicklung einer dualen Automatisierungsschleife mit Resend für Kostendetails und Lead-Qualifizierung.",
-        "Entwicklung einer dynamischen 'UK Spouse Visa'-Plattform auf Replit AI mit integriertem KI-Chatbot.",
-        "Schnelle Marktdurchdringung für die neue UK-Marke in den ersten drei Monaten."
-      ],
-      technologies: ["Digitale Strategie", "HR Mgmt", "Performance Mktg", "KI-Integration"]
-    },
-    {
-      id: "exp-3",
-      role: "Berater: Digitale Strategie & Betrieb",
-      company: "Ghosh Group",
-      location: "Remote aus Genf",
-      period: "04/2015 – Heute",
-      description: [
-        "Strategischer Gründungspartner, der das Wachstum des Unternehmens vom Start bis zum Marktführer steuert.",
-        "Aufbau und Überwachung der gesamten Online-Präsenz (ghoshgroups.com) und Marketingstrategie.",
-        "Leitung laufender digitaler Marketinginitiativen (PPC) und Beratung bei der Talentakquise.",
-        "Maßgeblich an der Geschäftsexpansion und dem Start zweier neuer High-End-Fabriken beteiligt.",
-        "Erzielung einer Reduzierung der Gemeinkosten um 20 % (GJ 2024) durch Effizienzinitiativen."
-      ],
-      technologies: ["Digitale Strategie", "Betrieb", "PPC", "Webentwicklung"]
-    },
-    {
-      id: "exp-4",
-      role: "Manager: MaerskLine.com",
-      company: "Maersk Line",
-      location: "Mumbai",
-      period: "07/2010 – 03/2015",
-      description: [
-        "Leitung einer CMS-Proof-of-Concept-Initiative.",
-        "Unterstützung bei strategischer Planung und Umsetzung für den globalen Relaunch von Maerskline.com (11 Sprachen).",
-        "Verbesserung globaler Website-Übersetzungsprozesse und Entwicklung von SLAs/SOPs.",
-        "Integration des E-Mail-Marketing-Tools Eloqua (10 % bessere Lead-Erfassung)."
-      ],
-      technologies: ["CMS", "SAP Integration", "Eloqua", "Lokalisierung"]
-    },
-    {
-      id: "exp-5",
-      role: "Leiter: E-Marketing & Administration",
-      company: "Loha Ispaat Ltd",
-      location: "Mumbai",
-      period: "07/2009 – 06/2010",
-      description: [
-        "Entwicklung und Verwaltung von Abteilungsbudgets.",
-        "Erstellung gezielter Trainingsprogramme für ein 15+ köpfiges Team.",
-        "Überwachung von Gehaltsabrechnungen und Lieferantenverträgen."
-      ],
-      technologies: ["Budget Mgmt", "Teamführung", "E-Marketing", "Vendor Mgmt"]
-    }
-  ],
+  experience: DATA_EN.experience,
   projects: [
     {
       id: "proj-1",
@@ -740,7 +594,7 @@ const DATA_DE: ResumeData = {
 // ==========================================
 const DATA_ES: ResumeData = {
   ...DATA_EN,
-  title: "Especialista en Gestión de Proyectos, Operaciones y Transformación Digital",
+  title: "Especialista en Transformación Digital y Operaciones",
   about: "Líder estratégico en transformación digital y operaciones con más de 15 años de experiencia internacional. Arquitecto sistemas y procesos que impulsan el crecimiento y la eficiencia. Experto en desarrollo web impulsado por IA, diseño centrado en el usuario y planificación estratégica. Mis logros incluyen una reducción del 70% en tiempos de procesamiento y un 40% de ahorro anual mediante la excelencia operativa.",
   location: "Ginebra, Suiza",
   workPermit: "Permiso de trabajo B",
@@ -748,92 +602,18 @@ const DATA_ES: ResumeData = {
     ...s,
     category: s.category
       .replace("Strategic & Operations Management", "Gestión Estratégica y de Operaciones")
+      .replace("Strategic Operations", "Operaciones Estratégicas")
       .replace("ERP & Admin Platforms", "ERP y Plataformas Administrativas")
+      .replace("Digital Transformation & ERP", "Transformación Digital y ERP")
       .replace("Data & Analytics", "Datos y Analítica")
       .replace("Digital Marketing & Strategy", "Marketing Digital y Estrategia")
       .replace("Design & Media", "Diseño y Medios")
       .replace("Project Management Tools", "Herramientas de Gestión de Proyectos")
       .replace("AI & Creative Tools", "IA y Herramientas Creativas")
+      .replace("AI & Product Engineering", "IA e Ingeniería de Producto")
       .replace("Workflow & Documentation", "Flujo de Trabajo y Documentación")
   })),
-  experience: [
-    {
-      id: "exp-1",
-      role: "Punto Focal: Proyectos de Finanzas, Adquisiciones e Inventario",
-      company: "Instituto de las Naciones Unidas para Formación Profesional e Investigaciones (UNITAR)",
-      location: "Ginebra, Suiza",
-      period: "11/2022 – 03/2025",
-      description: [
-        "Control financiero excepcional sobre un portafolio de proyectos de ~$140k orquestando operaciones financieras basadas en Quantum.",
-        "Mejora de la previsión financiera mediante la preparación y análisis de informes semanales (80% de precisión mejorada).",
-        "Impulso de eficiencia operativa significativa optimizando el seguimiento de facturas (70% menos tiempo de procesamiento).",
-        "Generación de valor sustancial a través de adquisiciones estratégicas (promedio de 30% de ahorro en costos).",
-        "Establecimiento y mantenimiento de un sistema de inventario detallado, reduciendo discrepancias en un 99%.",
-        "Coordinación logística compleja para más de 11 talleres de capacitación."
-      ],
-      technologies: ["Quantum ERP", "Ops Financieras", "Gestión Inventario", "Logística"]
-    },
-    {
-      id: "exp-2",
-      role: "Jefe: Transformación Digital, Presupuesto y RR.HH.",
-      company: "The Smartmove2UK",
-      location: "Remoto desde Ginebra",
-      period: "04/2015 – Presente",
-      description: [
-        "Liderazgo estratégico en Presupuesto, RR.HH. y Transformación Digital, asegurando un 40% de ahorro anual.",
-        "Ingeniería de la transformación digital centrada en el usuario y despliegue de un proceso ERP.",
-        "Arquitectura de un plan digital y operativo escalable que impulsó un crecimiento internacional sustancial (nuevas sucursales en India y Reino Unido).",
-        "Liderazgo de la estrategia digital integral para la nueva entidad en el Reino Unido, Conroy Baker Ltd.",
-        "Desarrollo de calculadoras de costos personalizadas con Google AI Studio, GitHub y Vercel.",
-        "Ingeniería de un bucle de automatización dual usando Resend para detalles de costos y calificación de leads.",
-        "Desarrollo de una plataforma dinámica 'UK Spouse Visa' en Replit AI con Chatbot de IA integrado.",
-        "Tracción rápida de mercado para la nueva marca del Reino Unido en los primeros tres meses."
-      ],
-      technologies: ["Estrategia Digital", "Gestión RR.HH.", "Marketing Rendimiento", "Integración IA"]
-    },
-    {
-      id: "exp-3",
-      role: "Consultor: Estrategia Digital y Operaciones",
-      company: "Ghosh Group",
-      location: "Remoto desde Ginebra",
-      period: "04/2015 – Presente",
-      description: [
-        "Socio estratégico fundador, dirigiendo el crecimiento de la empresa desde su inicio hasta convertirse en un actor destacado del mercado.",
-        "Construcción y supervisión de toda la presencia en línea (ghoshgroups.com) y estrategia de marketing.",
-        "Dirección de iniciativas de marketing digital (PPC) y asesoramiento en adquisición de talento.",
-        "Instrumental en la expansión comercial significativa y el lanzamiento de dos nuevas fábricas de alta gama.",
-        "Logro de una reducción del 20% en gastos generales (FY2024) mediante iniciativas de eficiencia."
-      ],
-      technologies: ["Estrategia Digital", "Operaciones", "PPC", "Desarrollo Web"]
-    },
-    {
-      id: "exp-4",
-      role: "Gerente: MaerskLine.com",
-      company: "Maersk Line",
-      location: "Mumbai",
-      period: "07/2010 – 03/2015",
-      description: [
-        "Liderazgo de una iniciativa de prueba de concepto de CMS.",
-        "Asistencia en la planificación estratégica para el lanzamiento global de Maerskline.com (11 idiomas).",
-        "Mejora de los procesos de traducción de sitios web globales y desarrollo de SLAs/SOPs.",
-        "Integración de la herramienta de marketing por correo electrónico Eloqua (10% de mejora en captura de leads)."
-      ],
-      technologies: ["CMS", "Integración SAP", "Eloqua", "Localización"]
-    },
-    {
-      id: "exp-5",
-      role: "Jefe: Departamento de E-Marketing y Administración",
-      company: "Loha Ispaat Ltd",
-      location: "Mumbai",
-      period: "07/2009 – 06/2010",
-      description: [
-        "Desarrollo y gestión de presupuestos departamentales.",
-        "Creación e implementación de programas de capacitación específicos para un equipo de más de 15 personas.",
-        "Supervisión de nóminas y gestión de contratos de proveedores."
-      ],
-      technologies: ["Gestión Presupuesto", "Liderazgo Equipo", "E-Marketing", "Proveedores"]
-    }
-  ],
+  experience: DATA_EN.experience,
   projects: [
     {
       id: "proj-1",
