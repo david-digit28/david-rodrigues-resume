@@ -87,7 +87,7 @@ const DATA_EN: ResumeData = {
         "Spearheaded the digital go-to-market strategy for the new UK entity, defining the SEO and content roadmap that generated substantial lead volume within the first three months.",
         "Architected and coded a proprietary in-house CRM (React, TypeScript, PostgreSQL, Drizzle ORM) with role-based access control and multi-currency tracking, eliminating third-party SaaS costs and centralising visa pipeline visibility.",
         "Engineered a custom appointment platform integrating Razorpay, Stripe, and video conferencing with multi-location logic, multi-currency pricing, and automatic tax calculations (GST/VAT).",
-        "Developed high-conversion compliance tools—including Sponsorship Cost and ILR & Absence calculators—using Google AI Studio logic and Resend automation for lead nurturing.",
+        "Developed high-conversion compliance tools-including Sponsorship Cost and ILR & Absence calculators-using Google AI Studio logic and Resend automation for lead nurturing.",
         "Currently engineering the UK Spouse Visa platform using GEO standards and Framer Motion to achieve superior Core Web Vitals for high-value legal service conversion."
       ],
       technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
@@ -278,7 +278,7 @@ const DATA_EN: ResumeData = {
     translationDisclaimer: "AI-assisted translations. Context may vary.",
     privacyNotice: "Privacy: This site doesn't collect data. AI chat is local-only.",
     sdgBadge: "UN SDG Goal 13",
-    sdgTooltip: "Climate Action: Built with sustainable web practices—optimized code, renewable energy infrastructure, and zero unnecessary data collection."
+    sdgTooltip: "Climate Action: Built with sustainable web practices-optimized code, renewable energy infrastructure, and zero unnecessary data collection."
   }
 };
 
@@ -432,7 +432,7 @@ const DATA_FR: ResumeData = {
     translationDisclaimer: "Traductions assistées par IA. Le contexte peut varier.",
     privacyNotice: "Confidentialité : Ce site ne collecte aucune donnée. Le chat IA est local.",
     sdgBadge: "Objectif ODD 13",
-    sdgTooltip: "Action Climatique : Construit avec des pratiques web durables—code optimisé et zéro collecte de données inutile."
+    sdgTooltip: "Action Climatique : Construit avec des pratiques web durables-code optimisé et zéro collecte de données inutile."
   }
 };
 
@@ -585,7 +585,7 @@ const DATA_DE: ResumeData = {
     translationDisclaimer: "KI-unterstützte Übersetzungen.",
     privacyNotice: "Datenschutz: Keine Datenerfassung. KI-Chat ist lokal.",
     sdgBadge: "UN SDG Ziel 13",
-    sdgTooltip: "Klimaschutz: Nachhaltige Web-Praktiken—optimierter Code und null unnötige Datenerfassung."
+    sdgTooltip: "Klimaschutz: Nachhaltige Web-Praktiken-optimierter Code und null unnötige Datenerfassung."
   }
 };
 
@@ -738,7 +738,7 @@ const DATA_ES: ResumeData = {
     translationDisclaimer: "Traducciones asistidas por IA.",
     privacyNotice: "Privacidad: Sin recolección de datos. Chat IA es local.",
     sdgBadge: "Objetivo ODS 13",
-    sdgTooltip: "Acción Climática: Construido con prácticas web sostenibles—código optimizado y cero recolección de datos innecesaria."
+    sdgTooltip: "Acción Climática: Construido con prácticas web sostenibles-código optimizado y cero recolección de datos innecesaria."
   }
 };
 
