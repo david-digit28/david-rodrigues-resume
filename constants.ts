@@ -2,7 +2,7 @@ import { ResumeData, LanguageCode } from './types';
 
 // ==========================================
 // SHARED DATA
-// (Images, Dates, Tech stacks, Socials)
+// (Images, Dates, Tech stacks, Socials)ILR 
 // ==========================================
 const SHARED_DATA = {
   name: "David Rodrigues",
