@@ -181,7 +181,7 @@ const DATA_EN: ResumeData = {
     },
     {
       id: "proj-4",
-      title: "UK Spouse Visa Specialist – Booking Platform",
+      title: "The SmartMove2UK – Booking Platform",
       description: [
         "Full-stack appointment scheduling platform for UK immigration consultancy services, enabling seamless client-to-specialist matchmaking across multiple Indian cities (Mumbai, Delhi, Bangalore, Chandigarh) and online channels (Google Meet, WhatsApp).",
         "Facilitates end-to-end consultation booking with intelligent specialist filtering based on location availability, session format preferences, and service expertise.",
@@ -415,7 +415,7 @@ const DATA_FR: ResumeData = {
     },
     {
       id: "proj-4",
-      title: "Spécialiste Visa Conjoint UK – Plateforme de Réservation",
+      title: "The SmartMove2UK – Plateforme de Réservation",
       description: [
         "Plateforme full-stack de prise de rendez-vous pour des services de conseil en immigration UK, permettant un appariement fluide client–spécialiste dans plusieurs villes indiennes (Mumbai, Delhi, Bangalore, Chandigarh) et via des canaux en ligne (Google Meet, WhatsApp).",
         "Permet une réservation de consultation de bout en bout avec filtrage intelligent des spécialistes selon la disponibilité par localisation, les préférences de format de session et l'expertise de service.",
@@ -642,7 +642,7 @@ const DATA_DE: ResumeData = {
     },
     {
       id: "proj-4",
-      title: "UK-Ehegattenvisum – Buchungsplattform",
+      title: "The SmartMove2UK – Buchungsplattform",
       description: [
         "Full-Stack-Terminbuchungsplattform für UK-Einwanderungsberatung, mit nahtlosem Matching zwischen Kunden und Spezialisten in mehreren indischen Städten (Mumbai, Delhi, Bangalore, Chandigarh) sowie über Online-Kanäle (Google Meet, WhatsApp).",
         "Ermöglicht End-to-End-Buchungen mit intelligenter Spezialisten-Filterung nach Standortverfügbarkeit, bevorzugtem Sitzungsformat und Service-Expertise.",
@@ -869,7 +869,7 @@ const DATA_ES: ResumeData = {
     },
     {
       id: "proj-4",
-      title: "Especialista Visa de Cónyuge UK – Plataforma de Reservas",
+      title: "The SmartMove2UK – Plataforma de Reservas",
       description: [
         "Plataforma full-stack de programación de citas para consultoría de inmigración al Reino Unido, con emparejamiento fluido cliente–especialista en múltiples ciudades de India (Mumbai, Delhi, Bangalore, Chandigarh) y canales online (Google Meet, WhatsApp).",
         "Facilita la reserva de consultas de extremo a extremo con filtrado inteligente de especialistas según disponibilidad por ubicación, preferencias de formato de sesión y experiencia de servicio.",
