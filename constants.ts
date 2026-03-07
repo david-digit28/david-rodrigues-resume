@@ -20,7 +20,7 @@ const SHARED_DATA = {
 // ==========================================
 const DATA_EN: ResumeData = {
   ...SHARED_DATA,
-  title: "Digital Transformation & Operations Specialist",
+  title: "Digital Transformation & Operations Specialist | AI‑Enabled Products & Platforms",
   about: "Strategic Digital Transformation Leader & Full-Stack Developer with 15+ years of international experience across UN, logistics, and legal services. Known for architecting and executing end-to-end transformation roadmaps that combine operating model redesign, ERP-driven process optimisation, and AI-powered digital products. Proven track record of cutting processing times by 70%, securing 40% annual savings, and enabling expansion into new markets including the UK and KSA. Equally comfortable partnering with C-suite on strategy and leading cross-functional teams to deliver full-stack, AI-enabled platforms.",
   location: "Le Grand-Saconnex, Geneva, Switzerland",
   workPermit: "Work Permit B",
@@ -287,7 +287,7 @@ const DATA_EN: ResumeData = {
 // ==========================================
 const DATA_FR: ResumeData = {
   ...DATA_EN,
-  title: "Spécialiste en Transformation Numérique & Opérations",
+  title: "Spécialiste en transformation digitale et opérations | Produits et plateformes assistés par l’IA",
   about: "Leader stratégique en transformation numérique et opérations avec plus de 15 ans d'expérience internationale. Je conçois des systèmes et des processus qui stimulent la croissance et l'efficacité. Expert en développement web piloté par l'IA, design centré sur l'utilisateur et planification stratégique, menant à une expansion commerciale significative. Mes réalisations incluent une réduction de 70 % des délais de traitement et 40 % d'économies annuelles grâce à l'excellence opérationnelle.",
   location: "Genève, Suisse",
   workPermit: "Permis de travail B",
@@ -441,7 +441,7 @@ const DATA_FR: ResumeData = {
 // ==========================================
 const DATA_DE: ResumeData = {
   ...DATA_EN,
-  title: "Spezialist für Digitale Transformation & Betrieb",
+  title: "Spezialist für digitale Transformation und operative Prozesse | KI-gestützte Produkte und Plattformen",
   about: "Strategische Führungskraft in digitaler Transformation und Betrieb mit über 15 Jahren internationaler Erfahrung. Ich entwerfe Systeme und Prozesse, die Wachstum und Effizienz fördern. Experte für KI-gestützte Webentwicklung, nutzerzentriertes Design und strategische Planung. Zu den wichtigsten Erfolgen gehören eine Reduzierung der Bearbeitungszeiten um 70 % und jährliche Einsparungen von 40 % durch operative Exzellenz.",
   location: "Genf, Schweiz",
   workPermit: "Arbeitsbewilligung B",
@@ -594,7 +594,7 @@ const DATA_DE: ResumeData = {
 // ==========================================
 const DATA_ES: ResumeData = {
   ...DATA_EN,
-  title: "Especialista en Transformación Digital y Operaciones",
+  title: "Especialista en transformación digital y operaciones | Productos y plataformas impulsados por IA",
   about: "Líder estratégico en transformación digital y operaciones con más de 15 años de experiencia internacional. Arquitecto sistemas y procesos que impulsan el crecimiento y la eficiencia. Experto en desarrollo web impulsado por IA, diseño centrado en el usuario y planificación estratégica. Mis logros incluyen una reducción del 70% en tiempos de procesamiento y un 40% de ahorro anual mediante la excelencia operativa.",
   location: "Ginebra, Suiza",
   workPermit: "Permiso de trabajo B",
