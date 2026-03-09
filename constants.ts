@@ -21,7 +21,7 @@ const SHARED_DATA = {
 const DATA_EN: ResumeData = {
   ...SHARED_DATA,
   title: "Digital Transformation & Operations Specialist | AI‑Enabled Products & Platforms",
-  about: "Strategic Digital Transformation Leader & Operation Specialist with 15+ years of international experience across UN, logistics, and legal services. Known for architecting and executing end-to-end transformation roadmaps that combine operating model redesign, ERP-driven process optimisation, and AI-powered digital products. Proven track record of cutting processing times by 70%, securing 40% annual savings, and enabling expansion into new markets including the UK and KSA. Equally, comfortable partnering with C-suite on strategy and leading cross-functional teams to deliver full-stack, AI-enabled platforms.",
+  about: "Strategic Digital Transformation Leader & Operation Specialist with 16+ years of international experience across UN, logistics, and legal services. Known for architecting and executing end-to-end transformation roadmaps that combine operating model redesign, ERP-driven process optimisation, and AI-powered digital products. Proven track record of cutting processing times by 70%, securing 40% annual savings, and enabling expansion into new markets including the UK and KSA. Equally, comfortable partnering with C-suite on strategy and leading cross-functional teams to deliver full-stack, AI-enabled platforms.",
   location: "Le Grand-Saconnex, Geneva, Switzerland",
   workPermit: "Work Permit B",
   skills: [
@@ -232,7 +232,7 @@ const DATA_EN: ResumeData = {
     "Narrative Analysis & Storytelling"
   ],
   stats: [
-    { label: "UN & Global Exp", value: "15", prefix: "", suffix: "+ Yrs" },
+    { label: "UN & Global Exp", value: "16", prefix: "", suffix: "+ Yrs" },
     { label: "Annual Savings", value: "40", prefix: "", suffix: "%" },
     { label: "Efficiency Boost", value: "70", prefix: "", suffix: "%" },
     { label: "Markets Expanded", value: "3", prefix: "", suffix: "" }
@@ -288,7 +288,7 @@ const DATA_EN: ResumeData = {
 const DATA_FR: ResumeData = {
   ...DATA_EN,
   title: "Spécialiste en transformation digitale et opérations | Produits et plateformes assistés par l’IA",
-  about: "Responsable stratégique de la transformation numérique et spécialiste des opérations, avec plus de 15 ans d'expérience internationale dans les domaines des Nations Unies, de la logistique et des services juridiques. Reconnu pour la conception et la mise en œuvre de feuilles de route de transformation de bout en bout combinant la refonte des modèles opérationnels, l'optimisation des processus basée sur les ERP et les produits numériques alimentés par l'IA. A fait ses preuves en réduisant les délais de traitement de 70 %, en réalisant 40 % d'économies annuelles et en permettant l'expansion sur de nouveaux marchés, notamment au Royaume-Uni et en Arabie saoudite. Également à l'aise pour collaborer avec les cadres supérieurs sur la stratégie et diriger des équipes interfonctionnelles afin de fournir des plateformes complètes basées sur l'IA.",
+  about: "Responsable stratégique de la transformation numérique et spécialiste des opérations, avec plus de 16 ans d'expérience internationale dans les domaines des Nations Unies, de la logistique et des services juridiques. Reconnu pour la conception et la mise en œuvre de feuilles de route de transformation de bout en bout combinant la refonte des modèles opérationnels, l'optimisation des processus basée sur les ERP et les produits numériques alimentés par l'IA. A fait ses preuves en réduisant les délais de traitement de 70 %, en réalisant 40 % d'économies annuelles et en permettant l'expansion sur de nouveaux marchés, notamment au Royaume-Uni et en Arabie saoudite. Également à l'aise pour collaborer avec les cadres supérieurs sur la stratégie et diriger des équipes interfonctionnelles afin de fournir des plateformes complètes basées sur l'IA.",
   location: "Genève, Suisse",
   workPermit: "Permis de travail B",
   skills: DATA_EN.skills.map(s => ({
@@ -386,7 +386,7 @@ const DATA_FR: ResumeData = {
     "Analyse Narrative & Storytelling"
   ],
   stats: [
-    { label: "Exp. ONU & Global", value: "15", prefix: "", suffix: "+ Ans" },
+    { label: "Exp. ONU & Global", value: "16", prefix: "", suffix: "+ Ans" },
     { label: "Économies Annuelles", value: "40", prefix: "", suffix: "%" },
     { label: "Gain d'Efficacité", value: "70", prefix: "", suffix: "%" },
     { label: "Marchés Étendus", value: "3", prefix: "", suffix: "" }
@@ -442,7 +442,7 @@ const DATA_FR: ResumeData = {
 const DATA_DE: ResumeData = {
   ...DATA_EN,
   title: "Spezialist für digitale Transformation und operative Prozesse | KI-gestützte Produkte und Plattformen",
-  about: "Strategischer Leiter für digitale Transformation und Betriebsspezialist mit über 15 Jahren internationaler Erfahrung in den Bereichen UN, Logistik und Rechtsdienstleistungen. Bekannt für die Konzeption und Umsetzung von End-to-End-Transformationsroadmaps, die die Neugestaltung von Betriebsmodellen, ERP-gesteuerte Prozessoptimierung und KI-gestützte digitale Produkte kombinieren. Nachweisliche Erfolge bei der Verkürzung von Bearbeitungszeiten um 70 %, der Erzielung von jährlichen Einsparungen von 40 % und der Erschließung neuer Märkte, darunter Großbritannien und Saudi-Arabien. Ebenso vertraut mit der Zusammenarbeit mit Führungskräften bei der Strategieentwicklung und der Leitung funktionsübergreifender Teams zur Bereitstellung von Full-Stack-Plattformen mit KI-Unterstützung.",
+  about: "Strategischer Leiter für digitale Transformation und Betriebsspezialist mit über 16 Jahren internationaler Erfahrung in den Bereichen UN, Logistik und Rechtsdienstleistungen. Bekannt für die Konzeption und Umsetzung von End-to-End-Transformationsroadmaps, die die Neugestaltung von Betriebsmodellen, ERP-gesteuerte Prozessoptimierung und KI-gestützte digitale Produkte kombinieren. Nachweisliche Erfolge bei der Verkürzung von Bearbeitungszeiten um 70 %, der Erzielung von jährlichen Einsparungen von 40 % und der Erschließung neuer Märkte, darunter Großbritannien und Saudi-Arabien. Ebenso vertraut mit der Zusammenarbeit mit Führungskräften bei der Strategieentwicklung und der Leitung funktionsübergreifender Teams zur Bereitstellung von Full-Stack-Plattformen mit KI-Unterstützung.",
   location: "Genf, Schweiz",
   workPermit: "Arbeitsbewilligung B",
   skills: DATA_EN.skills.map(s => ({
@@ -539,7 +539,7 @@ const DATA_DE: ResumeData = {
     "Narrative Analyse & Storytelling"
   ],
   stats: [
-    { label: "UN & Global Erf.", value: "15", prefix: "", suffix: "+ Jahre" },
+    { label: "UN & Global Erf.", value: "16", prefix: "", suffix: "+ Jahre" },
     { label: "Jährliche Einsparung", value: "40", prefix: "", suffix: "%" },
     { label: "Effizienzsteigerung", value: "70", prefix: "", suffix: "%" },
     { label: "Märkte Erweitert", value: "3", prefix: "", suffix: "" }
@@ -595,7 +595,7 @@ const DATA_DE: ResumeData = {
 const DATA_ES: ResumeData = {
   ...DATA_EN,
   title: "Especialista en transformación digital y operaciones | Productos y plataformas impulsados por IA",
-  about: "Líder estratégico en transformación digital y especialista en operaciones con más de 15 años de experiencia internacional en la ONU, logística y servicios jurídicos. Conocido por diseñar y ejecutar planes de transformación integrales que combinan el rediseño de modelos operativos, la optimización de procesos impulsada por ERP y productos digitales basados en IA. Tiene un historial probado de reducción de los tiempos de procesamiento en un 70 %, lo que ha permitido un ahorro anual del 40 % y la expansión a nuevos mercados, como el Reino Unido y Arabia Saudí. Asimismo, se siente cómodo colaborando con altos directivos en materia de estrategia y liderando equipos multifuncionales para ofrecer plataformas completas basadas en inteligencia artificial.",
+  about: "Líder estratégico en transformación digital y especialista en operaciones con más de 16 años de experiencia internacional en la ONU, logística y servicios jurídicos. Conocido por diseñar y ejecutar planes de transformación integrales que combinan el rediseño de modelos operativos, la optimización de procesos impulsada por ERP y productos digitales basados en IA. Tiene un historial probado de reducción de los tiempos de procesamiento en un 70 %, lo que ha permitido un ahorro anual del 40 % y la expansión a nuevos mercados, como el Reino Unido y Arabia Saudí. Asimismo, se siente cómodo colaborando con altos directivos en materia de estrategia y liderando equipos multifuncionales para ofrecer plataformas completas basadas en inteligencia artificial.",
   location: "Ginebra, Suiza",
   workPermit: "Permiso de trabajo B",
   skills: DATA_EN.skills.map(s => ({
@@ -692,7 +692,7 @@ const DATA_ES: ResumeData = {
     "Análisis Narrativo y Storytelling"
   ],
   stats: [
-    { label: "Exp. ONU y Global", value: "15", prefix: "", suffix: "+ Años" },
+    { label: "Exp. ONU y Global", value: "16", prefix: "", suffix: "+ Años" },
     { label: "Ahorro Anual", value: "40", prefix: "", suffix: "%" },
     { label: "Aumento Eficiencia", value: "70", prefix: "", suffix: "%" },
     { label: "Mercados Expandidos", value: "3", prefix: "", suffix: "" }
