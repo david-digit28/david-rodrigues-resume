@@ -378,6 +378,7 @@ const DATA_FR: ResumeData = {
   languages: [
     { name: "Anglais", level: "Courant" },
     { name: "Hindi", level: "Courant" },
+        { name: "Marathi", level: "Courant" },
     { name: "Français", level: "Basique" }
   ],
   interests: [
@@ -531,6 +532,7 @@ const DATA_DE: ResumeData = {
   languages: [
     { name: "Englisch", level: "Fließend" },
     { name: "Hindi", level: "Fließend" },
+        { name: "Marathi", level: "Fließend" },
     { name: "Französisch", level: "Grundkenntnisse" }
   ],
   interests: [
@@ -684,6 +686,7 @@ const DATA_ES: ResumeData = {
   languages: [
     { name: "Inglés", level: "Fluido" },
     { name: "Hindi", level: "Fluido" },
+        { name: "Marathi", level: "Fluido" },
     { name: "Francés", level: "Básico" }
   ],
   interests: [
