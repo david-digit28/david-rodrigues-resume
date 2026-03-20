@@ -23,7 +23,7 @@ export const sendMessageToGemini = async (
   }
 
   // Initialize the API
-  const ai = new GoogleGenAIClass({ apiKey: process.env.API_KEY || 'MISSING_KEY' });
+  const ai = new GoogleGenAIClass({ apiKey: (window as any).process?.env?.API_KEY || '' });
 
   const whatsappLink = `https://wa.me/${resumeData.phone.replace(/[^0-9]/g, '')}`;
 
@@ -54,9 +54,9 @@ export const sendMessageToGemini = async (
   `;
 
   try {
-    // Use gemini-3-flash-preview for optimal text generation performance
+    // Use gemini-2.0-flash for optimal text generation performance
     const response = await ai.models.generateContentStream({
-      model: 'gemini-3-flash-preview',
+      model: 'gemini-2.0-flash',
       contents: userPrompt,
       config: {
         systemInstruction: systemInstruction,
