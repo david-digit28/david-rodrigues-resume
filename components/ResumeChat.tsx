@@ -45,6 +45,16 @@ const ResumeChat: React.FC = () => {
     scrollToBottom();
   }, [messages, isOpen]);
 
+    // Auto-open chat after 30 seconds (once per session)
+  useEffect(() => {
+    if (sessionStorage.getItem('nexus_auto_opened')) return;
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+      sessionStorage.setItem('nexus_auto_opened', 'true');
+    }, 30000);
+    return () => clearTimeout(timer);
+  }, []);
+
   const handleSend = async () => {
     if (!inputValue.trim() || isLoading) return;
 
