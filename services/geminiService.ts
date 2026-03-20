@@ -1,10 +1,10 @@
 import { ResumeData, LanguageCode } from "../types";
 
 const API_KEY = 'AIzaSyBTqDsIlwd20mEXUqiXtNj6wV9YUmWFg0o';
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse&key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 /**
- * Generates a localized, context-aware streaming response from Gemini
+ * Generates a localized, context-aware response from Gemini
  * Uses REST API directly to avoid SDK bundling issues
  */
 export const sendMessageToGemini = async (
@@ -64,37 +64,14 @@ export const sendMessageToGemini = async (
     throw new Error(`Gemini API error: ${response.status}`);
   }
 
-  // Return an async generator that yields text chunks from the SSE stream
+  const json = await response.json();
+  const text = json?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+
+  // Return an async iterable that yields the full text as one chunk
+  // (matching the streaming interface expected by ResumeChat)
   return {
     [Symbol.asyncIterator]: async function* () {
-      const reader = response.body!.getReader();
-      const decoder = new TextDecoder();
-      let buffer = '';
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split('\n');
-        buffer = lines.pop() || '';
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            const data = line.slice(6).trim();
-            if (data === '[DONE]') return;
-            try {
-              const parsed = JSON.parse(data);
-              const text = parsed?.candidates?.[0]?.content?.parts?.[0]?.text;
-              if (text) {
-                            yield { text: text };
-              }
-            } catch {
-              // skip invalid JSON
-            }
-          }
-        }
-      }
+      yield { text: text };
     }
   };
 };
