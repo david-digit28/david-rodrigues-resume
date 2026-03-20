@@ -1,5 +1,5 @@
-// Uses VITE_GEMINI_API_KEY from Vercel environment variables
-const API_KEY = process.env.VITE_GEMINI_API_KEY || 'AIzaSyBTqDsIlwd20mEXUqiXtNj6wV9YUmWFg0o';
+// Uses GEMINI_API_KEY from Vercel environment variables
+const API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyBTqDsIlwd20mEXUqiXtNj6wV9YUmWFg0o';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 export default async function handler(req: any, res: any) {
