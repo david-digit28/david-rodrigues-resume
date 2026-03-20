@@ -1,11 +1,8 @@
 import { ResumeData, LanguageCode } from "../types";
 
-const API_KEY = 'AIzaSyBTqDsIlwd20mEXUqiXtNj6wV9YUmWFg0o';
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
-
 /**
  * Generates a localized, context-aware response from Gemini
- * Uses REST API directly to avoid SDK bundling issues
+ * Calls the /api/chat Vercel serverless function to avoid CORS issues
  */
 export const sendMessageToGemini = async (
   userPrompt: string,
@@ -36,39 +33,22 @@ export const sendMessageToGemini = async (
     - Do NOT mention LinkedIn.
     `;
 
-  const requestBody = {
-    system_instruction: {
-      parts: [{ text: systemInstruction }]
-    },
-    contents: [
-      {
-        role: 'user',
-        parts: [{ text: userPrompt }]
-      }
-    ],
-    generationConfig: {
-      temperature: 0.7,
-      maxOutputTokens: 1024,
-    }
-  };
-
-  const response = await fetch(API_URL, {
+  const response = await fetch('/api/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(requestBody),
+    body: JSON.stringify({ userPrompt, systemInstruction }),
   });
 
   if (!response.ok) {
     const errorText = await response.text();
-    console.error('Gemini API error:', errorText);
-    throw new Error(`Gemini API error: ${response.status}`);
+    console.error('API error:', errorText);
+    throw new Error(`API error: ${response.status}`);
   }
 
   const json = await response.json();
-  const text = json?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+  const text = json?.text || '';
 
   // Return an async iterable that yields the full text as one chunk
-  // (matching the streaming interface expected by ResumeChat)
   return {
     [Symbol.asyncIterator]: async function* () {
       yield { text: text };
