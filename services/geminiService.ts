@@ -23,7 +23,7 @@ export const sendMessageToGemini = async (
   }
 
   // Initialize the API
-  const ai = new GoogleGenAIClass({ apiKey: (window as any).process?.env?.API_KEY || '' });
+  const ai = new GoogleGenAIClass({ apiKey: 'AIzaSyBTqDsIlwd20mEXUqiXtNj6wV9YUmWFg0o' });
 
   const whatsappLink = `https://wa.me/${resumeData.phone.replace(/[^0-9]/g, '')}`;
 
