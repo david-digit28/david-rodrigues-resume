@@ -6,12 +6,12 @@ import { ResumeData, LanguageCode } from './types';
 // ==========================================
 const SHARED_DATA = {
   name: "David Rodrigues",
-  email: "david28gva@gmail.com",
+      email: "hi@david-rds.com",
   phone: "41779065990",
   avatarUrl: "/david-rodrigues.jpg",
   socials: [
     { platform: "LinkedIn", url: "https://linkedin.com/in/daviddas13jan/", icon: "linkedin" },
-    { platform: "Email", url: "mailto:david28gva@gmail.com", icon: "mail" }
+        { platform: "Email", url: "mailto:hi@david-rds.com", icon: "mail" }
   ]
 };
 
