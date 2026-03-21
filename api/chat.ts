@@ -19,7 +19,8 @@ export default async function handler(req: any, res: any) {
   }
 
   try {
-    const { userPrompt, systemInstruction } = req.body;
+    const { userPrompt, systemInstruction: incomingInstruction } = req.body;
+const systemInstruction = incomingInstruction || "You are Nexus, David Rodrigues' Strategic AI Assistant.";
 
     const requestBody = {
       system_instruction: {
