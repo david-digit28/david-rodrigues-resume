@@ -9,12 +9,14 @@ export const sendMessageToGemini = async (
   resumeData: ResumeData,
   language: LanguageCode
 ) => {
+  // Use the new professional email
+  const professionalEmail = "hi@david-rds.com";
   const whatsappLink = `https://wa.me/${(resumeData.phone || '').replace(/[^0-9]/g, '')}`;
 
   // Build a compact context summary to avoid large payloads
   const context = {
     name: resumeData.name,
-    email: resumeData.email,
+    email: professionalEmail,
     phone: resumeData.phone,
     title: resumeData.title,
     about: resumeData.about,
@@ -31,13 +33,19 @@ export const sendMessageToGemini = async (
     languages: resumeData.languages,
   };
 
-  // FIXED: Template literal now correctly encloses the entire instruction
-  const systemInstruction = `You are Nexus, the professional AI Assistant for David Rodrigues' portfolio.
-Respond ONLY in ${language.toUpperCase()}. Be professional, strategic, and concise.
-When discussing David's experience, emphasize the business impact, digital transformation success, and ROI.
-Use ONLY the data below. If information is missing, politely ask the user to contact David directly.
-For contact: Email: ${resumeData.email} | WhatsApp: [Chat on WhatsApp](${whatsappLink})
-Do NOT create mailto links. Do NOT mention LinkedIn.
+  const systemInstruction = `You are Nexus, the strategic AI Assistant for David Rodrigues' portfolio.
+Respond ONLY in ${language.toUpperCase()}. Be professional, strategic, and ROI-focused.
+When discussing David's 16+ years of experience, emphasize business impact and digital transformation success.
+Use ONLY the data below. If information is missing, politely ask the user to contact David.
+
+CONTACT DETAILS:
+- Email: ${professionalEmail}
+- WhatsApp: [Chat on WhatsApp](${whatsappLink})
+
+RULES:
+- Do NOT create mailto links.
+- Do NOT mention LinkedIn.
+- Be concise and professional.
 
 DATA:
 ${JSON.stringify(context)}`;
