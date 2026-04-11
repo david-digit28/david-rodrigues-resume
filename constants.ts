@@ -148,11 +148,7 @@ const DATA_EN: ResumeData = {
     }
   ],
   projects: [
-    {
-      id: "proj-1",
-      title: "UK Immigration Tools Suite",
-      descrip
-            {
+        {
       id: "proj-6",
       title: "Caseora - Immigration Case Management Platform",
       description: [
@@ -163,7 +159,11 @@ const DATA_EN: ResumeData = {
       ],
       tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Vercel"],
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
-    },tion: [
+    },
+    {
+      id: "proj-1",
+      title: "UK Immigration Tools Suite",
+      description: [
         "UK Sponsorship Cost Calculator: Developed a multi-step estimator for businesses to calculate total Home Office fees (Licence, CoS, ISC, and Health Surcharges). Integrated automated lead capture via Google Sheets and secure multi-recipient email delivery using Resend.",
         "UK Visa Absence Calculator: Developed a comprehensive compliance tool for UK visa and citizenship applicants to verify travel history against complex Home Office limits.",
         "Indefinite Leave to Remain (ILR) Calculator: Built a critical tool to give immediate clarity on continuous lawful residence and earliest possible application date. The user feeds in the data and the total with breakup is forwarded to their email and the business development team for lead conversion."
