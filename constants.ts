@@ -84,7 +84,7 @@ const DATA_EN: ResumeData = {
       description: [
 "UK-based immigration law firm. Joined when the firm operated a single Mumbai branch. Through digital transformation, SEO/PPC execution, and operational scaling, helped drive expansion to 3 India branches, UK market entry, and the firm's evolution into an AI-driven immigration practice.",
         "##PHASE:Phase 1 - Strategic Transformation Lead (2015 - 2022)",
-        "Scaled the firm from 1 branch in Mumbai to 3 branches across India — Mumbai, Delhi, and Bangalore — through digital strategy, SEO/PPC campaigns, talent acquisition frameworks, and vendor management.",
+        "Scaled the firm from 1 branch in Mumbai to 3 branches across India - Mumbai, Delhi, and Bangalore - through digital strategy, SEO/PPC campaigns, talent acquisition frameworks, and vendor management.",
         "Designed and executed an end-to-end operating model redesign, moving from manual workflows to ERP-driven processes and achieving a 40% annual cost reduction.",
         "Built the firm's digital presence from the ground up, generating strong UK demand and helping create the conditions for the launch of the sister company, Conroy Baker Ltd., in late 2022.",
         "##PHASE:Phase 2 - Parallel Consulting (November 2022 - March 2025)",
