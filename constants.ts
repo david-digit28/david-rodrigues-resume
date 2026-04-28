@@ -83,7 +83,7 @@ const DATA_EN: ResumeData = {
       period: "04/2015 – Present",
       description: [
 "UK-based immigration law firm. Joined when the firm operated a single Mumbai branch. Through digital transformation, SEO/PPC execution, and operational scaling, helped drive expansion to 3 India branches, UK market entry, and the firm's evolution into an AI-driven immigration practice.",
-        "##PHASE:Phase 1 - Strategic Transformation Lead (2015 - 2022)",
+        "##PHASE:Phase 1 - Strategic Transformation Lead (APRIL 2015 - NOVEMBER 2022)",
         "Scaled the firm from 1 branch in Mumbai to 3 branches across India - Mumbai, Delhi, and Bangalore - through digital strategy, SEO/PPC campaigns, talent acquisition frameworks, and vendor management.",
         "Designed and executed an end-to-end operating model redesign, moving from manual workflows to ERP-driven processes and achieving a 40% annual cost reduction.",
         "Built the firm's digital presence from the ground up, generating strong UK demand and helping create the conditions for the launch of the sister company, Conroy Baker Ltd., in late 2022.",
@@ -333,7 +333,7 @@ const DATA_FR: ResumeData = {
       period: "Avril 2015 - aujourd'hui",
       description: [
         "Cabinet d'avocats spécialisé en droit de l'immigration basé au Royaume-Uni. J'ai rejoint le cabinet alors qu'il ne comptait qu'une seule succursale à Mumbai. Grâce à la transformation numérique, à la mise en œuvre de stratégies de référencement naturel (SEO) et de publicité au coût par clic (PPC), ainsi qu'à la montée en puissance opérationnelle, j'ai contribué à l'expansion du cabinet vers trois succursales en Inde, à son entrée sur le marché britannique et à son évolution vers un cabinet spécialisé en droit de l'immigration s'appuyant sur l'intelligence artificielle.",
-        "##PHASE:Phase 1 - Responsable de la transformation stratégique (2015 - 2022)",
+        "##PHASE:Phase 1 - Responsable de la ransformation stratégique (avril 2015 - novembre 2022)",
         "Développement du cabinet, passant d'une seule succursale à Mumbai à trois succursales à travers l'Inde - Mumbai, Delhi et Bangalore - grâce à une stratégie numérique, des campagnes de référencement naturel (SEO) et de publicité au coût par clic (PPC), des cadres de recrutement de talents et la gestion des fournisseurs.",
         "Conception et mise en œuvre d'une refonte complète du modèle opérationnel, passant de flux de travail manuels à des processus pilotés par un ERP, ce qui a permis de réduire les coûts de 40 % par an.",
         "Développement de la présence numérique de l'entreprise à partir de zéro, générant une forte demande au Royaume-Uni et contribuant à créer les conditions nécessaires au lancement de la société sœur, Conroy Baker Ltd., fin 2022.",
@@ -522,7 +522,7 @@ const DATA_DE: ResumeData = {
       period: "April 2015 - heute",
       description: [
         "Auf das Vereinigte Königreich spezialisierte Anwaltskanzlei für Einwanderungsrecht. Ich trat der Kanzlei bei, als sie noch eine einzige Niederlassung in Mumbai betrieb. Durch digitale Transformation, die Umsetzung von SEO- und PPC-Maßnahmen sowie die Skalierung der Betriebsabläufe trug ich dazu bei, die Expansion auf drei Niederlassungen in Indien, den Markteintritt im Vereinigten Königreich und die Entwicklung der Kanzlei zu einer KI-gestützten Einwanderungskanzlei voranzutreiben.",
-        "##PHASE:Phase 1 - Leiter der strategischen Transformation (2015 - 2022)",
+        "##PHASE:Phase 1 - Leiter Strategische Transformation APRIL 2015 - NOVEMBER 2022)",
         "Skalierte die Kanzlei von einer Niederlassung in Mumbai auf drei Niederlassungen in ganz Indien - Mumbai, Delhi und Bangalore - durch digitale Strategie, SEO-/PPC-Kampagnen, Rahmenwerke für die Talentakquise und Lieferantenmanagement.",
         "Konzeption und Umsetzung einer umfassenden Neugestaltung des Betriebsmodells, wobei manuelle Arbeitsabläufe durch ERP-gesteuerte Prozesse ersetzt und eine jährliche Kostensenkung von 40 % erreicht wurden.",
         "Aufbau der digitalen Präsenz des Unternehmens von Grund auf, wodurch eine starke Nachfrage im Vereinigten Königreich generiert und die Voraussetzungen für die Gründung der Schwesterfirma Conroy Baker Ltd. Ende 2022 geschaffen wurden.",
@@ -711,7 +711,7 @@ const DATA_ES: ResumeData = {
       period: "Abril de 2015 - Actualidad",
       description: [
         "Bufete de abogados especializado en inmigración con sede en el Reino Unido. Me incorporé cuando el bufete solo contaba con una sucursal en Bombay. A través de la transformación digital, la implementación de estrategias de SEO y PPC, y la ampliación de las operaciones, contribuí a impulsar la expansión a tres sucursales en la India, la entrada en el mercado británico y la evolución del bufete hacia un despacho de inmigración impulsado por la inteligencia artificial.",
-        "##PHASE:Fase 1: Responsable de transformación estratégica (2015 - 2022)",
+        "##PHASE:Fase 1: Responsable de Transformación Estratégica (ABRIL DE 2015 - NOVIEMBRE DE 2022)",
         "Amplié el bufete de una sucursal en Bombay a tres sucursales en toda la India - Bombay, Delhi y Bangalore - mediante estrategia digital, campañas de SEO/PPC, marcos de captación de talento y gestión de proveedores.",
         "Diseñé y ejecuté una remodelación integral del modelo operativo, pasando de flujos de trabajo manuales a procesos impulsados por ERP y logrando una reducción anual de costes del 40 %.",
         "Construí la presencia digital de la empresa desde cero, generando una fuerte demanda en el Reino Unido y ayudando a crear las condiciones para el lanzamiento de la empresa hermana, Conroy Baker Ltd., a finales de 2022.",
