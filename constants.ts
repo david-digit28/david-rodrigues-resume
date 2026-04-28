@@ -82,14 +82,20 @@ const DATA_EN: ResumeData = {
       location: "Remotely from Geneva",
       period: "04/2015 – Present",
       description: [
-        "Own digital transformation, budget, and HR strategy, securing 40% annual savings while scaling teams to support international expansion, including two new branches in India and a UK sister company (Conroy Baker Ltd.).",
-        "Designed the firm's operating model and digital blueprint end-to-end, transitioning from manual workflows to ERP-driven processes that significantly elevated client consultation rates.",
-        "Spearheaded the digital go-to-market strategy for the new UK entity, defining the SEO and content roadmap that generated substantial lead volume within the first three months.",
-        "Architected and coded a proprietary in-house CRM (React, TypeScript, PostgreSQL, Drizzle ORM) with role-based access control and multi-currency tracking, eliminating third-party SaaS costs and centralising visa pipeline visibility.",
-        "Engineered a custom appointment platform integrating Razorpay, Stripe, and video conferencing with multi-location logic, multi-currency pricing, and automatic tax calculations (GST/VAT).",
-        "Developed high-conversion compliance tools-including Sponsorship Cost and ILR & Absence calculators-using Google AI Studio logic and Resend automation for lead nurturing.",
-        "Currently engineering the UK Spouse Visa platform using GEO standards and Framer Motion to achieve superior Core Web Vitals for high-value legal service conversion."
-      ],
+"UK-based immigration law firm. Joined when the firm operated a single Mumbai branch. Through digital transformation, SEO/PPC execution, and operational scaling, helped drive expansion to 3 India branches, UK market entry, and the firm's evolution into an AI-driven immigration practice.",
+        "##PHASE:Phase 1 - Strategic Transformation Lead (2015 - 2022)",
+        "Scaled the firm from 1 branch in Mumbai to 3 branches across India — Mumbai, Delhi, and Bangalore — through digital strategy, SEO/PPC campaigns, talent acquisition frameworks, and vendor management.",
+        "Designed and executed an end-to-end operating model redesign, moving from manual workflows to ERP-driven processes and achieving a 40% annual cost reduction.",
+        "Built the firm's digital presence from the ground up, generating strong UK demand and helping create the conditions for the launch of the sister company, Conroy Baker Ltd., in late 2022.",
+        "##PHASE:Phase 2 - Parallel Consulting (November 2022 - March 2025)",
+        "Continued as a strategic advisor alongside UN contract work, supporting UK market entry and ongoing digital initiatives.",
+        "Led the digital go-to-market roadmap for the UK entity, using SEO and PPC to build search visibility and generate qualified leads within the first 3 months.",
+        "##PHASE:Phase 3 - Full-Time Re-engagement (April 2025 - Present)",
+        "Architected and built a proprietary in-house CRM using React, TypeScript, PostgreSQL, and Drizzle ORM, centralising India-UK operations and removing third-party SaaS costs.",
+        "Developed AI-driven compliance tools, including Sponsorship Cost and ILR Absence calculators, that now act as the firm's primary lead generation engine.",
+        "Led automation across onboarding, resource allocation, and documentation workflows to reduce errors and improve visa processing speed.",
+        "Engineered a custom multi-location, multi-currency booking system integrating Stripe and Razorpay with automatic GST/VAT calculation.",
+        "Built the next-generation UK Spouse Visa platform using GEO standards and Framer Motion for stronger Core Web Vitals performance.",      ],
       technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
     },
     {
