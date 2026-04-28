@@ -78,7 +78,7 @@ const DATA_EN: ResumeData = {
     {
       id: "exp-1",
       role: "Head: Digital Transformation, Budget, and HR",
-      company: "The Smartmove2UK",
+      company: "The SmartMove2UK",
       location: "Remotely from Geneva",
       period: "04/2015 – Present",
       description: [
