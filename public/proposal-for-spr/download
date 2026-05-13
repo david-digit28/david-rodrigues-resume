@@ -1,0 +1,294 @@
+import { FadeIn } from '../FadeIn';
+import { useLanguage } from '../LanguageContext';
+
+export function StrategicClarifications() {
+  const { t } = useLanguage();
+
+  const faqs = [
+    {
+      question: t(
+        '1. What exactly would Swiss Platinum Relocation be investing in?',
+        '1. Concrètement, dans quoi Swiss Platinum Relocation investirait-elle ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'The first phase focuses on strengthening visibility, credibility, and client experience foundations.',
+              'La première phase vise à renforcer les fondations de visibilité, de crédibilité et d\'expérience client.'
+            )}
+          </p>
+          <p>{t('This includes:', 'Cela inclut :')}</p>
+          <ul className="space-y-2 list-none border-l border-gray-100 pl-6">
+            <li className="text-gray-600 font-light">• {t('reviewing current digital positioning', 'l\'examen du positionnement numérique actuel')}</li>
+            <li className="text-gray-600 font-light">• {t('improving how the company is presented online', 'l\'amélioration de la présentation de l\'entreprise en ligne')}</li>
+            <li className="text-gray-600 font-light">• {t('strengthening search and discovery visibility', 'le renforcement de la visibilité sur les environnements de recherche et de découverte')}</li>
+            <li className="text-gray-600 font-light">• {t('refining trust signals and first impressions', 'l\'affinement des signaux de confiance et des premières impressions')}</li>
+            <li className="text-gray-600 font-light">• {t('improving the client enquiry journey', 'l\'amélioration du parcours de demande client')}</li>
+            <li className="text-gray-600 font-light">• {t('identifying high-impact opportunities for international audiences', 'l\'identification d\'opportunités à fort impact pour les publics internationaux')}</li>
+          </ul>
+          <p>
+            {t(
+              'Phase 1 also establishes a practical roadmap for the next 60–90 days based on Swiss Platinum Relocation\'s priorities and positioning goals.',
+              'La Phase 1 établit également une feuille de route pratique pour les 60 à 90 jours suivants, basée sur les priorités et les objectifs de positionnement de Swiss Platinum Relocation.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The outcome of Phase 1 is a clear visibility and trust baseline, a set of priority improvements, and a practical 60–90 day action plan aligned with Swiss Platinum Relocation\'s positioning.',
+              'Le résultat de la Phase 1 est un état de référence clair en matière de visibilité et de confiance, un ensemble d\'améliorations prioritaires, et un plan d\'action pratique sur 60 à 90 jours aligné avec le positionnement de Swiss Platinum Relocation.'
+            )}
+          </p>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '2. How is success measured?',
+        '2. Comment la réussite est-elle mesurée ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'Success is measured through practical business indicators such as:',
+              'La réussite est mesurée à travers des indicateurs concrets et liés à l\'activité, tels que :'
+            )}
+          </p>
+          <ul className="space-y-2 list-none border-l border-gray-100 pl-6">
+            <li className="text-gray-600 font-light">• {t('stronger branded visibility', 'une visibilité de marque renforcée')}</li>
+            <li className="text-gray-600 font-light">• {t('improved search presence', 'une présence améliorée sur les moteurs de recherche')}</li>
+            <li className="text-gray-600 font-light">• {t('higher-quality enquiries', 'une qualité supérieure des demandes entrantes')}</li>
+            <li className="text-gray-600 font-light">• {t('improved engagement with key pages', 'un engagement accru sur les pages clés')}</li>
+            <li className="text-gray-600 font-light">• {t('stronger positioning with international audiences', 'un positionnement plus fort auprès des publics internationaux')}</li>
+            <li className="text-gray-600 font-light">• {t('better referral and relationship opportunities', 'de meilleures opportunités de recommandation et de relation')}</li>
+            <li className="text-gray-600 font-light">• {t('increased trust before first contact', 'une confiance accrue avant le premier contact')}</li>
+            <li className="text-gray-600 font-light">• {t('share of voice within the Geneva premium relocation segment', 'une part de voix renforcée au sein du segment premium de la relocation à Genève')}</li>
+          </ul>
+          <p>
+            {t(
+              'The objective is not vanity metrics, but stronger long-term positioning and better client engagement.',
+              'L\'objectif n\'est pas de produire des métriques de vanité, mais de bâtir un positionnement plus fort à long terme et un meilleur engagement client.'
+            )}
+          </p>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '3. Why David Rodrigues rather than a larger agency?',
+        '3. Pourquoi David Rodrigues plutôt qu\'une grande agence ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'This type of work benefits from direct involvement, discretion, and long-term thinking.',
+              'Ce type de mission bénéficie d\'un engagement direct, de discrétion et d\'une réflexion sur le long terme.'
+            )}
+          </p>
+          <p>
+            {t(
+              'David works independently and remains personally involved in both strategy and execution. Communication and execution remain direct, senior, and continuous throughout the engagement.',
+              'David travaille de manière indépendante et reste personnellement impliqué dans la stratégie comme dans l\'exécution. La communication et la mise en œuvre demeurent directes, seniors et continues tout au long de l\'engagement.'
+            )}
+          </p>
+          <p>
+            {t(
+              'His background combines operational experience within International Genève environments with hands-on digital growth and business transformation work.',
+              'Son parcours combine une expérience opérationnelle au sein des environnements de la Genève Internationale avec un travail concret de croissance numérique et de transformation d\'entreprise.'
+            )}
+          </p>
+          <p>
+            {t(
+              'For premium and relationship-driven businesses, this often creates a more focused and discreet working relationship.',
+              'Pour les activités premium et axées sur la relation, cela permet souvent une collaboration plus ciblée et plus discrète.'
+            )}
+          </p>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '4. What relevant experience supports this approach?',
+        '4. Quelle expérience pertinente soutient cette approche ?'
+      ),
+      answer: (
+        <div className="space-y-6">
+          <p>
+            {t(
+              'David has spent more than 16 years working across digital transformation, operations, international business environments, and client-focused growth initiatives.',
+              'David cumule plus de 16 années d\'expérience à travers la transformation numérique, les opérations, les environnements d\'affaires internationaux et les initiatives de croissance centrées sur le client.'
+            )}
+          </p>
+          <p>
+            {t(
+              <>His experience includes helping <strong>The SmartMove2UK</strong> - an immigration and international mobility business headquartered in Mumbai - scale from a single office into a multi-branch operation across Mumbai, Delhi, Bangalore, and Chandigarh, while also supporting the digital positioning of its UK sister company, <strong>Conroy Baker Ltd</strong>.</>,
+              <>Son parcours inclut l\'accompagnement de <strong>The SmartMove2UK</strong> - un cabinet d\'immigration et de mobilité internationale dont le siège est à Mumbai - dans son développement, passant d\'un bureau unique à une organisation multi-sites couvrant Mumbai, Delhi, Bangalore et Chandigarh, tout en soutenant en parallèle le positionnement numérique de sa société sœur britannique, <strong>Conroy Baker Ltd</strong>.</>
+            )}
+          </p>
+          <div className="space-y-2">
+            <p>{t('His work included:', 'Son travail a notamment porté sur :')}</p>
+            <ul className="space-y-1 list-none border-l border-gray-100 pl-6">
+              <li className="text-gray-600 font-light">• {t('digital visibility and lead-generation strategy', 'la stratégie de visibilité numérique et de génération de prospects')}</li>
+              <li className="text-gray-600 font-light">• {t('CRM and booking systems', 'les systèmes de CRM et de prise de rendez-vous')}</li>
+              <li className="text-gray-600 font-light">• {t('AI-enabled client tools', 'les outils clients enrichis par l\'IA')}</li>
+              <li className="text-gray-600 font-light">• {t('operational process improvement', 'l\'amélioration des processus opérationnels')}</li>
+              <li className="text-gray-600 font-light">• {t('online positioning and client engagement', 'le positionnement en ligne et l\'engagement client')}</li>
+            </ul>
+          </div>
+          <p>
+            {t(
+              <>David has also worked as a consultant with <strong>Ghosh Group</strong> on digital strategy and operational initiatives connected to international business development and expansion efforts, including projects linked to Geneva.</>,
+              <>David a également collaboré en tant que consultant avec <strong>Ghosh Group</strong> sur la stratégie numérique et des initiatives opérationnelles liées au développement et à l\'expansion d\'affaires internationales, incluant des projets connectés à Genève.</>
+            )}
+          </p>
+          <p>
+            {t(
+              <>In parallel, his experience within the International Genève environment through <strong>UNITAR</strong> provided exposure to international operational systems, cross-cultural coordination, executive workflows, and globally connected institutional environments.</>,
+              <>En parallèle, son expérience au sein de l\'environnement de la Genève Internationale, à travers <strong>UNITAR</strong>, lui a apporté une exposition aux systèmes opérationnels internationaux, à la coordination interculturelle, aux flux de travail exécutifs et aux environnements institutionnels globalement connectés.</>
+            )}
+          </p>
+          <div className="space-y-2">
+            <p>{t('The parallels with premium relocation services are practical and direct:', 'Les parallèles opérationnels avec les services de relocation premium sont concrets et directs :')}</p>
+            <ul className="space-y-1 list-none border-l border-gray-100 pl-6">
+              <li className="text-gray-600 font-light">• {t('international and multilingual audiences', 'publics internationaux et multilingues')}</li>
+              <li className="text-gray-600 font-light">• {t('trust-sensitive decision-making', 'prise de décision sensible à la confiance')}</li>
+              <li className="text-gray-600 font-light">• {t('relationship-driven client journeys', 'parcours clients fondés sur la relation')}</li>
+              <li className="text-gray-600 font-light">• {t('digital-first discovery', 'découverte d\'abord numérique')}</li>
+              <li className="text-gray-600 font-light">• {t('operational coordination across borders', 'coordination opérationnelle transfrontalière')}</li>
+              <li className="text-gray-600 font-light">• {t('high-value client communication', 'communication client à forte valeur ajoutée')}</li>
+            </ul>
+          </div>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '5. Will the approach remain aligned with a premium brand image?',
+        '5. L\'approche restera-t-elle alignée avec une image de marque premium ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'Quality, restraint, and credibility remain central throughout the process.',
+              'La qualité, la retenue et la crédibilité demeurent au cœur de la démarche tout au long du processus.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The approach remains editorial-grade, discreet, and relationship-focused.',
+              'L\'approche reste de qualité éditoriale, discrète et centrée sur la relation.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The objective is not aggressive SEO tactics, spam content, or high-volume AI-generated material. The focus is on improving visibility, presentation, trust, and long-term positioning in a way that feels aligned with a premium International Genève brand.',
+              'L\'objectif n\'est pas de recourir à des tactiques SEO agressives, à du contenu spam, ou à des contenus IA produits en grande quantité. La priorité est de renforcer la visibilité, la présentation, la confiance et le positionnement à long terme, d\'une manière cohérente avec une marque premium de la Genève Internationale.'
+            )}
+          </p>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '6. Are results guaranteed?',
+        '6. Les résultats sont-ils garantis ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'No serious advisor guarantees rankings or leads.',
+              'Aucun conseil sérieux ne garantit de positionnement ou de génération de prospects.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The work focuses on creating the conditions for stronger visibility, credibility, and client engagement over time.',
+              'Le travail consiste à créer les conditions favorables à une visibilité plus forte, à une crédibilité accrue et à un meilleur engagement client dans la durée.'
+            )}
+          </p>
+          <p>
+            {t(
+              'Honest expectations are part of the relationship from day one.',
+              'Des attentes honnêtes font partie de la relation dès le premier jour.'
+            )}
+          </p>
+        </div>
+      )
+    },
+    {
+      question: t(
+        '7. Is there urgency to act?',
+        '7. Y a-t-il une urgence à agir ?'
+      ),
+      answer: (
+        <div className="space-y-4">
+          <p>
+            {t(
+              'Not urgency - but timing matters.',
+              'Pas une urgence - mais le calendrier compte.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The way international clients research and evaluate premium service firms is changing quickly. More discovery now happens through modern search platforms, conversational search, reviews, and AI-assisted research before direct contact takes place.',
+              'La façon dont les clients internationaux recherchent et évaluent les cabinets de services premium évolue rapidement. Une part croissante de la découverte se fait désormais via les plateformes de recherche modernes, la recherche conversationnelle, les avis et la recherche assistée par l\'IA, avant tout contact direct.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The firms that strengthen visibility, trust, and positioning early are likely to benefit most over the coming years.',
+              'Les cabinets qui renforcent leur visibilité, leur confiance et leur positionnement tôt sont susceptibles d\'en bénéficier le plus au cours des prochaines années.'
+            )}
+          </p>
+          <p>
+            {t(
+              'The opportunity remains open, but the market is gradually becoming more competitive.',
+              'L\'opportunité reste ouverte, mais le marché devient progressivement plus concurrentiel.'
+            )}
+          </p>
+        </div>
+      )
+    }
+  ];
+
+  return (
+    <section id="faq" className="py-24 md:py-32 bg-white border-t border-gray-100">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="max-w-4xl">
+          <FadeIn>
+            <h2 className="text-3xl md:text-5xl font-light text-charcoal mb-12 leading-tight">
+              {t('Strategic Clarifications', 'Clarifications Stratégiques')}
+            </h2>
+            <p className="text-xl md:text-2xl font-light text-gray-500 mb-24 leading-relaxed">
+              {t(
+                'A small set of questions that often arise when reviewing a perspective of this nature. Each answer is intended to be direct, transparent, and aligned with the premium positioning of Swiss Platinum Relocation.',
+                'Quelques questions qui peuvent naturellement se poser à la lecture d\'une perspective de cette nature. Chaque réponse se veut directe, transparente et alignée avec le positionnement premium de Swiss Platinum Relocation.'
+              )}
+            </p>
+          </FadeIn>
+
+          <div className="space-y-16">
+            {faqs.map((faq, idx) => (
+              <div key={idx}>
+                <FadeIn delay={idx * 0.1}>
+                  <div className="group">
+                    <h3 className="text-xl md:text-2xl font-medium text-charcoal mb-6 group-hover:text-swiss-red transition-colors duration-300">
+                      {faq.question}
+                    </h3>
+                    <div className="text-lg md:text-xl font-light text-gray-600 leading-relaxed pl-0 md:pl-8 border-l-2 border-gray-50 group-hover:border-swiss-red/20 transition-colors duration-500">
+                      {faq.answer}
+                    </div>
+                  </div>
+                </FadeIn>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

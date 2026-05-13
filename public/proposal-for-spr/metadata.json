@@ -1,0 +1,37 @@
+import { motion } from 'motion/react';
+import { MessageCircle } from 'lucide-react';
+import { useLanguage } from './LanguageContext';
+
+export function WhatsAppButton() {
+  const { t } = useLanguage();
+  const phoneNumber = '41779065990';
+  
+  const message = t(
+    'Hello David, I am interested in learning more about Swiss Platinum Relocation.',
+    'Bonjour David, je souhaiterais en savoir plus sur Swiss Platinum Relocation.'
+  );
+  
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  return (
+    <motion.a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 1, duration: 0.8 }}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className="fixed bottom-6 left-6 md:bottom-8 md:left-8 z-50 flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-white text-charcoal rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 transition-all group"
+      aria-label="Contact on WhatsApp"
+    >
+      <MessageCircle className="w-5 h-5 md:w-6 md:h-6 group-hover:text-swiss-red transition-colors duration-300" />
+      
+      {/* Tooltip */}
+      <div className="absolute left-full ml-4 px-3 py-1.5 bg-charcoal text-white text-[10px] tracking-widest uppercase rounded opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-[-10px] group-hover:translate-x-0 pointer-events-none whitespace-nowrap">
+        WhatsApp
+      </div>
+    </motion.a>
+  );
+}

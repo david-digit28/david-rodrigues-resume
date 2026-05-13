@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Platinum Relocation — Private Strategic Perspective | David Rodrigues</title>
+    <meta name="description" content="A private strategic perspective on digital positioning within the premium Geneva relocation market." />
+    <!-- Favicon (replace with relative path if we have an icon) -->
+    <!-- But actually there is no favicon in public/ by default in our templates, only vite.svg. Let's keep it clean or make it /vite.svg if it exists, otherwise leave it out or relative ./vite.svg -->
+    
+    <!-- Open Graph tags for WhatsApp / LinkedIn preview -->
+    <meta property="og:title" content="Swiss Platinum Relocation — Private Strategic Perspective | David Rodrigues" />
+    <meta property="og:description" content="A private strategic perspective on digital positioning within the premium Geneva relocation market." />
+    <meta property="og:url" content="https://www.david-rds.com/proposal-for-spr/" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
