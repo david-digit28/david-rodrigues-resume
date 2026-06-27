@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 // App.tsx at project root
@@ -51,6 +52,7 @@ const App: React.FC = () => {
   return (
     <LanguageProvider>
       <MainContent />
+      <Analytics />
     </LanguageProvider>
   );
 };
