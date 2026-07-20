@@ -268,7 +268,7 @@ const DATA_EN: ResumeData = {
     { label: "UN & Global Exp", value: "16", prefix: "", suffix: "+ Yrs" },
     { label: "Annual Savings", value: "40", prefix: "", suffix: "%" },
     { label: "Efficiency Boost", value: "70", prefix: "", suffix: "%" },
-    { label: "Markets Expanded", value: "3", prefix: "", suffix: "" }
+    { label: "Markets Expanded", value: "4", prefix: "", suffix: "" }
   ],
   testimonials: [
     {
