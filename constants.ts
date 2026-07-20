@@ -108,10 +108,11 @@ const DATA_EN: ResumeData = {
       description: [
         "Serve as a foundational strategic partner, steering growth from inception to a prominent market position by continuously optimising digital and operational frameworks.",
         "Engineered a React/Firebase-based B2B landing platform targeting Saudi Vision 2030 projects (NEOM, Red Sea), integrating Google Ads and GTM tracking to achieve a 7.80% CTR in launch week.",
+        "Architecting and developing the RoofTech Industries SPC website using Next.js, TypeScript, and Sanity headless CMS, enabling non-technical teams to independently manage services, projects, imagery, and website content.",
         "Currently designing AI-based Arabic localization and semi-autonomous communication workflows to support high-value infrastructure bids in the region.",
         "Delivered consistent financial impact, including a 20% reduction in overhead expenses through strategic digital efficiency and procurement initiatives."
-      ],
-      technologies: ["Digital Strategy", "Operations", "React", "Firebase", "Google Ads", "GTM", "AI Localization"]
+],
+      technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Firebase", "Google Ads", "GTM", "AI Localization"]
     },
     {
       id: "exp-3",
