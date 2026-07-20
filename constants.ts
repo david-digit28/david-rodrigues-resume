@@ -273,17 +273,17 @@ const DATA_EN: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David consistently demonstrated outstanding professionalism, dedication, and a strong work ethic. His ability to manage complex tasks with clarity and efficiency was invaluable.",
+      text: "David was not only hard-working, but also displayed great initiative and adaptability. His commitment to the role was evident in the quality of his work and his constant readiness to go the extra mile. His support was essential to the smooth functioning of our operations, and I remain truly grateful for his contributions.",
       author: "Alexander A. Mejia",
-      role: "Director",
+      role: "Director, Division for People and Social Inclusion",
       company: "UNITAR"
     },
     {
       id: "t2",
-      text: "David's strategic vision and operational expertise were instrumental in transforming our financial processes. His leadership in the digital transition set a new standard for efficiency.",
+      text: "David brought strong structure to a creative concept. He fully understood both the cultural nuance of the brand and the business side of launching an online store. His ability to balance technical, operational, and user-facing needs helped us move forward efficiently.",
       author: "Olivier Maury",
-      role: "Head of Finance & Budget Unit",
-      company: "UNITAR"
+      role: "Director",
+      company: "ST LIGHT LIMITED"
     }
   ],
   ui: {
@@ -474,17 +474,17 @@ const DATA_FR: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David a constamment fait preuve d'un professionnalisme exceptionnel, de dévouement et d'une forte éthique de travail. Sa capacité à gérer des tâches complexes avec clarté était inestimable.",
+      text: "David était non seulement très travailleur, mais faisait également preuve d’une grande initiative et d’une grande capacité d’adaptation. Son engagement dans ses fonctions transparaissait clairement dans la qualité de son travail et dans sa volonté constante d’aller au-delà des attentes. Son soutien a été essentiel au bon fonctionnement de nos activités, et je lui suis sincèrement reconnaissant pour sa contribution.",
       author: "Alexander A. Mejia",
-      role: "Directeur",
+      role: "Directeur de la Division des personnes et de l’inclusion sociale",
       company: "UNITAR"
     },
     {
       id: "t2",
-      text: "La vision stratégique et l'expertise opérationnelle de David ont joué un rôle déterminant dans la transformation de nos processus financiers. Son leadership dans la transition numérique a établi une nouvelle norme d'efficacité.",
+      text: "David a su apporter une structure solide à un concept créatif. Il a parfaitement compris à la fois les nuances culturelles de la marque et les aspects commerciaux liés au lancement d’une boutique en ligne. Sa capacité à concilier les besoins techniques, opérationnels et ceux des utilisateurs nous a permis d’avancer efficacement.",
       author: "Olivier Maury",
-      role: "Chef de l'Unité Finances & Budget",
-      company: "UNITAR"
+      role: "Directeur",
+      company: "ST LIGHT LIMITED"
     }
   ],
   ui: {
@@ -674,17 +674,17 @@ const DATA_DE: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David zeigte stets herausragende Professionalität, Engagement und eine starke Arbeitsmoral. Seine Fähigkeit, komplexe Aufgaben mit Klarheit zu bewältigen, war von unschätzbarem Wert.",
+      text: "David war nicht nur fleißig, sondern zeigte auch große Eigeninitiative und Anpassungsfähigkeit. Sein Engagement für die Aufgabe zeigte sich in der Qualität seiner Arbeit und seiner ständigen Bereitschaft, sich besonders einzubringen. Seine Unterstützung war für den reibungslosen Ablauf unserer Arbeit unverzichtbar, und ich bin ihm nach wie vor sehr dankbar für seine Beiträge.",
       author: "Alexander A. Mejia",
-      role: "Direktor",
+      role: "Direktor, Abteilung für Menschen und soziale Inklusion",
       company: "UNITAR"
     },
     {
       id: "t2",
-      text: "Davids strategischer Weitblick und seine operative Expertise trugen maßgeblich zur Transformation unserer Finanzprozesse bei. Seine Führung bei der digitalen Umstellung setzte neue Maßstäbe für Effizienz.",
+      text: "David hat einem kreativen Konzept eine solide Struktur verliehen. Er hat sowohl die kulturellen Nuancen der Marke als auch die geschäftlichen Aspekte der Einführung eines Online-Shops voll und ganz verstanden. Seine Fähigkeit, technische, betriebliche und nutzerbezogene Anforderungen in Einklang zu bringen, hat uns geholfen, effizient voranzukommen.",
       author: "Olivier Maury",
-      role: "Leiter Finanzen & Budget",
-      company: "UNITAR"
+      role: "Direktor",
+      company: "ST LIGHT LIMITED"
     }
   ],
   ui: {
@@ -874,17 +874,17 @@ const DATA_ES: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David demostró constantemente un profesionalismo excepcional, dedicación y una fuerte ética de trabajo. Su capacidad para gestionar tareas complejas con claridad fue invaluable.",
+      text: "David demostró constantemente un profDavid no solo era muy trabajador, sino que también demostró una gran iniciativa y capacidad de adaptación. Su compromiso con el puesto quedó patente en la calidad de su trabajo y en su constante disposición a ir más allá de lo exigido. Su apoyo fue esencial para el buen funcionamiento de nuestras operaciones, y sigo estando profundamente agradecido por sus contribuciones.",
       author: "Alexander A. Mejia",
-      role: "Director",
+      role: "Director de la División de Personas e Inclusión Social",
       company: "UNITAR"
     },
     {
       id: "t2",
-      text: "La visión estratégica y la experiencia operativa de David fueron fundamentales para transformar nuestros procesos financieros. Su liderazgo en la transición digital estableció un nuevo estándar de eficiencia.",
+      text: "David aportó una sólida estructura a un concepto creativo. Comprendió a la perfección tanto los matices culturales de la marca como los aspectos empresariales del lanzamiento de una tienda en línea. Su capacidad para equilibrar las necesidades técnicas, operativas y de los usuarios nos ayudó a avanzar de forma eficiente.",
       author: "Olivier Maury",
-      role: "Jefe de la Unidad de Finanzas y Presupuesto",
-      company: "UNITAR"
+      role: "Director",
+      company: "ST LIGHT LIMITED"
     }
   ],
   ui: {
