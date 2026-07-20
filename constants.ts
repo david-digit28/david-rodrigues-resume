@@ -50,6 +50,7 @@ const DATA_EN: ResumeData = {
     { name: "PostgreSQL", category: "AI & Product Engineering", level: 84 },
     { name: "Drizzle ORM", category: "AI & Product Engineering", level: 82 },
     { name: "Tailwind CSS", category: "AI & Product Engineering", level: 88 },
+    { name: "Sanity CMS (Headless CMS)", category: "AI & Product Engineering", level: 84 },
     { name: "Vercel", category: "AI & Product Engineering", level: 86 },
     { name: "Firebase", category: "AI & Product Engineering", level: 84 },
     { name: "Supabase", category: "AI & Product Engineering", level: 80 },
