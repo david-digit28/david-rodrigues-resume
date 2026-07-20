@@ -169,6 +169,17 @@ const DATA_EN: ResumeData = {
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
     },
     {
+    id: "proj-7",
+    title: "RoofTech Industries SPC - Headless CMS B2B Platform",
+    description: [
+      "Architecting a modern B2B website for RoofTech Industries SPC as part of my ongoing Ghosh Group digital engagement, using Next.js, TypeScript, and Sanity headless CMS.",
+      "Designed a structured content system that enables non-technical teams to independently manage services, projects, imagery, and company content without requiring developer support.",
+      "The decoupled architecture combines a responsive user experience, reusable content components, optimised media delivery, technical SEO, and conversion-focused enquiry journeys."
+    ],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Sanity CMS", "Vercel"],
+    imageUrl: "https://ghoshgroups.com/download/rooftech-headless-cms.jpg"
+    },
+    {
       id: "proj-1",
       title: "UK Immigration Tools Suite",
       description: [
