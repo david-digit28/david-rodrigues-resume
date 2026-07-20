@@ -469,7 +469,7 @@ const DATA_FR: ResumeData = {
     { label: "Exp. ONU & Global", value: "16", prefix: "", suffix: "+ Ans" },
     { label: "Économies Annuelles", value: "40", prefix: "", suffix: "%" },
     { label: "Gain d'Efficacité", value: "70", prefix: "", suffix: "%" },
-    { label: "Marchés Étendus", value: "3", prefix: "", suffix: "" }
+    { label: "Marchés Étendus", value: "4", prefix: "", suffix: "" }
   ],
   testimonials: [
     {
@@ -669,7 +669,7 @@ const DATA_DE: ResumeData = {
     { label: "UN & Global Erf.", value: "16", prefix: "", suffix: "+ Jahre" },
     { label: "Jährliche Einsparung", value: "40", prefix: "", suffix: "%" },
     { label: "Effizienzsteigerung", value: "70", prefix: "", suffix: "%" },
-    { label: "Märkte Erweitert", value: "3", prefix: "", suffix: "" }
+    { label: "Märkte Erweitert", value: "4", prefix: "", suffix: "" }
   ],
   testimonials: [
     {
@@ -869,7 +869,7 @@ const DATA_ES: ResumeData = {
     { label: "Exp. ONU y Global", value: "16", prefix: "", suffix: "+ Años" },
     { label: "Ahorro Anual", value: "40", prefix: "", suffix: "%" },
     { label: "Aumento Eficiencia", value: "70", prefix: "", suffix: "%" },
-    { label: "Mercados Expandidos", value: "3", prefix: "", suffix: "" }
+    { label: "Mercados Expandidos", value: "4", prefix: "", suffix: "" }
   ],
   testimonials: [
     {
