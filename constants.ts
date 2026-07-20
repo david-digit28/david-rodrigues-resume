@@ -158,10 +158,10 @@ const DATA_EN: ResumeData = {
   projects: [
         {
       id: "proj-6",
-      title: "Caseora - Immigration Case Management Platform",
+      title: "CaseSmart - Immigration Case Management Platform",
       description: [
         "Architected a compliance-first SaaS platform for UK immigration advisory firms - enforcing a strict 21-step UKVI workflow with Hard Gate controls, role-based access, audit logging, and document management. Engineered to deliver 99% documentation efficiency gains and 100% compliance assurance.",
-        "Caseora is a full-stack SaaS case management and document workflow platform I designed and built end-to-end for UK immigration advisory firms. The system guides Visa Documentation Executives through a rigorous 21-step compliance process - from client onboarding through to visa approval - with Hard Gate enforcement that prevents progression unless every prior step is fully completed.",
+        "CaseSmart is a full-stack SaaS case management and document workflow platform I designed and built end-to-end for UK immigration advisory firms. The system guides Visa Documentation Executives through a rigorous 21-step compliance process - from client onboarding through to visa approval - with Hard Gate enforcement that prevents progression unless every prior step is fully completed.",
         "Every layer of the platform is built around UKVI document standards, with enforced naming conventions, real-time case tracking, and role-based access control. A director-level admin panel provides complete audit trail visibility across all cases and team activity.",
         "The result: a compliance-first architecture that eliminates manual documentation errors and process gaps - delivering an estimated 99% improvement in documentation workflow efficiency and establishing 100% process compliance across every case handled by the firm."
       ],
@@ -354,10 +354,10 @@ const DATA_FR: ResumeData = {
   projects: [
         {
       id: "proj-6",
-      title: "Caseora - Plateforme de gestion des dossiers d'immigration",
+      title: "CaseSmart - Plateforme de gestion des dossiers d'immigration",
       description: [
         "Conception d'une plateforme SaaS axée sur la conformité pour les cabinets de conseil en immigration au Royaume-Uni, mettant en œuvre un flux de travail UKVI rigoureux en 21 étapes avec des contrôles stricts aux étapes clés, un accès basé sur les rôles, la journalisation des audits et la gestion des documents. Conçue pour offrir un gain d'efficacité de 99 % dans la gestion des documents et une garantie de conformité à 100 %.",
-        "Caseora est une plateforme SaaS complète de gestion des dossiers et de flux de travail documentaire que j'ai conçue et développée de bout en bout pour les cabinets de conseil en immigration au Royaume-Uni. Le système guide les responsables de la documentation des visas à travers un processus de conformité rigoureux en 21 étapes - de l'accueil du client jusqu'à l'approbation du visa - avec des contrôles stricts qui empêchent la progression tant que chaque étape précédente n'est pas entièrement terminée.",
+        "CaseSmart est une plateforme SaaS complète de gestion des dossiers et de flux de travail documentaire que j'ai conçue et développée de bout en bout pour les cabinets de conseil en immigration au Royaume-Uni. Le système guide les responsables de la documentation des visas à travers un processus de conformité rigoureux en 21 étapes - de l'accueil du client jusqu'à l'approbation du visa - avec des contrôles stricts qui empêchent la progression tant que chaque étape précédente n'est pas entièrement terminée.",
         "Chaque couche de la plateforme est conçue autour des normes documentaires de l'UKVI, avec des conventions de nommage imposées, un suivi des dossiers en temps réel et un contrôle d'accès basé sur les rôles. Un panneau d'administration de niveau directionnel offre une visibilité complète sur la piste d'audit de tous les dossiers et de l'activité de l'équipe.",
         "Résultat : une architecture axée sur la conformité qui élimine les erreurs de documentation manuelles et les lacunes dans les processus, permettant une amélioration estimée à 99 % de l'efficacité du flux de travail documentaire et garantissant une conformité totale des processus pour chaque dossier traité par le cabinet."
       ],
@@ -543,10 +543,10 @@ const DATA_DE: ResumeData = {
   projects: [
         {
       id: "proj-6",
-      title: "Caseora - Plattform für das Fallmanagement im Einwanderungswesen",
+      title: "CaseSmart - Plattform für das Fallmanagement im Einwanderungswesen",
       description: [
         "Entwicklung einer Compliance-orientierten SaaS-Plattform für britische Einwanderungsberatungsunternehmen - zur Durchsetzung eines strengen 21-stufigen UKVI-Workflows mit strengen Kontrollpunkten, rollenbasiertem Zugriff, Audit-Protokollierung und Dokumentenmanagement. Entwickelt, um eine Steigerung der Dokumenteneffizienz um 99 % und eine 100-prozentige Compliance-Sicherheit zu gewährleisten.",
-        "Caseora ist eine Full-Stack-SaaS-Plattform für Fallmanagement und Dokumenten-Workflow, die ich von Grund auf für britische Einwanderungsberatungsfirmen entworfen und entwickelt habe. Das System führt Visa-Dokumentationsbeauftragte durch einen strengen 21-stufigen Compliance-Prozess - vom Kunden-Onboarding bis zur Visumgenehmigung - mit Hard-Gate-Kontrollen, die den weiteren Fortschritt verhindern, solange nicht jeder vorherige Schritt vollständig abgeschlossen ist.",
+        "CaseSmart ist eine Full-Stack-SaaS-Plattform für Fallmanagement und Dokumenten-Workflow, die ich von Grund auf für britische Einwanderungsberatungsfirmen entworfen und entwickelt habe. Das System führt Visa-Dokumentationsbeauftragte durch einen strengen 21-stufigen Compliance-Prozess - vom Kunden-Onboarding bis zur Visumgenehmigung - mit Hard-Gate-Kontrollen, die den weiteren Fortschritt verhindern, solange nicht jeder vorherige Schritt vollständig abgeschlossen ist.",
         "Jede Ebene der Plattform basiert auf den Dokumentationsstandards der UKVI und umfasst verbindliche Namenskonventionen, Fallverfolgung in Echtzeit sowie rollenbasierte Zugriffskontrolle. Ein Admin-Panel auf Direktorenebene bietet vollständige Transparenz über den Prüfpfad aller Fälle und Teamaktivitäten.",
         "Das Ergebnis: eine Compliance-orientierte Architektur, die manuelle Dokumentationsfehler und Prozessslücken beseitigt - was zu einer geschätzten Effizienzsteigerung von 99 % im Dokumentations-Workflow führt und eine 100-prozentige Prozesskonformität bei jedem von der Firma bearbeiteten Fall gewährleistet."
       ],
@@ -732,10 +732,10 @@ const DATA_ES: ResumeData = {
   projects: [
         {
       id: "proj-6",
-      title: "Caseora: plataforma de gestión de expedientes de inmigración",
+      title: "CaseSmart: plataforma de gestión de expedientes de inmigración",
       description: [
         "Diseñé una plataforma SaaS centrada en el cumplimiento normativo para empresas de asesoramiento en materia de inmigración del Reino Unido, que aplica un riguroso flujo de trabajo de 21 pasos de UKVI con controles de acceso estrictos, acceso basado en roles, registros de auditoría y gestión de documentos. Creada para ofrecer un aumento del 99 % en la eficiencia de la documentación y una garantía de cumplimiento del 100 %.",
-        "Caseora es una plataforma SaaS de gestión de casos y flujo de trabajo documental de ciclo completo que diseñé y desarrollé de principio a fin para empresas de asesoramiento en materia de inmigración del Reino Unido. El sistema guía a los responsables de la documentación de visados a través de un riguroso proceso de cumplimiento de 21 pasos - desde la incorporación del cliente hasta la aprobación del visado - con controles de acceso estrictos que impiden avanzar a menos que se hayan completado todos los pasos anteriores.",
+        "CaseSmart es una plataforma SaaS de gestión de casos y flujo de trabajo documental de ciclo completo que diseñé y desarrollé de principio a fin para empresas de asesoramiento en materia de inmigración del Reino Unido. El sistema guía a los responsables de la documentación de visados a través de un riguroso proceso de cumplimiento de 21 pasos - desde la incorporación del cliente hasta la aprobación del visado - con controles de acceso estrictos que impiden avanzar a menos que se hayan completado todos los pasos anteriores.",
         "Cada capa de la plataforma se basa en los estándares de documentación de UKVI, con convenciones de nomenclatura obligatorias, seguimiento de casos en tiempo real y control de acceso basado en roles. Un panel de administración de nivel directivo proporciona una visibilidad completa del registro de auditoría en todos los casos y la actividad del equipo.",
         "El resultado: una arquitectura que prioriza el cumplimiento normativo y elimina los errores manuales en la documentación y las lagunas en los procesos, lo que supone una mejora estimada del 99 % en la eficiencia del flujo de trabajo de documentación y garantiza el cumplimiento normativo al 100 % en todos los casos gestionados por la empresa."
       ],
