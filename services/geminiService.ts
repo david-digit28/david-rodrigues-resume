@@ -28,6 +28,11 @@ export const sendMessageToGemini = async (
       period: e.period,
       bullets: e.bullets,
     })),
+    projects: (resumeData.projects || []).map((p: any) => ({
+      title: p.title,
+      description: p.description,
+      tags: p.tags,
+    })),
     education: resumeData.education,
     certifications: resumeData.certifications,
     languages: resumeData.languages,
