@@ -20,8 +20,8 @@ const SHARED_DATA = {
 // ==========================================
 const DATA_EN: ResumeData = {
   ...SHARED_DATA,
-  title: "Digital Transformation & Operations Specialist | AI‑Enabled Products & Platforms",
-  about: "Senior digital transformation and operations professional with a strong focus on execution. Has worked for more than 16 years in professional services, the UN system, and global logistics. Proven track record of designing and implementing end-to-end digital programmes - from ERP to AI-enabled platforms - that cut processing time by up to 70%, decreased annual costs by 40% and improved operational accuracy to 99%. Experience in a high-complexity multicultural environment, including International Geneva. Provides strategic program leadership and practical delivery of customized digital products using React, TypeScript, headless CMS architecture, and AI/LLM integration.",
+  title: "Senior Digital Transformation & Operations Leader",
+  about: "I lead complex transformation across operations, systems and digital delivery - turning fragmented processes into clear, measurable and sustainable ways of working. Experience across international organisations and commercial environments, including finance, procurement, inventory and digital operations.",
   location: "Le Grand-Saconnex, Geneva, Switzerland",
   workPermit: "Work Permit B",
   skills: [
@@ -86,14 +86,14 @@ const DATA_EN: ResumeData = {
       period: "04/2015 – Present",
       description: [
 "UK-based immigration law firm. Joined when the firm operated a single Mumbai branch. Through digital transformation, SEO/PPC execution, and operational scaling, helped drive expansion to 3 India branches, UK market entry, and the firm's evolution into an AI-driven immigration practice.",
-        "##PHASE:Phase 1 - Strategic Transformation Lead (APRIL 2015 - NOVEMBER 2022)",
+        "##PHASE:Phase 1 — Strategic Transformation Lead (April 2015 – November 2022)",
         "Scaled the firm from 1 branch in Mumbai to 3 branches across India - Mumbai, Delhi, and Bangalore - through digital strategy, SEO/PPC campaigns, talent acquisition frameworks, and vendor management.",
         "Designed and executed an end-to-end operating model redesign, moving from manual workflows to ERP-driven processes and achieving a 40% annual cost reduction.",
         "Built the firm's digital presence from the ground up, generating strong UK demand and helping create the conditions for the launch of the sister company, Conroy Baker Ltd., in late 2022.",
-        "##PHASE:Phase 2 - Parallel Consulting (November 2022 - March 2025)",
-        "Continued as a strategic advisor alongside UN contract work, supporting UK market entry and ongoing digital initiatives.",
+        "##PHASE:Phase 2 — Parallel Consulting (November 2022 – March 2025)",
+        "“Alongside a full-time UNITAR role, I continued in a defined consulting capacity, supporting selected transformation and digital-business initiatives.”",
         "Led the digital go-to-market roadmap for the UK entity, using SEO and PPC to build search visibility and generate qualified leads within the first 3 months.",
-        "##PHASE:Phase 3 - Full-Time Re-engagement (April 2025 - Present)",
+        "##PHASE:Phase 3 — Full-Time Re-engagement (April 2025 – Present)",
         "Architected and built a proprietary in-house CRM using React, TypeScript, PostgreSQL, and Drizzle ORM, centralising India-UK operations and removing third-party SaaS costs.",
         "Developed AI-driven compliance tools, including Sponsorship Cost and ILR Absence calculators, that now act as the firm's primary lead generation engine.",
         "Led automation across onboarding, resource allocation, and documentation workflows to reduce errors and improve visa processing speed.",
@@ -174,10 +174,10 @@ const DATA_EN: ResumeData = {
       id: "proj-6",
       title: "CaseSmart - Immigration Case Management Platform",
       description: [
-        "Architected a compliance-first SaaS platform for UK immigration advisory firms - enforcing a strict 21-step UKVI workflow with Hard Gate controls, role-based access, audit logging, and document management. Engineered to deliver 99% documentation efficiency gains and 100% compliance assurance.",
+        "Architected a compliance-first SaaS platform for UK immigration advisory firms - enforcing a structured 21-step UKVI workflow with Hard Gate controls, role-based access, audit logging, and document management. Engineered to streamline documentation workflows and support robust compliance oversight.",
         "CaseSmart is a full-stack SaaS case management and document workflow platform I designed and built end-to-end for UK immigration advisory firms. The system guides Visa Documentation Executives through a rigorous 21-step compliance process - from client onboarding through to visa approval - with Hard Gate enforcement that prevents progression unless every prior step is fully completed.",
         "Every layer of the platform is built around UKVI document standards, with enforced naming conventions, real-time case tracking, and role-based access control. A director-level admin panel provides complete audit trail visibility across all cases and team activity.",
-        "The result: a compliance-first architecture that eliminates manual documentation errors and process gaps - delivering an estimated 99% improvement in documentation workflow efficiency and establishing 100% process compliance across every case handled by the firm."
+        "The result: a compliance-first architecture designed to minimize manual documentation errors and process gaps - streamlining case workflows and helping maintain structured compliance across casework handled by the firm."
       ],
       tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Vercel"],
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
@@ -307,16 +307,18 @@ const DATA_EN: ResumeData = {
     skillsTitle: "Skills & Core Competencies",
     competencyOverview: "Holistic Competency Overview",
     projectsTitle: "Featured Projects",
-    qualificationsTitle: "Qualifications & Insights",
+    qualificationsTitle: "Qualifications",
     endorsementsTitle: "Endorsements",
     education: "Education",
-    certificates: "Certificates & Badges",
+    certificates: "Continuing Professional Development",
+    certificatesSubtitle: "Selected learning in AI, data and digital transformation.",
     languages: "Languages",
     interests: "Interests",
     contact: "Contact",
     viewDetails: "View Details",
     showLess: "Show Less",
     online: "Online",
+    avgProficiency: "Avg Proficiency",
     askMe: "Ask me anything about David...",
     poweredBy: "Powered by Gemini",
     rightsReserved: "Rights Reserved",
@@ -332,8 +334,8 @@ const DATA_EN: ResumeData = {
 // ==========================================
 const DATA_FR: ResumeData = {
   ...DATA_EN,
-  title: "Spécialiste en transformation digitale et opérations | Produits et plateformes assistés par l’IA",
-  about: "Professionnel chevronné de la transformation numérique et des opérations, particulièrement axé sur la mise en œuvre. A travaillé pendant plus de 16 ans dans les services professionnels, au sein du système des Nations Unies et dans le secteur de la logistique internationale. Expérience avérée dans la conception et la mise en œuvre de programmes numériques de bout en bout – allant des progiciels de gestion intégrée (ERP) aux plateformes basées sur l’IA – qui ont permis de réduire les délais de traitement jusqu’à 70 %, de diminuer les coûts annuels de 40 % et d’améliorer la précision opérationnelle à 99 %. Expérience acquise dans un environnement multiculturel de grande complexité, notamment à Genève internationale. Assure la direction stratégique de programmes et la mise en œuvre concrète de produits numériques sur mesure à l'aide de React, TypeScript, d'une architecture CMS « headless » et de l'intégration de l'IA et des modèles de langage à grande échelle (LLM).",
+  title: "Responsable senior de la transformation numérique et des opérations",
+  about: "Je dirige des transformations complexes dans les domaines des opérations, des systèmes et de la mise en œuvre de solutions numériques, en transformant des processus fragmentés en modes de fonctionnement clairs, mesurables et durables. Expérience acquise au sein d’organisations internationales et d’environnements commerciaux, notamment dans la finance, les achats, les stocks et les opérations numériques.",
   location: "Genève, Suisse",
   workPermit: "Permis de travail B",
   skills: DATA_EN.skills.map(s => ({
@@ -360,14 +362,14 @@ const DATA_FR: ResumeData = {
       period: "Avril 2015 - aujourd'hui",
       description: [
         "Cabinet d'avocats spécialisé en droit de l'immigration basé au Royaume-Uni. J'ai rejoint le cabinet alors qu'il ne comptait qu'une seule succursale à Mumbai. Grâce à la transformation numérique, à la mise en œuvre de stratégies de référencement naturel (SEO) et de publicité au coût par clic (PPC), ainsi qu'à la montée en puissance opérationnelle, j'ai contribué à l'expansion du cabinet vers trois succursales en Inde, à son entrée sur le marché britannique et à son évolution vers un cabinet spécialisé en droit de l'immigration s'appuyant sur l'intelligence artificielle.",
-        "##PHASE:Phase 1 - Responsable de la transformation stratégique (avril 2015 - novembre 2022)",
+        "##PHASE:Phase 1 — Responsable de la transformation stratégique (Avril 2015 – Novembre 2022)",
         "Développement du cabinet, passant d'une seule succursale à Mumbai à trois succursales à travers l'Inde - Mumbai, Delhi et Bangalore - grâce à une stratégie numérique, des campagnes de référencement naturel (SEO) et de publicité au coût par clic (PPC), des cadres de recrutement de talents et la gestion des fournisseurs.",
         "Conception et mise en œuvre d'une refonte complète du modèle opérationnel, passant de flux de travail manuels à des processus pilotés par un ERP, ce qui a permis de réduire les coûts de 40 % par an.",
         "Développement de la présence numérique de l'entreprise à partir de zéro, générant une forte demande au Royaume-Uni et contribuant à créer les conditions nécessaires au lancement de la société sœur, Conroy Baker Ltd., fin 2022.",
-        "##PHASE:Phase 2 - Conseil parallèle (novembre 2022 - mars 2025)",
-        "Poursuite de mon rôle de conseiller stratégique parallèlement à mon contrat avec l'ONU, en soutenant l'entrée sur le marché britannique et les initiatives numériques en cours.",
+        "##PHASE:Phase 2 — Activité de conseil en parallèle (Novembre 2022 – Mars 2025)",
+        "« Parallèlement à mon poste à temps plein à l’UNITAR, j’ai poursuivi une activité de conseil définie, en soutenant des initiatives ciblées de transformation et de développement numérique. »",
         "Direction de la feuille de route de mise sur le marché numérique pour l'entité britannique, en utilisant le référencement naturel (SEO) et le paiement au clic (PPC) pour renforcer la visibilité dans les moteurs de recherche et générer des prospects qualifiés dès les trois premiers mois.",
-        "##PHASE:Phase 3 - Reprise à temps plein (avril 2025 - aujourd'hui)",
+        "##PHASE:Phase 3 — Retour à temps plein (Avril 2025 – Aujourd’hui)",
         "Conception et développement d'un CRM interne propriétaire à l'aide de React, TypeScript, PostgreSQL et Drizzle ORM, centralisant les opérations Inde-Royaume-Uni et supprimant les coûts liés aux solutions SaaS tierces.",
         "Développement d'outils de conformité basés sur l'IA, notamment des calculateurs de coûts de parrainage et d'absence ILR, qui constituent désormais le principal moteur de génération de prospects de l'entreprise.",
         "Piloté l'automatisation des processus d'intégration, d'allocation des ressources et de gestion de la documentation afin de réduire les erreurs et d'accélérer le traitement des visas.",
@@ -375,7 +377,35 @@ const DATA_FR: ResumeData = {
         "Développé la plateforme de nouvelle génération pour les visas de conjoint au Royaume-Uni en utilisant les normes GEO et Framer Motion pour améliorer les performances Core Web Vitals."
       ],
       technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Consultant : Stratégie et opérations numériques",       company: "Ghosh Group",       location: "À distance depuis Genève",       period: "04/2015 – Aujourd'hui",       description: [         "Jouer le rôle de partenaire stratégique essentiel, en pilotant la croissance depuis la création de l'entreprise jusqu'à l'atteinte d'une position dominante sur le marché, grâce à l'optimisation continue des structures numériques et opérationnelles.",         "Conception d'une plateforme d'atterrissage B2B basée sur React/Firebase ciblant les projets de la Vision 2030 de l'Arabie saoudite (NEOM, Mer Rouge), intégrant Google Ads et le suivi GTM pour atteindre un CTR de 7,80 % dès la semaine de lancement.",         "Conception et développement du site web de RoofTech Industries SPC avec Next.js et TypeScript, avec une architecture de contenu headless basée sur Sanity et un déploiement sur Cloudflare Workers via OpenNext.", "Conception en cours de workflows de localisation en arabe et de communication semi-autonomes basés sur l'IA pour soutenir les appels d'offres d'infrastructures à forte valeur ajoutée dans la région.",         "Impact financier constant, notamment une réduction de 20 % des frais généraux grâce à des initiatives stratégiques d'efficacité numérique et d'approvisionnement."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {       id: "exp-3",       role: "Focal Point: Finance, Procurement & Inventory Projects",       company: "United Nations Institute for Training and Research (UNITAR)",       location: "Genève, Suisse",       period: "11/2022 – 03/2025",       description: [         "Assurance d'un contrôle exceptionnel sur un portefeuille de projets d'environ 500 000 dollars grâce à la gestion des opérations du système ERP Quantum, garantissant une allocation précise des fonds et une prise de décision stratégique éclairée.",         "Génération d'une valeur ajoutée substantielle grâce à des achats stratégiques, permettant de réaliser en moyenne 30 % d'économies sur les acquisitions clés tout en garantissant le strict respect des directives de l'ONU.",         "Coordination logistique de plus de 11 ateliers de formation, gestion des déplacements des participants et des indemnités journalières de subsistance pour un maximum de 40 participants.",         "Amélioration significative de l'efficacité opérationnelle grâce à la mise en place d'un processus optimisé de suivi des factures, réduisant le temps de traitement de 70 %.",         "Mise en place d'un système d'inventaire détaillé pour les actifs de la Division, permettant un suivi précis des acquisitions et des cessions et réduisant les écarts de 99 %."       ],       technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]     },     {       id: "exp-4",       role: "Manager: MaerskLine.com",       company: "MAERSK LINE",       location: "Mumbai",       period: "07/2010 – 03/2015",       description: [         "Participation à la planification stratégique et à la mise en œuvre du lancement mondial du site Maerskline.com remanié (11 langues), en surmontant les défis techniques liés à l'intégration avec l'environnement SAP central.",         "Promotion de l'intégration de la solution de marketing par e-mail Eloqua dans les 11 langues, ce qui a permis d'améliorer la capture de prospects de 10 %."       ],       technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]     },     { id: "exp-5", role: "Responsable : Département E-Marketing et Administration", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Mise en place d'un système budgétaire centralisé pour gérer les dépenses de 400 000 INR en marketing digital et ressources humaines, avec une allocation optimale des ressources.", "Création et mise en œuvre de programmes de formation ciblés pour une équipe de plus de 15 membres, améliorant la capacité de génération de leads et la performance globale.", "Supervisé la gestion des salaires et négocié les contrats avec les fournisseurs pour assurer la continuité opérationnelle."], technologies: [...DATA_EN.experience[4].technologies] },   ],
+    },     {       id: "exp-2",       role: "Consultant : Stratégie et opérations numériques",       company: "Ghosh Group",       location: "À distance depuis Genève",       period: "04/2015 – Aujourd'hui",       description: [         "Jouer le rôle de partenaire stratégique essentiel, en pilotant la croissance depuis la création de l'entreprise jusqu'à l'atteinte d'une position dominante sur le marché, grâce à l'optimisation continue des structures numériques et opérationnelles.",         "Conception d'une plateforme d'atterrissage B2B basée sur React/Firebase ciblant les projets de la Vision 2030 de l'Arabie saoudite (NEOM, Mer Rouge), intégrant Google Ads et le suivi GTM pour atteindre un CTR de 7,80 % dès la semaine de lancement.",         "Conception et développement du site web de RoofTech Industries SPC avec Next.js et TypeScript, avec une architecture de contenu headless basée sur Sanity et un déploiement sur Cloudflare Workers via OpenNext.", "Conception en cours de workflows de localisation en arabe et de communication semi-autonomes basés sur l'IA pour soutenir les appels d'offres d'infrastructures à forte valeur ajoutée dans la région.",         "Impact financier constant, notamment une réduction de 20 % des frais généraux grâce à des initiatives stratégiques d'efficacité numérique et d'approvisionnement."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      id: "exp-3",
+      role: "Point focal : Projets de finances, achats et inventaire",
+      company: "United Nations Institute for Training and Research (UNITAR)",
+      location: "Genève, Suisse",
+      period: "11/2022 – 03/2025",
+      description: [
+        "Assurance d'un contrôle exceptionnel sur un portefeuille de projets d'environ 500 000 dollars grâce à la gestion des opérations du système ERP Quantum, garantissant une allocation précise des fonds et une prise de décision stratégique éclairée.",
+        "Génération d'une valeur ajoutée substantielle grâce à des achats stratégiques, permettant de réaliser en moyenne 30 % d'économies sur les acquisitions clés tout en garantissant le strict respect des directives de l'ONU.",
+        "Coordination logistique de plus de 11 ateliers de formation, gestion des déplacements des participants et des indemnités journalières de subsistance pour un maximum de 40 participants.",
+        "Amélioration significative de l'efficacité opérationnelle grâce à la mise en place d'un processus optimisé de suivi des factures, réduisant le temps de traitement de 70 %.",
+        "Mise en place d'un système d'inventaire détaillé pour les actifs de la Division, permettant un suivi précis des acquisitions et des cessions et réduisant les écarts de 99 %."
+      ],
+      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+    },
+    {
+      id: "exp-4",
+      role: "Responsable : MaerskLine.com",
+      company: "MAERSK LINE",
+      location: "Mumbai",
+      period: "07/2010 – 03/2015",
+      description: [
+        "Participation à la planification stratégique et à la mise en œuvre du lancement mondial du site Maerskline.com remanié (11 langues), en surmontant les défis techniques liés à l'intégration avec l'environnement SAP central.",
+        "Promotion de l'intégration de la solution de marketing par e-mail Eloqua dans les 11 langues, ce qui a permis d'améliorer la capture de prospects de 10 %."
+      ],
+      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+    },
+    { id: "exp-5", role: "Responsable : Département E-Marketing et Administration", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Mise en place d'un système budgétaire centralisé pour gérer les dépenses de 400 000 INR en marketing digital et ressources humaines, avec une allocation optimale des ressources.", "Création et mise en œuvre de programmes de formation ciblés pour une équipe de plus de 15 membres, améliorant la capacité de génération de leads et la performance globale.", "Supervisé la gestion des salaires et négocié les contrats avec les fournisseurs pour assurer la continuité opérationnelle."], technologies: [...DATA_EN.experience[4].technologies] },
+  ],
   projects: [
     {
       id: "proj-8",
@@ -393,10 +423,10 @@ const DATA_FR: ResumeData = {
       id: "proj-6",
       title: "CaseSmart - Plateforme de gestion des dossiers d'immigration",
       description: [
-        "Conception d'une plateforme SaaS axée sur la conformité pour les cabinets de conseil en immigration au Royaume-Uni, mettant en œuvre un flux de travail UKVI rigoureux en 21 étapes avec des contrôles stricts aux étapes clés, un accès basé sur les rôles, la journalisation des audits et la gestion des documents. Conçue pour offrir un gain d'efficacité de 99 % dans la gestion des documents et une garantie de conformité à 100 %.",
+        "Conception d'une plateforme SaaS axée sur la conformité pour les cabinets de conseil en immigration au Royaume-Uni, mettant en œuvre un flux de travail UKVI structuré en 21 étapes avec des contrôles stricts aux étapes clés, un accès basé sur les rôles, la journalisation des audits et la gestion des documents. Conçue pour rationaliser les flux documentaires et soutenir une supervision rigoureuse de la conformité.",
         "CaseSmart est une plateforme SaaS complète de gestion des dossiers et de flux de travail documentaire que j'ai conçue et développée de bout en bout pour les cabinets de conseil en immigration au Royaume-Uni. Le système guide les responsables de la documentation des visas à travers un processus de conformité rigoureux en 21 étapes - de l'accueil du client jusqu'à l'approbation du visa - avec des contrôles stricts qui empêchent la progression tant que chaque étape précédente n'est pas entièrement terminée.",
         "Chaque couche de la plateforme est conçue autour des normes documentaires de l'UKVI, avec des conventions de nommage imposées, un suivi des dossiers en temps réel et un contrôle d'accès basé sur les rôles. Un panneau d'administration de niveau directionnel offre une visibilité complète sur la piste d'audit de tous les dossiers et de l'activité de l'équipe.",
-        "Résultat : une architecture axée sur la conformité qui élimine les erreurs de documentation manuelles et les lacunes dans les processus, permettant une amélioration estimée à 99 % de l'efficacité du flux de travail documentaire et garantissant une conformité totale des processus pour chaque dossier traité par le cabinet."
+        "Résultat : une architecture axée sur la conformité conçue pour minimiser les erreurs de documentation manuelles et les lacunes dans les processus, fluidifiant le traitement des dossiers et favorisant une application rigoureuse des normes de conformité au sein du cabinet."
       ],
       tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Vercel"],
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
@@ -520,16 +550,18 @@ const DATA_FR: ResumeData = {
     skillsTitle: "Compétences & Atouts",
     competencyOverview: "Aperçu Holistique des Compétences",
     projectsTitle: "Projets Phares",
-    qualificationsTitle: "Qualifications & Insights",
+    qualificationsTitle: "Qualifications",
     endorsementsTitle: "Recommandations",
     education: "Éducation",
-    certificates: "Certificats & Badges",
+    certificates: "Développement professionnel continu",
+    certificatesSubtitle: "Formation ciblée en IA, données et transformation numérique.",
     languages: "Langues",
     interests: "Intérêts",
     contact: "Contact",
     viewDetails: "Voir Détails",
     showLess: "Voir Moins",
     online: "En Ligne",
+    avgProficiency: "Maîtrise moy.",
     askMe: "Posez-moi une question sur David...",
     poweredBy: "Propulsé par Gemini",
     rightsReserved: "Tous Droits Réservés",
@@ -545,8 +577,8 @@ const DATA_FR: ResumeData = {
 // ==========================================
 const DATA_DE: ResumeData = {
   ...DATA_EN,
-  title: "Spezialist für digitale Transformation und operative Prozesse | KI-gestützte Produkte und Plattformen",
-  about: "Erfahrener Experte für digitale Transformation und Betriebsabläufe mit starkem Fokus auf die Umsetzung. Seit mehr als 16 Jahren tätig in den Bereichen Professional Services, im UN-System und in der globalen Logistik. Nachgewiesene Erfolge bei der Konzeption und Umsetzung durchgängiger digitaler Programme – von ERP bis hin zu KI-gestützten Plattformen –, die die Bearbeitungszeit um bis zu 70 % verkürzten, die jährlichen Kosten um 40 % senkten und die operative Genauigkeit auf 99 % verbesserten. Erfahrung in einem hochkomplexen, multikulturellen Umfeld, unter anderem im internationalen Genf. Übernimmt die strategische Programmleitung und sorgt für die praktische Umsetzung maßgeschneiderter digitaler Produkte unter Verwendung von React, TypeScript, Headless-CMS-Architektur sowie KI-/LLM-Integration.",
+  title: "Senior-Führungskraft für digitale Transformation und betriebliche Prozesse",
+  about: "Ich leite komplexe Transformationsvorhaben in betrieblichen Prozessen, Systemen und der digitalen Umsetzung und überführe fragmentierte Abläufe in klare, messbare und nachhaltige Arbeitsweisen. Erfahrung in internationalen Organisationen und kommerziellen Umfeldern, unter anderem in Finanzen, Beschaffung, Bestandsmanagement und digitalen Geschäftsprozessen.",
   location: "Genf, Schweiz",
   workPermit: "Arbeitsbewilligung B",
   skills: DATA_EN.skills.map(s => ({
@@ -572,14 +604,14 @@ const DATA_DE: ResumeData = {
       period: "April 2015 - heute",
       description: [
         "Auf das Vereinigte Königreich spezialisierte Anwaltskanzlei für Einwanderungsrecht. Ich trat der Kanzlei bei, als sie noch eine einzige Niederlassung in Mumbai betrieb. Durch digitale Transformation, die Umsetzung von SEO- und PPC-Maßnahmen sowie die Skalierung der Betriebsabläufe trug ich dazu bei, die Expansion auf drei Niederlassungen in Indien, den Markteintritt im Vereinigten Königreich und die Entwicklung der Kanzlei zu einer KI-gestützten Einwanderungskanzlei voranzutreiben.",
-        "##PHASE:Phase 1 - Leiter Strategische Transformation APRIL 2015 - NOVEMBER 2022)",
+        "##PHASE:Phase 1 — Leitung der strategischen Transformation (April 2015 – November 2022)",
         "Skalierte die Kanzlei von einer Niederlassung in Mumbai auf drei Niederlassungen in ganz Indien - Mumbai, Delhi und Bangalore - durch digitale Strategie, SEO-/PPC-Kampagnen, Rahmenwerke für die Talentakquise und Lieferantenmanagement.",
         "Konzeption und Umsetzung einer umfassenden Neugestaltung des Betriebsmodells, wobei manuelle Arbeitsabläufe durch ERP-gesteuerte Prozesse ersetzt und eine jährliche Kostensenkung von 40 % erreicht wurden.",
         "Aufbau der digitalen Präsenz des Unternehmens von Grund auf, wodurch eine starke Nachfrage im Vereinigten Königreich generiert und die Voraussetzungen für die Gründung der Schwesterfirma Conroy Baker Ltd. Ende 2022 geschaffen wurden.",
-        "##PHASE:Phase 2 - Parallele Beratung (November 2022 - März 2025)",
-        "Fortsetzung der Tätigkeit als strategischer Berater neben der Arbeit im Rahmen des UN-Vertrags, Unterstützung des Markteintritts in Großbritannien und laufender digitaler Initiativen.",
+        "##PHASE:Phase 2 — Parallele Beratungstätigkeit (November 2022 – März 2025)",
+        "„Parallel zu meiner Vollzeitstelle bei UNITAR setzte ich eine klar abgegrenzte Beratungstätigkeit fort und unterstützte ausgewählte Initiativen zur Transformation und digitalen Geschäftsentwicklung.“",
         "Leitung der digitalen Markteinführungsstrategie für die britische Niederlassung unter Einsatz von SEO und PPC, um die Sichtbarkeit in Suchmaschinen zu verbessern und innerhalb der ersten 3 Monate qualifizierte Leads zu generieren.",
-        "##PHASE:Phase 3 - Wiederanstellung in Vollzeit (April 2025 - heute)",
+        "##PHASE:Phase 3 — Rückkehr in Vollzeit (April 2025 – Heute)",
         "Konzeption und Entwicklung eines proprietären internen CRM-Systems unter Verwendung von React, TypeScript, PostgreSQL und Drizzle ORM, wodurch die indisch-britischen Geschäftsabläufe zentralisiert und Kosten für SaaS-Lösungen von Drittanbietern eingespart wurden.",
         "Entwicklung KI-gestützter Compliance-Tools, darunter Rechner für Sponsoring-Kosten und ILR-Abwesenheiten, die nun als primäre Lead-Generierungsmaschine des Unternehmens dienen.",
         "Leitung der Automatisierung von Onboarding-, Ressourcenzuweisungs- und Dokumentationsabläufen zur Fehlerreduzierung und Beschleunigung der Visumbearbeitung.",
@@ -587,7 +619,36 @@ const DATA_DE: ResumeData = {
         "Aufbau der Plattform der nächsten Generation für britische Ehegattenvisa unter Verwendung von GEO-Standards und Framer Motion für eine verbesserte Core Web Vitals-Leistung."
       ],
       technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Berater: Digitale Strategie & Betrieb",       company: "Ghosh Group",       location: "Im Homeoffice von Genf aus",       period: "04/2015 – heute",       description: [         "Funktion als grundlegender strategischer Partner, der das Wachstum von der Gründung bis zu einer führenden Marktposition steuert, indem digitale und betriebliche Rahmenbedingungen kontinuierlich optimiert werden.",         "Entwicklung einer React/Firebase-basierten B2B-Landing-Plattform für Projekte im Rahmen der Saudi Vision 2030 (NEOM, Red Sea) unter Integration von Google Ads und GTM-Tracking, wodurch in der Startwoche eine Klickrate (CTR) von 7,80 % erzielt wurde.",         "Konzeption und Entwicklung der Website von RoofTech Industries SPC mit Next.js und TypeScript, einer auf Sanity ausgerichteten Headless-CMS-Inhaltsarchitektur und einer Bereitstellung auf Cloudflare Workers über OpenNext.", "Entwickle derzeit KI-basierte arabische Lokalisierungs- und halbautonome Kommunikationsworkflows zur Unterstützung hochwertiger Infrastruktur-Ausschreibungen in der Region.",         "Erzielte nachhaltige finanzielle Ergebnisse, darunter eine Senkung der Gemeinkosten um 20 % durch strategische Initiativen zur digitalen Effizienzsteigerung und Beschaffung."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {       id: "exp-3",       role: "Focal Point: Finance, Procurement & Inventory Projects",       company: "United Nations Institute for Training and Research (UNITAR)",       location: "Genf, Schweiz",       period: "11/2022 – 03/2025",       description: [         "Sicherte eine hervorragende Kontrolle über ein Projektportfolio im Wert von ca. 500.000 US-Dollar durch die Koordination der Quantum-ERP-Abläufe, wodurch eine präzise Mittelzuweisung und fundierte strategische Entscheidungen gewährleistet wurden.",         "Schuf erheblichen Mehrwert durch strategische Beschaffung und erzielte dabei durchschnittlich 30 % Kosteneinsparungen bei wichtigen Anschaffungen, während die strikte Einhaltung der UN-Richtlinien gewährleistet wurde.",         "Koordinierte die Logistik für mehr als 11 Schulungsworkshops und verwaltete die Reisekosten sowie die Tagegelder für bis zu 40 Teilnehmer.",         "Steigerte die betriebliche Effizienz erheblich durch die Einführung eines optimierten Rechnungsnachverfolgungsprozesses, wodurch die Bearbeitungszeit um 70 % verkürzt wurde.",         "Einrichtung eines detaillierten Bestandsverwaltungssystems für die Vermögenswerte der Abteilung, wodurch Anschaffungen und Veräußerungen genau nachverfolgt und Unstimmigkeiten um 99 % reduziert wurden."       ],       technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]     },     {       id: "exp-4",       role: "Manager: MaerskLine.com",       company: "MAERSK LINE",       location: "Mumbai",       period: "07/2010 – 03/2015",       description: [         "Unterstützte die strategische Planung und die weltweite Einführung der neu gestalteten Website MaerskLine.com in 11 Sprachen und koordinierte dabei die Zusammenarbeit mit der IT-Abteilung und den regionalen Teams, um die Integration in die zentrale SAP-Umgebung sicherzustellen.",         "Leitete die Integration der Marketing-Automatisierungsplattform Eloqua in mehreren Märkten und verbesserte die Lead-Generierung durch besser strukturierte digitale Kampagnen um ca. 10 %.", "Beaufsichtigte Webinhalte und Kampagnenbotschaften, um die Übereinstimmung mit der Marke, dem Tonfall und den Kommunikationsrichtlinien von Maersk in mehr als 37 regionalen Clustern sicherzustellen. Arbeitete mit regionalen Marketing- und Vertriebsteams zusammen, um konsistente, genaue und konforme Botschaften zu gewährleisten und gleichzeitig lokale Geschäftsziele zu unterstützen."       ],       technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]     },     { id: "exp-5", role: "Leiter: E-Marketing-Abteilung und Verwaltung", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Entwicklung eines zentralisierten Budgetierungssystems zur Verwaltung von Ausgaben in Höhe von 400.000 INR für digitales Marketing und Personalwesen unter optimaler Ressourcenzuweisung.", "Erstellung und Umsetzung gezielter Schulungsprogramme für ein Team von mehr als 15 Mitarbeitern zur Verbesserung der Lead-Generierung und der Gesamtleistung.", "Beaufsichtigte die Lohn- und Gehaltsabrechnung und verhandelte Lieferantenverträge, um die Betriebskontinuität zu gewährleisten."], technologies: [...DATA_EN.experience[4].technologies] },   ],
+    },     {       id: "exp-2",       role: "Berater: Digitale Strategie & Betrieb",       company: "Ghosh Group",       location: "Im Homeoffice von Genf aus",       period: "04/2015 – heute",       description: [         "Funktion als grundlegender strategischer Partner, der das Wachstum von der Gründung bis zu einer führenden Marktposition steuert, indem digitale und betriebliche Rahmenbedingungen kontinuierlich optimiert werden.",         "Entwicklung einer React/Firebase-basierten B2B-Landing-Plattform für Projekte im Rahmen der Saudi Vision 2030 (NEOM, Red Sea) unter Integration von Google Ads und GTM-Tracking, wodurch in der Startwoche eine Klickrate (CTR) von 7,80 % erzielt wurde.",         "Konzeption und Entwicklung der Website von RoofTech Industries SPC mit Next.js und TypeScript, einer auf Sanity ausgerichteten Headless-CMS-Inhaltsarchitektur und einer Bereitstellung auf Cloudflare Workers über OpenNext.", "Entwickle derzeit KI-basierte arabische Lokalisierungs- und halbautonome Kommunikationsworkflows zur Unterstützung hochwertiger Infrastruktur-Ausschreibungen in der Region.",         "Erzielte nachhaltige finanzielle Ergebnisse, darunter eine Senkung der Gemeinkosten um 20 % durch strategische Initiativen zur digitalen Effizienzsteigerung und Beschaffung."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      id: "exp-3",
+      role: "Focal Point: Finanz-, Beschaffungs- und Inventarprojekte",
+      company: "United Nations Institute for Training and Research (UNITAR)",
+      location: "Genf, Schweiz",
+      period: "11/2022 – 03/2025",
+      description: [
+        "Sicherte eine hervorragende Kontrolle über ein Projektportfolio im Wert von ca. 500.000 US-Dollar durch die Koordination der Quantum-ERP-Abläufe, wodurch eine präzise Mittelzuweisung und fundierte strategische Entscheidungen gewährleistet wurden.",
+        "Schuf erheblichen Mehrwert durch strategische Beschaffung und erzielte dabei durchschnittlich 30 % Kosteneinsparungen bei wichtigen Anschaffungen, während die strikte Einhaltung der UN-Richtlinien gewährleistet wurde.",
+        "Koordinierte die Logistik für mehr als 11 Schulungsworkshops und verwaltete die Reisekosten sowie die Tagegelder für bis zu 40 Teilnehmer.",
+        "Steigerte die betriebliche Effizienz erheblich durch die Einführung eines optimierten Rechnungsnachverfolgungsprozesses, wodurch die Bearbeitungszeit um 70 % verkürzt wurde.",
+        "Einrichtung eines detaillierten Bestandsverwaltungssystems für die Vermögenswerte der Abteilung, wodurch Anschaffungen und Veräußerungen genau nachverfolgt und Unstimmigkeiten um 99 % reduziert wurden."
+      ],
+      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+    },
+    {
+      id: "exp-4",
+      role: "Leiter: MaerskLine.com",
+      company: "MAERSK LINE",
+      location: "Mumbai",
+      period: "07/2010 – 03/2015",
+      description: [
+        "Unterstützte die strategische Planung und die weltweite Einführung der neu gestalteten Website MaerskLine.com in 11 Sprachen und koordinierte dabei die Zusammenarbeit mit der IT-Abteilung und den regionalen Teams, um die Integration in die zentrale SAP-Umgebung sicherzustellen.",
+        "Leitete die Integration der Marketing-Automatisierungsplattform Eloqua in mehreren Märkten und verbesserte die Lead-Generierung durch besser strukturierte digitale Kampagnen um ca. 10 %.",
+        "Beaufsichtigte Webinhalte und Kampagnenbotschaften, um die Übereinstimmung mit der Marke, dem Tonfall und den Kommunikationsrichtlinien von Maersk in mehr als 37 regionalen Clustern sicherzustellen. Arbeitete mit regionalen Marketing- und Vertriebsteams zusammen, um konsistente, genaue und konforme Botschaften zu gewährleisten und gleichzeitig lokale Geschäftsziele zu unterstützen."
+      ],
+      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+    },
+    { id: "exp-5", role: "Leiter: E-Marketing-Abteilung und Verwaltung", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Entwicklung eines zentralisierten Budgetierungssystems zur Verwaltung von Ausgaben in Höhe von 400.000 INR für digitales Marketing und Personalwesen unter optimaler Ressourcenzuweisung.", "Erstellung und Umsetzung gezielter Schulungsprogramme für ein Team von mehr als 15 Mitarbeitern zur Verbesserung der Lead-Generierung und der Gesamtleistung.", "Beaufsichtigte die Lohn- und Gehaltsabrechnung und verhandelte Lieferantenverträge, um die Betriebskontinuität zu gewährleisten."], technologies: [...DATA_EN.experience[4].technologies] },
+  ],
   projects: [
     {
       id: "proj-8",
@@ -605,10 +666,10 @@ const DATA_DE: ResumeData = {
       id: "proj-6",
       title: "CaseSmart - Plattform für das Fallmanagement im Einwanderungswesen",
       description: [
-        "Entwicklung einer Compliance-orientierten SaaS-Plattform für britische Einwanderungsberatungsunternehmen - zur Durchsetzung eines strengen 21-stufigen UKVI-Workflows mit strengen Kontrollpunkten, rollenbasiertem Zugriff, Audit-Protokollierung und Dokumentenmanagement. Entwickelt, um eine Steigerung der Dokumenteneffizienz um 99 % und eine 100-prozentige Compliance-Sicherheit zu gewährleisten.",
+        "Entwicklung einer Compliance-orientierten SaaS-Plattform für britische Einwanderungsberatungsunternehmen - zur Durchsetzung eines strukturierten 21-stufigen UKVI-Workflows mit definierten Kontrollpunkten, rollenbasiertem Zugriff, Audit-Protokollierung und Dokumentenmanagement. Entwickelt, um Dokumentationsprozesse zu straffen und eine verlässliche Einhaltung regulatorischer Vorgaben zu unterstützen.",
         "CaseSmart ist eine Full-Stack-SaaS-Plattform für Fallmanagement und Dokumenten-Workflow, die ich von Grund auf für britische Einwanderungsberatungsfirmen entworfen und entwickelt habe. Das System führt Visa-Dokumentationsbeauftragte durch einen strengen 21-stufigen Compliance-Prozess - vom Kunden-Onboarding bis zur Visumgenehmigung - mit Hard-Gate-Kontrollen, die den weiteren Fortschritt verhindern, solange nicht jeder vorherige Schritt vollständig abgeschlossen ist.",
         "Jede Ebene der Plattform basiert auf den Dokumentationsstandards der UKVI und umfasst verbindliche Namenskonventionen, Fallverfolgung in Echtzeit sowie rollenbasierte Zugriffskontrolle. Ein Admin-Panel auf Direktorenebene bietet vollständige Transparenz über den Prüfpfad aller Fälle und Teamaktivitäten.",
-        "Das Ergebnis: eine Compliance-orientierte Architektur, die manuelle Dokumentationsfehler und Prozessslücken beseitigt - was zu einer geschätzten Effizienzsteigerung von 99 % im Dokumentations-Workflow führt und eine 100-prozentige Prozesskonformität bei jedem von der Firma bearbeiteten Fall gewährleistet."
+        "Das Ergebnis: eine Compliance-orientierte Architektur, die darauf ausgelegt ist, manuelle Dokumentationsfehler und Prozesslücken zu minimieren - für gestraffte Abläufe in der Fallbearbeitung und eine strukturierte Einhaltung der Vorgaben bei jedem Mandat der Kanzlei."
       ],
       tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Vercel"],
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
@@ -735,13 +796,15 @@ const DATA_DE: ResumeData = {
     qualificationsTitle: "Qualifikationen",
     endorsementsTitle: "Empfehlungen",
     education: "Ausbildung",
-    certificates: "Zertifikate & Abzeichen",
+    certificates: "Kontinuierliche berufliche Weiterbildung",
+    certificatesSubtitle: "Ausgewählte Weiterbildungen in KI, Daten und digitaler Transformation.",
     languages: "Sprachen",
     interests: "Interessen",
     contact: "Kontakt",
     viewDetails: "Details Anzeigen",
     showLess: "Weniger Anzeigen",
     online: "Online",
+    avgProficiency: "Durchschnittl. Kompetenz",
     askMe: "Fragen Sie mich etwas über David...",
     poweredBy: "Unterstützt durch Gemini",
     rightsReserved: "Alle Rechte Vorbehalten",
@@ -757,8 +820,8 @@ const DATA_DE: ResumeData = {
 // ==========================================
 const DATA_ES: ResumeData = {
   ...DATA_EN,
-  title: "Especialista en transformación digital y operaciones | Productos y plataformas impulsados por IA",
-  about: "Profesional sénior en transformación digital y operaciones con un marcado enfoque en la ejecución. Cuenta con más de 16 años de experiencia en el sector de los servicios profesionales, el sistema de las Naciones Unidas y la logística global. Trayectoria demostrada en el diseño y la implementación de programas digitales integrales —desde sistemas ERP hasta plataformas basadas en IA— que han reducido el tiempo de procesamiento hasta en un 70 %, han disminuido los costes anuales en un 40 % y han mejorado la precisión operativa hasta el 99 %. Experiencia en entornos multiculturales de alta complejidad, incluida la Ginebra internacional. Aporta liderazgo estratégico en programas y se encarga de la ejecución práctica de productos digitales a medida utilizando React, TypeScript, arquitectura CMS «headless» e integración de IA/LLM.",
+  title: "Líder sénior de Transformación Digital y Operaciones",
+  about: "Dirijo transformaciones complejas en operaciones, sistemas y ejecución digital, convirtiendo procesos fragmentados en formas de trabajo claras, medibles y sostenibles. Experiencia en organizaciones internacionales y entornos comerciales, incluyendo finanzas, compras, inventario y operaciones digitales.",
   location: "Ginebra, Suiza",
   workPermit: "Permiso de trabajo B",
   skills: DATA_EN.skills.map(s => ({
@@ -784,14 +847,14 @@ const DATA_ES: ResumeData = {
       period: "Abril de 2015 - Actualidad",
       description: [
         "Bufete de abogados especializado en inmigración con sede en el Reino Unido. Me incorporé cuando el bufete solo contaba con una sucursal en Bombay. A través de la transformación digital, la implementación de estrategias de SEO y PPC, y la ampliación de las operaciones, contribuí a impulsar la expansión a tres sucursales en la India, la entrada en el mercado británico y la evolución del bufete hacia un despacho de inmigración impulsado por la inteligencia artificial.",
-        "##PHASE:Fase 1: Responsable de Transformación Estratégica (ABRIL DE 2015 - NOVIEMBRE DE 2022)",
+        "##PHASE:Fase 1 — Liderazgo de Transformación Estratégica (Abril de 2015 – Noviembre de 2022)",
         "Amplié el bufete de una sucursal en Bombay a tres sucursales en toda la India - Bombay, Delhi y Bangalore - mediante estrategia digital, campañas de SEO/PPC, marcos de captación de talento y gestión de proveedores.",
         "Diseñé y ejecuté una remodelación integral del modelo operativo, pasando de flujos de trabajo manuales a procesos impulsados por ERP y logrando una reducción anual de costes del 40 %.",
         "Construí la presencia digital de la empresa desde cero, generando una fuerte demanda en el Reino Unido y ayudando a crear las condiciones para el lanzamiento de la empresa hermana, Conroy Baker Ltd., a finales de 2022.",
-        "##PHASE:Fase 2 - Consultoría paralela (noviembre de 2022 - marzo de 2025)",
-        "Continué como asesor estratégico, en paralelo a mi trabajo por contrato con la ONU, apoyando la entrada en el mercado del Reino Unido y las iniciativas digitales en curso.",
+        "##PHASE:Fase 2 — Consultoría paralela (Noviembre de 2022 – Marzo de 2025)",
+        "«Paralelamente a mi puesto a tiempo completo en UNITAR, continué realizando una actividad de consultoría definida, apoyando iniciativas seleccionadas de transformación y desarrollo de negocios digitales.»",
         "Dirigí la hoja de ruta de comercialización digital para la entidad del Reino Unido, utilizando SEO y PPC para aumentar la visibilidad en los buscadores y generar clientes potenciales cualificados en los primeros 3 meses.",
-        "##PHASE:Fase 3 - Reincorporación a tiempo completo (abril de 2025 - actualidad)",
+        "##PHASE:Fase 3 — Reincorporación a tiempo completo (Abril de 2025 – Presente)",
         "Diseñé y desarrollé un CRM interno propio utilizando React, TypeScript, PostgreSQL y Drizzle ORM, centralizando las operaciones entre la India y el Reino Unido y eliminando los costes de SaaS de terceros.",
         "Desarrollé herramientas de cumplimiento normativo basadas en IA, incluidas calculadoras de costes de patrocinio y de ausencias ILR, que ahora actúan como el principal motor de generación de clientes potenciales de la empresa.",
         "Dirigí la automatización de los flujos de trabajo de incorporación, asignación de recursos y documentación para reducir los errores y mejorar la velocidad de tramitación de visados.",
@@ -799,7 +862,48 @@ const DATA_ES: ResumeData = {
         "Creé la plataforma de última generación para visados de cónyuge del Reino Unido utilizando los estándares GEO y Framer Motion para mejorar el rendimiento de los Core Web Vitals."
       ],
       technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Consultor: Estrategia y operaciones digitales",       company: "Ghosh Group",       location: "A distancia desde Ginebra",       period: "04/2015 – Actualidad",       description: [         "Actuar como socio estratégico fundamental, impulsando el crecimiento desde los inicios hasta alcanzar una posición destacada en el mercado mediante la optimización continua de los marcos digitales y operativos.",         "Diseñé una plataforma de aterrizaje B2B basada en React/Firebase dirigida a los proyectos de la Visión 2030 de Arabia Saudí (NEOM, Mar Rojo), integrando Google Ads y el seguimiento de GTM para lograr un CTR del 7,80 % en la semana de lanzamiento.",         "Diseño y desarrollo del sitio web de RoofTech Industries SPC con Next.js y TypeScript, una arquitectura de contenidos headless basada en Sanity y despliegue en Cloudflare Workers mediante OpenNext.", "Actualmente, estoy diseñando flujos de trabajo de comunicación semiautónomos y de localización al árabe basados en IA para respaldar licitaciones de infraestructuras de alto valor en la región.",         "He generado un impacto financiero constante, incluida una reducción del 20 % en los gastos generales mediante iniciativas estratégicas de eficiencia digital y de contratación."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {       id: "exp-3",       role: "Focal Point: Finance, Procurement & Inventory Projects",       company: "United Nations Institute for Training and Research (UNITAR)",       location: "Ginebra, Suiza",       period: "11/2022 – 03/2025",       description: [         "Logré un control excepcional sobre una cartera de proyectos de aproximadamente 500 000 dólares mediante la coordinación de las operaciones del sistema Quantum ERP, lo que garantizó una asignación precisa de los fondos y una toma de decisiones estratégicas bien fundamentada.",         "Generé un valor sustancial mediante la contratación estratégica, logrando un ahorro medio del 30 % en las adquisiciones clave, al tiempo que garantizaba el estricto cumplimiento de las directrices de las Naciones Unidas.",         "Coordiné la logística de más de 11 talleres de formación, gestionando los viajes de los participantes y las dietas diarias para hasta 40 participantes.",         "Impulsé una eficiencia operativa significativa mediante la implementación de un proceso optimizado de seguimiento de facturas, reduciendo el tiempo de tramitación en un 70 %.",         "Establecí un sistema de inventario detallado para los activos de la División, realizando un seguimiento preciso de las adquisiciones y enajenaciones y reduciendo las discrepancias en un 99 %."       ],       technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]     },     {       id: "exp-4",       role: "Manager: MaerskLine.com",       company: "MAERSK LINE",       location: "Mumbai",       period: "07/2010 – 03/2015",       description: [         "Apoyó la planificación estratégica y el lanzamiento global de la nueva versión de MaerskLine.com en 11 idiomas, coordinándose con los equipos de TI y regionales para gestionar la integración con el entorno central de SAP.",         "Dirigí la integración de la plataforma de automatización de marketing Eloqua en múltiples mercados, mejorando la captación de clientes potenciales en aproximadamente un 10 % mediante campañas digitales más estructuradas.", "Supervisé el contenido web y los mensajes de las campañas para garantizar la coherencia con la marca, el tono de voz y las directrices de comunicación de Maersk en más de 37 grupos regionales. Trabajé con los equipos regionales de marketing y ventas para mantener unos mensajes coherentes, precisos y conformes con las normas, al tiempo que apoyaba los objetivos comerciales locales."       ],       technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]     },     { id: "exp-5", role: "Leiter: E-Marketing-Abteilung und Verwaltung", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Entwicklung eines zentralisierten Budgetierungssystems zur Verwaltung von Ausgaben in Höhe von 400.000 INR für digitales Marketing und Personalwesen unter optimaler Ressourcenzuweisung.", "Erstellung und Umsetzung gezielter Schulungsprogramme für ein Team von mehr als 15 Mitarbeitern zur Verbesserung der Lead-Generierung und der Gesamtleistung.", "Beaufsichtigte die Lohn- und Gehaltsabrechnung und verhandelte Lieferantenverträge, um die Betriebskontinuität zu gewährleisten."], technologies: [...DATA_EN.experience[4].technologies] },   ],
+    },     {       id: "exp-2",       role: "Consultor: Estrategia y operaciones digitales",       company: "Ghosh Group",       location: "A distancia desde Ginebra",       period: "04/2015 – Actualidad",       description: [         "Actuar como socio estratégico fundamental, impulsando el crecimiento desde los inicios hasta alcanzar una posición destacada en el mercado mediante la optimización continua de los marcos digitales y operativos.",         "Diseñé una plataforma de aterrizaje B2B basada en React/Firebase dirigida a los proyectos de la Visión 2030 de Arabia Saudí (NEOM, Mar Rojo), integrando Google Ads y el seguimiento de GTM para lograr un CTR del 7,80 % en la semana de lanzamiento.",         "Diseño y desarrollo del sitio web de RoofTech Industries SPC con Next.js y TypeScript, una arquitectura de contenidos headless basada en Sanity y despliegue en Cloudflare Workers mediante OpenNext.", "Actualmente, estoy diseñando flujos de trabajo de comunicación semiautónomos y de localización al árabe basados en IA para respaldar licitaciones de infraestructuras de alto valor en la región.",         "He generado un impacto financiero constante, incluida una reducción del 20 % en los gastos generales mediante iniciativas estratégicas de eficiencia digital y de contratación."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      id: "exp-3",
+      role: "Punto focal: Proyectos de finanzas, compras e inventario",
+      company: "United Nations Institute for Training and Research (UNITAR)",
+      location: "Ginebra, Suiza",
+      period: "11/2022 – 03/2025",
+      description: [
+        "Logré un control excepcional sobre una cartera de proyectos de aproximadamente 500 000 dólares mediante la coordinación de las operaciones del sistema Quantum ERP, lo que garantizó una asignación precisa de los fondos y una toma de decisiones estratégicas bien fundamentada.",
+        "Generé un valor sustancial mediante la contratación estratégica, logrando un ahorro medio del 30 % en las adquisiciones clave, al tiempo que garantizaba el estricto cumplimiento de las directrices de las Naciones Unidas.",
+        "Coordiné la logística de más de 11 talleres de formación, gestionando los viajes de los participantes y las dietas diarias para hasta 40 participantes.",
+        "Impulsé una eficiencia operativa significativa mediante la implementación de un proceso optimizado de seguimiento de facturas, reduciendo el tiempo de tramitación en un 70 %.",
+        "Establecí un sistema de inventario detallado para los activos de la División, realizando un seguimiento preciso de las adquisiciones y enajenaciones y reduciendo las discrepancias en un 99 %."
+      ],
+      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+    },
+    {
+      id: "exp-4",
+      role: "Responsable: MaerskLine.com",
+      company: "MAERSK LINE",
+      location: "Mumbai",
+      period: "07/2010 – 03/2015",
+      description: [
+        "Apoyó la planificación estratégica y el lanzamiento global de la nueva versión de MaerskLine.com en 11 idiomas, coordinándose con los equipos de TI y regionales para gestionar la integración con el entorno central de SAP.",
+        "Dirigí la integración de la plataforma de automatización de marketing Eloqua en múltiples mercados, mejorando la captación de clientes potenciales en aproximadamente un 10 % mediante campañas digitales más estructuradas.",
+        "Supervisé el contenido web y los mensajes de las campañas para garantizar la coherencia con la marca, el tono de voz y las directrices de comunicación de Maersk en más de 37 grupos regionales. Trabajé con los equipos regionales de marketing y ventas para mantener unos mensajes coherentes, precisos y conformes con las normas, al tiempo que apoyaba los objetivos comerciales locales."
+      ],
+      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+    },
+    {
+      id: "exp-5",
+      role: "Responsable: Departamento de E-Marketing y Administración",
+      company: "LOHA ISPAAT LTD",
+      location: "Mumbai",
+      period: "07/2009 – 06/2010",
+      description: [
+        "Establecí un sistema presupuestario centralizado para gestionar 400 000 INR en gastos de marketing digital y recursos humanos con una asignación óptima de recursos.",
+        "Diseñé e implementé programas de capacitación dirigidos a un equipo de más de 15 personas, mejorando la generación de oportunidades de negocio y el rendimiento general.",
+        "Supervisé la gestión de nóminas y negocié contratos con proveedores para garantizar la continuidad operativa."
+      ],
+      technologies: [...DATA_EN.experience[4].technologies]
+    },
+  ],
   projects: [
     {
       id: "proj-8",
@@ -817,10 +921,10 @@ const DATA_ES: ResumeData = {
       id: "proj-6",
       title: "CaseSmart: plataforma de gestión de expedientes de inmigración",
       description: [
-        "Diseñé una plataforma SaaS centrada en el cumplimiento normativo para empresas de asesoramiento en materia de inmigración del Reino Unido, que aplica un riguroso flujo de trabajo de 21 pasos de UKVI con controles de acceso estrictos, acceso basado en roles, registros de auditoría y gestión de documentos. Creada para ofrecer un aumento del 99 % en la eficiencia de la documentación y una garantía de cumplimiento del 100 %.",
+        "Diseñé una plataforma SaaS orientada al cumplimiento normativo para firmas de asesoramiento en inmigración del Reino Unido, aplicando un flujo de trabajo estructurado de 21 pasos de UKVI con controles en etapas clave, acceso basado en roles, registros de auditoría y gestión documental. Diseñada para agilizar los flujos de documentación y respaldar una rigurosa supervisión del cumplimiento normativo.",
         "CaseSmart es una plataforma SaaS de gestión de casos y flujo de trabajo documental de ciclo completo que diseñé y desarrollé de principio a fin para empresas de asesoramiento en materia de inmigración del Reino Unido. El sistema guía a los responsables de la documentación de visados a través de un riguroso proceso de cumplimiento de 21 pasos - desde la incorporación del cliente hasta la aprobación del visado - con controles de acceso estrictos que impiden avanzar a menos que se hayan completado todos los pasos anteriores.",
         "Cada capa de la plataforma se basa en los estándares de documentación de UKVI, con convenciones de nomenclatura obligatorias, seguimiento de casos en tiempo real y control de acceso basado en roles. Un panel de administración de nivel directivo proporciona una visibilidad completa del registro de auditoría en todos los casos y la actividad del equipo.",
-        "El resultado: una arquitectura que prioriza el cumplimiento normativo y elimina los errores manuales en la documentación y las lagunas en los procesos, lo que supone una mejora estimada del 99 % en la eficiencia del flujo de trabajo de documentación y garantiza el cumplimiento normativo al 100 % en todos los casos gestionados por la empresa."
+        "El resultado: una arquitectura centrada en el cumplimiento diseñada para reducir al mínimo los errores manuales de documentación y los vacíos en los procesos, agilizando la gestión de expedientes y favoreciendo un cumplimiento estructurado de los procedimientos en los casos tramitados por la firma."
       ],
       tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "Vercel"],
       imageUrl: "https://ghoshgroups.com/download/Immigration-Case-Management-Platform.jpg"
@@ -922,7 +1026,7 @@ const DATA_ES: ResumeData = {
   testimonials: [
     {
       id: "t1",
-      text: "David demostró constantemente un profDavid no solo era muy trabajador, sino que también demostró una gran iniciativa y capacidad de adaptación. Su compromiso con el puesto quedó patente en la calidad de su trabajo y en su constante disposición a ir más allá de lo exigido. Su apoyo fue esencial para el buen funcionamiento de nuestras operaciones, y sigo estando profundamente agradecido por sus contribuciones.",
+      text: "David no solo era muy trabajador, sino que también demostró una gran iniciativa y capacidad de adaptación. Su compromiso con el puesto quedó patente en la calidad de su trabajo y en su constante disposición a ir más allá de lo exigido. Su apoyo fue esencial para el buen funcionamiento de nuestras operaciones, y sigo estando profundamente agradecido por sus contribuciones.",
       author: "Alexander A. Mejia",
       role: "Director de la División de Personas e Inclusión Social",
       company: "UNITAR"
@@ -947,13 +1051,15 @@ const DATA_ES: ResumeData = {
     qualificationsTitle: "Cualificaciones",
     endorsementsTitle: "Recomendaciones",
     education: "Educación",
-    certificates: "Certificados e Insignias",
+    certificates: "Desarrollo profesional continuo",
+    certificatesSubtitle: "Formación seleccionada en IA, datos y transformación digital.",
     languages: "Idiomas",
     interests: "Intereses",
     contact: "Contacto",
     viewDetails: "Ver Detalles",
     showLess: "Ver Menos",
     online: "En Línea",
+    avgProficiency: "Competencia media",
     askMe: "Pregúntame algo sobre David...",
     poweredBy: "Impulsado por Gemini",
     rightsReserved: "Todos los Derechos Reservados",

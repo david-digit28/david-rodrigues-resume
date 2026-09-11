@@ -34,7 +34,7 @@ export const sendMessageToGemini = async (
       tags: p.tags,
     })),
     education: resumeData.education,
-    certifications: resumeData.certifications,
+    certificates: resumeData.certificates,
     languages: resumeData.languages,
   };
 

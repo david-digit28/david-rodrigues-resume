@@ -9,12 +9,12 @@ interface SkillsProps {
   skills: Skill[];
 }
 
-const CustomTooltip = ({ active, payload, label }: any) => {
+const CustomTooltip = ({ active, payload, label, avgText }: any) => {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 p-3 rounded shadow-xl">
         <p className="font-bold text-indigo-600 dark:text-indigo-300">{payload[0].payload.subject}</p>
-        <p className="text-slate-600 dark:text-slate-300">Avg Proficiency: {Math.round(payload[0].value)}%</p>
+        <p className="text-slate-600 dark:text-slate-300">{avgText || 'Avg Proficiency'}: {Math.round(payload[0].value)}%</p>
       </div>
     );
   }
@@ -140,7 +140,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
                         fill="#6366f1"
                         fillOpacity={0.2}
                       />
-                      <Tooltip content={<CustomTooltip />} />
+                      <Tooltip content={<CustomTooltip avgText={data.ui.avgProficiency} />} />
                     </RadarChart>
                   </ResponsiveContainer>
                 </div>

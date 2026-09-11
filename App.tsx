@@ -31,9 +31,9 @@ const MainContent: React.FC = () => {
               <ImpactMetrics stats={data.stats} />
               <Skills skills={data.skills} />
               <Experience experience={data.experience} />
-              <MoreInfo data={data} />
               <Projects projects={data.projects} />
               <Testimonials testimonials={data.testimonials} />
+              <MoreInfo data={data} />
               
               <Footer />
           </div>

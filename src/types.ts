@@ -83,12 +83,14 @@ export interface UIStrings {
   endorsementsTitle: string;
   education: string;
   certificates: string;
+  certificatesSubtitle?: string;
   languages: string;
   interests: string;
   contact: string;
   viewDetails: string;
   showLess: string;
   online: string;
+  avgProficiency?: string;
   askMe: string;
   poweredBy: string;
   rightsReserved: string;

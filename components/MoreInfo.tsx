@@ -105,9 +105,14 @@ const MoreInfo: React.FC<MoreInfoProps> = ({ data }) => {
            {/* Decor */}
            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -mr-10 -mt-10" />
            
-           <div className="flex items-center gap-2 mb-6 relative z-10">
-             <Award size={24} className="text-white/80" />
-             <h3 className="font-bold text-lg uppercase tracking-wider">{data.ui.certificates}</h3>
+           <div className="flex items-start gap-3 mb-6 relative z-10">
+             <Award size={24} className="text-white/80 shrink-0 mt-0.5" />
+             <div>
+               <h3 className="font-bold text-lg uppercase tracking-wider">{data.ui.certificates}</h3>
+               {data.ui.certificatesSubtitle && (
+                 <p className="text-xs text-white/80 mt-1 leading-relaxed font-normal normal-case">{data.ui.certificatesSubtitle}</p>
+               )}
+             </div>
           </div>
 
           <ul className="space-y-4 relative z-10 flex-grow">

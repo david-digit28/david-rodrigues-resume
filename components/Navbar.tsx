@@ -14,9 +14,9 @@ const Navbar: React.FC = () => {
   const navItems = [
     { name: data.ui.skillsTitle, href: '#skills' },
     { name: data.ui.experienceTitle, href: '#experience' },
-    { name: data.ui.qualificationsTitle, href: '#qualifications' },
     { name: data.ui.projectsTitle, href: '#projects' },
     { name: data.ui.endorsementsTitle, href: '#endorsements' },
+    { name: data.ui.qualificationsTitle, href: '#qualifications' },
   ];
 
   const languages: { code: LanguageCode; label: string; flag: string }[] = [
