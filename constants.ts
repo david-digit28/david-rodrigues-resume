@@ -323,7 +323,7 @@ const DATA_EN: ResumeData = {
     poweredBy: "Powered by Gemini",
     rightsReserved: "Rights Reserved",
     translationDisclaimer: "AI-assisted translations. Context may vary.",
-    privacyNotice: "Privacy: This site doesn't collect data. AI chat is local-only.",
+    privacyNotice: "AI chat uses Google Gemini. Do not submit confidential, personal or sensitive information.",
     sdgBadge: "UN SDG Goal 13",
     sdgTooltip: "Climate Action: Built with sustainable web practices-optimized code, renewable energy infrastructure, and zero unnecessary data collection."
   }
@@ -621,7 +621,7 @@ const DATA_FR: ResumeData = {
     poweredBy: "Propulsé par Gemini",
     rightsReserved: "Tous Droits Réservés",
     translationDisclaimer: "Traductions assistées par IA. Le contexte peut varier.",
-    privacyNotice: "Confidentialité : Ce site ne collecte aucune donnée. Le chat IA est local.",
+    privacyNotice: "Le chatbot IA utilise Google Gemini. Ne transmettez aucune information confidentielle, personnelle ou sensible.",
     sdgBadge: "Objectif ODD 13",
     sdgTooltip: "Action Climatique : Construit avec des pratiques web durables-code optimisé et zéro collecte de données inutile."
   }
@@ -865,7 +865,7 @@ const DATA_DE: ResumeData = {
     poweredBy: "Unterstützt durch Gemini",
     rightsReserved: "Alle Rechte Vorbehalten",
     translationDisclaimer: "KI-unterstützte Übersetzungen. Der Kontext kann variieren.",
-    privacyNotice: "Datenschutz: Keine Datenerfassung. KI-Chat ist lokal.",
+    privacyNotice: "Der KI-Chat verwendet Google Gemini. Geben Sie keine vertraulichen, personenbezogenen oder sensiblen Informationen ein.",
     sdgBadge: "UN SDG Ziel 13",
     sdgTooltip: "Klimaschutz: Nachhaltige Web-Praktiken-optimierter Code und null unnötige Datenerfassung."
   }
@@ -1121,7 +1121,7 @@ const DATA_ES: ResumeData = {
     poweredBy: "Impulsado por Gemini",
     rightsReserved: "Todos los Derechos Reservados",
     translationDisclaimer: "Traducciones asistidas por IA. El contexto puede variar.",
-    privacyNotice: "Privacidad: Sin recolección de datos. Chat IA es local.",
+    privacyNotice: "El chat de IA utiliza Google Gemini. No introduzca información confidencial, personal ni sensible.",
     sdgBadge: "Objetivo ODS 13",
     sdgTooltip: "Acción Climática: Construido con prácticas web sostenibles-código optimizado y cero recolección de datos innecesaria."
   }

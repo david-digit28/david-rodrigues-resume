@@ -208,7 +208,7 @@ const ResumeChat: React.FC = () => {
             </div>
 
             {/* Input */}
-            <div className="p-4 border-t border-slate-200 dark:border-slate-700 bg-slate-50/50 dark:bg-slate-900/50 shrink-0">
+            <div className="p-3 sm:p-4 border-t border-slate-200 dark:border-slate-700 bg-slate-50/50 dark:bg-slate-900/50 shrink-0">
               <div className="flex gap-2">
                 <input
                   type="text"
@@ -227,7 +227,10 @@ const ResumeChat: React.FC = () => {
                   <Send size={18} />
                 </button>
               </div>
-              <div className="text-[10px] text-slate-500 dark:text-slate-600 text-center mt-2 flex items-center justify-center gap-1">
+              <p className="text-[10px] text-slate-500 dark:text-slate-400 text-center mt-2 leading-tight px-1">
+                {data.ui.privacyNotice}
+              </p>
+              <div className="text-[10px] text-slate-400 dark:text-slate-500 text-center mt-1 flex items-center justify-center gap-1">
                 <Sparkles size={10} /> {data.ui.poweredBy}
               </div>
             </div>
