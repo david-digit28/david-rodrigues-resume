@@ -21,7 +21,7 @@ const SHARED_DATA = {
 const DATA_EN: ResumeData = {
   ...SHARED_DATA,
   title: "Senior Digital Transformation & Operations Leader",
-  about: "I lead complex transformation across operations, systems and digital delivery - turning fragmented processes into clear, measurable and sustainable ways of working. Experience across international organisations and commercial environments, including finance, procurement, inventory and digital operations.",
+  about: "I lead complex transformation across operations, systems and digital delivery—turning fragmented processes into clear, measurable and sustainable ways of working. Experience across international organisations and commercial environments, including finance, procurement, inventory and digital operations.",
   location: "Le Grand-Saconnex, Geneva, Switzerland",
   workPermit: "Work Permit B",
   skills: [
