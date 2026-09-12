@@ -330,6 +330,60 @@ const DATA_EN: ResumeData = {
 };
 
 // ==========================================
+// SKILL NAME LOCALIZATIONS
+// ==========================================
+const SKILL_NAMES_FR: Record<string, string> = {
+  "Strategic Planning": "Planification stratégique",
+  "Operating Model & Process Design": "Modèle opérationnel & conception de processus",
+  "Business Process Optimisation": "Optimisation des processus métier",
+  "Change Management": "Gestion du changement",
+  "Cross-Functional Leadership": "Leadership transversal",
+  "Talent Acquisition": "Acquisition de talents",
+  "Vendor & Budget Management": "Gestion des fournisseurs & du budget",
+  "ERP Implementation (SAP Environment)": "Implémentation ERP (Environnement SAP)",
+  "Service Design": "Conception de services",
+  "Web Hosting Admin": "Administration de l'hébergement web",
+  "AI-Driven Web Applications": "Applications web pilotées par l'IA",
+  "Generative AI (Google AI Studio, LLM Integration)": "IA générative (Google AI Studio, intégration LLM)",
+  "Excel (Advanced)": "Excel (Avancé)",
+  "SEO & GEO (Generative Engine Optimization)": "SEO & GEO (Optimisation pour moteurs génératifs)"
+};
+
+const SKILL_NAMES_DE: Record<string, string> = {
+  "Strategic Planning": "Strategische Planung",
+  "Operating Model & Process Design": "Betriebsmodell & Prozessdesign",
+  "Business Process Optimisation": "Geschäftsprozessoptimierung",
+  "Change Management": "Veränderungsmanagement",
+  "Cross-Functional Leadership": "Bereichsübergreifende Führung",
+  "Talent Acquisition": "Talentakquise",
+  "Vendor & Budget Management": "Lieferanten- & Budgetmanagement",
+  "ERP Implementation (SAP Environment)": "ERP-Implementierung (SAP-Umgebung)",
+  "Service Design": "Servicedesign",
+  "Web Hosting Admin": "Webhosting-Administration",
+  "AI-Driven Web Applications": "KI-gestützte Webanwendungen",
+  "Generative AI (Google AI Studio, LLM Integration)": "Generative KI (Google AI Studio, LLM-Integration)",
+  "Excel (Advanced)": "Excel (Fortgeschritten)",
+  "SEO & GEO (Generative Engine Optimization)": "SEO & GEO (Optimierung für generative Suchmaschinen)"
+};
+
+const SKILL_NAMES_ES: Record<string, string> = {
+  "Strategic Planning": "Planificación estratégica",
+  "Operating Model & Process Design": "Modelo operativo y diseño de procesos",
+  "Business Process Optimisation": "Optimización de procesos de negocio",
+  "Change Management": "Gestión del cambio",
+  "Cross-Functional Leadership": "Liderazgo multifuncional",
+  "Talent Acquisition": "Adquisición de talento",
+  "Vendor & Budget Management": "Gestión de proveedores y presupuestos",
+  "ERP Implementation (SAP Environment)": "Implementación de ERP (Entorno SAP)",
+  "Service Design": "Diseño de servicios",
+  "Web Hosting Admin": "Administración de alojamiento web",
+  "AI-Driven Web Applications": "Aplicaciones web impulsadas por IA",
+  "Generative AI (Google AI Studio, LLM Integration)": "IA generativa (Google AI Studio, integración de LLM)",
+  "Excel (Advanced)": "Excel (Avanzado)",
+  "SEO & GEO (Generative Engine Optimization)": "SEO & GEO (Optimización para motores generativos)"
+};
+
+// ==========================================
 // FRENCH (FR)
 // ==========================================
 const DATA_FR: ResumeData = {
@@ -340,6 +394,7 @@ const DATA_FR: ResumeData = {
   workPermit: "Permis de travail B",
   skills: DATA_EN.skills.map(s => ({
     ...s,
+    name: SKILL_NAMES_FR[s.name] || s.name,
     category: s.category
       .replace("Strategic & Operations Management", "Gestion Stratégique & Opérations")
       .replace("Strategic Operations", "Opérations Stratégiques")
@@ -376,8 +431,8 @@ const DATA_FR: ResumeData = {
         "Conçu un système de réservation sur mesure, multi-sites et multi-devises, intégrant Stripe et Razorpay avec calcul automatique de la GST/TVA.",
         "Développé la plateforme de nouvelle génération pour les visas de conjoint au Royaume-Uni en utilisant les normes GEO et Framer Motion pour améliorer les performances Core Web Vitals."
       ],
-      technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Consultant : Stratégie et opérations numériques",       company: "Ghosh Group",       location: "À distance depuis Genève",       period: "04/2015 – Aujourd'hui",       description: [         "Jouer le rôle de partenaire stratégique essentiel, en pilotant la croissance depuis la création de l'entreprise jusqu'à l'atteinte d'une position dominante sur le marché, grâce à l'optimisation continue des structures numériques et opérationnelles.",         "Conception d'une plateforme d'atterrissage B2B basée sur React/Firebase ciblant les projets de la Vision 2030 de l'Arabie saoudite (NEOM, Mer Rouge), intégrant Google Ads et le suivi GTM pour atteindre un CTR de 7,80 % dès la semaine de lancement.",         "Conception et développement du site web de RoofTech Industries SPC avec Next.js et TypeScript, avec une architecture de contenu headless basée sur Sanity et un déploiement sur Cloudflare Workers via OpenNext.", "Conception en cours de workflows de localisation en arabe et de communication semi-autonomes basés sur l'IA pour soutenir les appels d'offres d'infrastructures à forte valeur ajoutée dans la région.",         "Impact financier constant, notamment une réduction de 20 % des frais généraux grâce à des initiatives stratégiques d'efficacité numérique et d'approvisionnement."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      technologies: ["Transformation numérique", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
+    },     {       id: "exp-2",       role: "Consultant : Stratégie et opérations numériques",       company: "Ghosh Group",       location: "À distance depuis Genève",       period: "04/2015 – Aujourd'hui",       description: [         "Jouer le rôle de partenaire stratégique essentiel, en pilotant la croissance depuis la création de l'entreprise jusqu'à l'atteinte d'une position dominante sur le marché, grâce à l'optimisation continue des structures numériques et opérationnelles.",         "Conception d'une plateforme d'atterrissage B2B basée sur React/Firebase ciblant les projets de la Vision 2030 de l'Arabie saoudite (NEOM, Mer Rouge), intégrant Google Ads et le suivi GTM pour atteindre un CTR de 7,80 % dès la semaine de lancement.",         "Conception et développement du site web de RoofTech Industries SPC avec Next.js et TypeScript, avec une architecture de contenu headless basée sur Sanity et un déploiement sur Cloudflare Workers via OpenNext.", "Conception en cours de workflows de localisation en arabe et de communication semi-autonomes basés sur l'IA pour soutenir les appels d'offres d'infrastructures à forte valeur ajoutée dans la région.",         "Impact financier constant, notamment une réduction de 20 % des frais généraux grâce à des initiatives stratégiques d'efficacité numérique et d'approvisionnement."       ],       technologies: ["Stratégie numérique", "Opérations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "Localisation IA"]     },     {
       id: "exp-3",
       role: "Point focal : Projets de finances, achats et inventaire",
       company: "United Nations Institute for Training and Research (UNITAR)",
@@ -390,7 +445,7 @@ const DATA_FR: ResumeData = {
         "Amélioration significative de l'efficacité opérationnelle grâce à la mise en place d'un processus optimisé de suivi des factures, réduisant le temps de traitement de 70 %.",
         "Mise en place d'un système d'inventaire détaillé pour les actifs de la Division, permettant un suivi précis des acquisitions et des cessions et réduisant les écarts de 99 %."
       ],
-      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+      technologies: ["Quantum ERP", "Contrôle financier", "Achats", "Inventaire", "Logistique"]
     },
     {
       id: "exp-4",
@@ -402,9 +457,9 @@ const DATA_FR: ResumeData = {
         "Participation à la planification stratégique et à la mise en œuvre du lancement mondial du site Maerskline.com remanié (11 langues), en surmontant les défis techniques liés à l'intégration avec l'environnement SAP central.",
         "Promotion de l'intégration de la solution de marketing par e-mail Eloqua dans les 11 langues, ce qui a permis d'améliorer la capture de prospects de 10 %."
       ],
-      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+      technologies: ["CMS", "Intégration SAP", "Eloqua", "Localisation"]
     },
-    { id: "exp-5", role: "Responsable : Département E-Marketing et Administration", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Mise en place d'un système budgétaire centralisé pour gérer les dépenses de 400 000 INR en marketing digital et ressources humaines, avec une allocation optimale des ressources.", "Création et mise en œuvre de programmes de formation ciblés pour une équipe de plus de 15 membres, améliorant la capacité de génération de leads et la performance globale.", "Supervisé la gestion des salaires et négocié les contrats avec les fournisseurs pour assurer la continuité opérationnelle."], technologies: [...DATA_EN.experience[4].technologies] },
+    { id: "exp-5", role: "Responsable : Département E-Marketing et Administration", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Mise en place d'un système budgétaire centralisé pour gérer les dépenses de 400 000 INR en marketing digital et ressources humaines, avec une allocation optimale des ressources.", "Création et mise en œuvre de programmes de formation ciblés pour une équipe de plus de 15 membres, améliorant la capacité de génération de leads et la performance globale.", "Supervisé la gestion des salaires et négocié les contrats avec les fournisseurs pour assurer la continuité opérationnelle."], technologies: ["Gestion budgétaire", "Leadership d'équipe", "E-Marketing", "Gestion des fournisseurs"] },
   ],
   projects: [
     {
@@ -583,6 +638,7 @@ const DATA_DE: ResumeData = {
   workPermit: "Arbeitsbewilligung B",
   skills: DATA_EN.skills.map(s => ({
     ...s,
+    name: SKILL_NAMES_DE[s.name] || s.name,
     category: s.category
       .replace("Strategic & Operations Management", "Strategie & Betriebsmanagement")
       .replace("Strategic Operations", "Strategische Operationen")
@@ -618,10 +674,10 @@ const DATA_DE: ResumeData = {
         "Entwicklung eines maßgeschneiderten, standort- und währungsübergreifenden Buchungssystems, das Stripe und Razorpay integriert und eine automatische GST-/MwSt.-Berechnung ermöglicht.",
         "Aufbau der Plattform der nächsten Generation für britische Ehegattenvisa unter Verwendung von GEO-Standards und Framer Motion für eine verbesserte Core Web Vitals-Leistung."
       ],
-      technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Berater: Digitale Strategie & Betrieb",       company: "Ghosh Group",       location: "Im Homeoffice von Genf aus",       period: "04/2015 – heute",       description: [         "Funktion als grundlegender strategischer Partner, der das Wachstum von der Gründung bis zu einer führenden Marktposition steuert, indem digitale und betriebliche Rahmenbedingungen kontinuierlich optimiert werden.",         "Entwicklung einer React/Firebase-basierten B2B-Landing-Plattform für Projekte im Rahmen der Saudi Vision 2030 (NEOM, Red Sea) unter Integration von Google Ads und GTM-Tracking, wodurch in der Startwoche eine Klickrate (CTR) von 7,80 % erzielt wurde.",         "Konzeption und Entwicklung der Website von RoofTech Industries SPC mit Next.js und TypeScript, einer auf Sanity ausgerichteten Headless-CMS-Inhaltsarchitektur und einer Bereitstellung auf Cloudflare Workers über OpenNext.", "Entwickle derzeit KI-basierte arabische Lokalisierungs- und halbautonome Kommunikationsworkflows zur Unterstützung hochwertiger Infrastruktur-Ausschreibungen in der Region.",         "Erzielte nachhaltige finanzielle Ergebnisse, darunter eine Senkung der Gemeinkosten um 20 % durch strategische Initiativen zur digitalen Effizienzsteigerung und Beschaffung."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      technologies: ["Digitale Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
+    },     {       id: "exp-2",       role: "Berater: Digitale Strategie & Betrieb",       company: "Ghosh Group",       location: "Im Homeoffice von Genf aus",       period: "04/2015 – heute",       description: [         "Funktion als grundlegender strategischer Partner, der das Wachstum von der Gründung bis zu einer führenden Marktposition steuert, indem digitale und betriebliche Rahmenbedingungen kontinuierlich optimiert werden.",         "Entwicklung einer React/Firebase-basierten B2B-Landing-Plattform für Projekte im Rahmen der Saudi Vision 2030 (NEOM, Red Sea) unter Integration von Google Ads und GTM-Tracking, wodurch in der Startwoche eine Klickrate (CTR) von 7,80 % erzielt wurde.",         "Konzeption und Entwicklung der Website von RoofTech Industries SPC mit Next.js und TypeScript, einer auf Sanity ausgerichteten Headless-CMS-Inhaltsarchitektur und einer Bereitstellung auf Cloudflare Workers über OpenNext.", "Entwickle derzeit KI-basierte arabische Lokalisierungs- und halbautonome Kommunikationsworkflows zur Unterstützung hochwertiger Infrastruktur-Ausschreibungen in der Region.",         "Erzielte nachhaltige finanzielle Ergebnisse, darunter eine Senkung der Gemeinkosten um 20 % durch strategische Initiativen zur digitalen Effizienzsteigerung und Beschaffung."       ],       technologies: ["Digitale Strategie", "Betriebsabläufe", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "KI-Lokalisierung"]     },     {
       id: "exp-3",
-      role: "Focal Point: Finanz-, Beschaffungs- und Inventarprojekte",
+      role: "Ansprechperson: Finanz-, Beschaffungs- und Inventarprojekte",
       company: "United Nations Institute for Training and Research (UNITAR)",
       location: "Genf, Schweiz",
       period: "11/2022 – 03/2025",
@@ -632,7 +688,7 @@ const DATA_DE: ResumeData = {
         "Steigerte die betriebliche Effizienz erheblich durch die Einführung eines optimierten Rechnungsnachverfolgungsprozesses, wodurch die Bearbeitungszeit um 70 % verkürzt wurde.",
         "Einrichtung eines detaillierten Bestandsverwaltungssystems für die Vermögenswerte der Abteilung, wodurch Anschaffungen und Veräußerungen genau nachverfolgt und Unstimmigkeiten um 99 % reduziert wurden."
       ],
-      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+      technologies: ["Quantum ERP", "Finanzkontrolle", "Beschaffung", "Inventar", "Logistik"]
     },
     {
       id: "exp-4",
@@ -645,9 +701,9 @@ const DATA_DE: ResumeData = {
         "Leitete die Integration der Marketing-Automatisierungsplattform Eloqua in mehreren Märkten und verbesserte die Lead-Generierung durch besser strukturierte digitale Kampagnen um ca. 10 %.",
         "Beaufsichtigte Webinhalte und Kampagnenbotschaften, um die Übereinstimmung mit der Marke, dem Tonfall und den Kommunikationsrichtlinien von Maersk in mehr als 37 regionalen Clustern sicherzustellen. Arbeitete mit regionalen Marketing- und Vertriebsteams zusammen, um konsistente, genaue und konforme Botschaften zu gewährleisten und gleichzeitig lokale Geschäftsziele zu unterstützen."
       ],
-      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+      technologies: ["CMS", "SAP-Integration", "Eloqua", "Lokalisierung"]
     },
-    { id: "exp-5", role: "Leiter: E-Marketing-Abteilung und Verwaltung", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Entwicklung eines zentralisierten Budgetierungssystems zur Verwaltung von Ausgaben in Höhe von 400.000 INR für digitales Marketing und Personalwesen unter optimaler Ressourcenzuweisung.", "Erstellung und Umsetzung gezielter Schulungsprogramme für ein Team von mehr als 15 Mitarbeitern zur Verbesserung der Lead-Generierung und der Gesamtleistung.", "Beaufsichtigte die Lohn- und Gehaltsabrechnung und verhandelte Lieferantenverträge, um die Betriebskontinuität zu gewährleisten."], technologies: [...DATA_EN.experience[4].technologies] },
+    { id: "exp-5", role: "Leiter: E-Marketing-Abteilung und Verwaltung", company: "LOHA ISPAAT LTD", location: "Mumbai", period: "07/2009 – 06/2010", description: ["Entwicklung eines zentralisierten Budgetierungssystems zur Verwaltung von Ausgaben in Höhe von 400.000 INR für digitales Marketing und Personalwesen unter optimaler Ressourcenzuweisung.", "Erstellung und Umsetzung gezielter Schulungsprogramme für ein Team von mehr als 15 Mitarbeitern zur Verbesserung der Lead-Generierung und der Gesamtleistung.", "Beaufsichtigte die Lohn- und Gehaltsabrechnung und verhandelte Lieferantenverträge, um die Betriebskontinuität zu gewährleisten."], technologies: ["Budgetmanagement", "Teamführung", "E-Marketing", "Lieferantenmanagement"] },
   ],
   projects: [
     {
@@ -808,7 +864,7 @@ const DATA_DE: ResumeData = {
     askMe: "Fragen Sie mich etwas über David...",
     poweredBy: "Unterstützt durch Gemini",
     rightsReserved: "Alle Rechte Vorbehalten",
-    translationDisclaimer: "KI-unterstützte Übersetzungen.",
+    translationDisclaimer: "KI-unterstützte Übersetzungen. Der Kontext kann variieren.",
     privacyNotice: "Datenschutz: Keine Datenerfassung. KI-Chat ist lokal.",
     sdgBadge: "UN SDG Ziel 13",
     sdgTooltip: "Klimaschutz: Nachhaltige Web-Praktiken-optimierter Code und null unnötige Datenerfassung."
@@ -826,6 +882,7 @@ const DATA_ES: ResumeData = {
   workPermit: "Permiso de trabajo B",
   skills: DATA_EN.skills.map(s => ({
     ...s,
+    name: SKILL_NAMES_ES[s.name] || s.name,
     category: s.category
       .replace("Strategic & Operations Management", "Gestión Estratégica y de Operaciones")
       .replace("Strategic Operations", "Operaciones Estratégicas")
@@ -861,8 +918,8 @@ const DATA_ES: ResumeData = {
         "Diseñé un sistema de reservas personalizado, multilocalización y multidivisa, que integra Stripe y Razorpay con cálculo automático del GST/IVA.",
         "Creé la plataforma de última generación para visados de cónyuge del Reino Unido utilizando los estándares GEO y Framer Motion para mejorar el rendimiento de los Core Web Vitals."
       ],
-      technologies: ["Digital Transformation", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
-    },     {       id: "exp-2",       role: "Consultor: Estrategia y operaciones digitales",       company: "Ghosh Group",       location: "A distancia desde Ginebra",       period: "04/2015 – Actualidad",       description: [         "Actuar como socio estratégico fundamental, impulsando el crecimiento desde los inicios hasta alcanzar una posición destacada en el mercado mediante la optimización continua de los marcos digitales y operativos.",         "Diseñé una plataforma de aterrizaje B2B basada en React/Firebase dirigida a los proyectos de la Visión 2030 de Arabia Saudí (NEOM, Mar Rojo), integrando Google Ads y el seguimiento de GTM para lograr un CTR del 7,80 % en la semana de lanzamiento.",         "Diseño y desarrollo del sitio web de RoofTech Industries SPC con Next.js y TypeScript, una arquitectura de contenidos headless basada en Sanity y despliegue en Cloudflare Workers mediante OpenNext.", "Actualmente, estoy diseñando flujos de trabajo de comunicación semiautónomos y de localización al árabe basados en IA para respaldar licitaciones de infraestructuras de alto valor en la región.",         "He generado un impacto financiero constante, incluida una reducción del 20 % en los gastos generales mediante iniciativas estratégicas de eficiencia digital y de contratación."       ],       technologies: ["Digital Strategy", "Operations", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "AI Localization"]     },     {
+      technologies: ["Transformación digital", "ERP", "React", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google AI Studio", "Resend"]
+    },     {       id: "exp-2",       role: "Consultor: Estrategia y operaciones digitales",       company: "Ghosh Group",       location: "A distancia desde Ginebra",       period: "04/2015 – Actualidad",       description: [         "Actuar como socio estratégico fundamental, impulsando el crecimiento desde los inicios hasta alcanzar una posición destacada en el mercado mediante la optimización continua de los marcos digitales y operativos.",         "Diseñé una plataforma de aterrizaje B2B basada en React/Firebase dirigida a los proyectos de la Visión 2030 de Arabia Saudí (NEOM, Mar Rojo), integrando Google Ads y el seguimiento de GTM para lograr un CTR del 7,80 % en la semana de lanzamiento.",         "Diseño y desarrollo del sitio web de RoofTech Industries SPC con Next.js y TypeScript, una arquitectura de contenidos headless basada en Sanity y despliegue en Cloudflare Workers mediante OpenNext.", "Actualmente, estoy diseñando flujos de trabajo de comunicación semiautónomos y de localización al árabe basados en IA para respaldar licitaciones de infraestructuras de alto valor en la región.",         "He generado un impacto financiero constante, incluida una reducción del 20 % en los gastos generales mediante iniciativas estratégicas de eficiencia digital y de contratación."       ],       technologies: ["Estrategia digital", "Operaciones", "React", "Next.js", "TypeScript", "Sanity CMS", "Headless CMS", "Cloudflare Workers", "OpenNext", "Firebase", "Google Ads", "GTM", "Localización con IA"]     },     {
       id: "exp-3",
       role: "Punto focal: Proyectos de finanzas, compras e inventario",
       company: "United Nations Institute for Training and Research (UNITAR)",
@@ -875,7 +932,7 @@ const DATA_ES: ResumeData = {
         "Impulsé una eficiencia operativa significativa mediante la implementación de un proceso optimizado de seguimiento de facturas, reduciendo el tiempo de tramitación en un 70 %.",
         "Establecí un sistema de inventario detallado para los activos de la División, realizando un seguimiento preciso de las adquisiciones y enajenaciones y reduciendo las discrepancias en un 99 %."
       ],
-      technologies: ["Quantum ERP", "Financial Control", "Procurement", "Inventory", "Logistics"]
+      technologies: ["Quantum ERP", "Control financiero", "Compras", "Inventario", "Logística"]
     },
     {
       id: "exp-4",
@@ -888,7 +945,7 @@ const DATA_ES: ResumeData = {
         "Dirigí la integración de la plataforma de automatización de marketing Eloqua en múltiples mercados, mejorando la captación de clientes potenciales en aproximadamente un 10 % mediante campañas digitales más estructuradas.",
         "Supervisé el contenido web y los mensajes de las campañas para garantizar la coherencia con la marca, el tono de voz y las directrices de comunicación de Maersk en más de 37 grupos regionales. Trabajé con los equipos regionales de marketing y ventas para mantener unos mensajes coherentes, precisos y conformes con las normas, al tiempo que apoyaba los objetivos comerciales locales."
       ],
-      technologies: ["CMS", "SAP Integration", "Eloqua", "Localization"]
+      technologies: ["CMS", "Integración SAP", "Eloqua", "Localización"]
     },
     {
       id: "exp-5",
@@ -901,7 +958,7 @@ const DATA_ES: ResumeData = {
         "Diseñé e implementé programas de capacitación dirigidos a un equipo de más de 15 personas, mejorando la generación de oportunidades de negocio y el rendimiento general.",
         "Supervisé la gestión de nóminas y negocié contratos con proveedores para garantizar la continuidad operativa."
       ],
-      technologies: [...DATA_EN.experience[4].technologies]
+      technologies: ["Gestión presupuestaria", "Liderazgo de equipos", "E-Marketing", "Gestión de proveedores"]
     },
   ],
   projects: [
@@ -1063,7 +1120,7 @@ const DATA_ES: ResumeData = {
     askMe: "Pregúntame algo sobre David...",
     poweredBy: "Impulsado por Gemini",
     rightsReserved: "Todos los Derechos Reservados",
-    translationDisclaimer: "Traducciones asistidas por IA.",
+    translationDisclaimer: "Traducciones asistidas por IA. El contexto puede variar.",
     privacyNotice: "Privacidad: Sin recolección de datos. Chat IA es local.",
     sdgBadge: "Objetivo ODS 13",
     sdgTooltip: "Acción Climática: Construido con prácticas web sostenibles-código optimizado y cero recolección de datos innecesaria."
